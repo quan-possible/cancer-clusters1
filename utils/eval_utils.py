@@ -25,30 +25,30 @@ def accuracy_metric(inp, p_c_z):
     return tf.numpy_function(normalized_mutual_info_score, [y, y_pred], tf.float64)
 
 
-def cindex_metric(inp, risk_scores):
+def cindex_metric(inp, risks):
     # Evaluates the concordance index based on provided predicted risk scores, computed using hard clustering
     # assignments.
     t = inp[:, 0]
-    d = inp[:, 1]
-    risk_scores = tf.squeeze(risk_scores)
-    return tf.numpy_function(cindex, (t,d,risk_scores), tf.float64)
+    e = inp[:, 1]
+    risks = tf.squeeze(risks)
+    return tf.numpy_function(cindex, (t,e,risks), tf.float64)
 
-# tf.cond(tf.reduce_any(tf.math.is_nan(risk_scores)),
-#                    lambda: tf.numpy_function(cindex, [t, d, tf.zeros_like(risk_scores)], tf.float64),
-#                    lambda: tf.numpy_function(cindex, [t, d, risk_scores], tf.float64))
+# tf.cond(tf.reduce_any(tf.math.is_nan(risks)),
+#                    lambda: tf.numpy_function(cindex, [t, e, tf.zeros_like(risks)], tf.float64),
+#                    lambda: tf.numpy_function(cindex, [t, e, risks], tf.float64))
 
 
-def cindex(t: np.ndarray, d: np.ndarray, scores_pred: np.ndarray):
+def cindex(t: np.ndarray, e: np.ndarray, scores_pred: np.ndarray):
     """
     Evaluates concordance index based on the given predicted risk scores.
 
     :param t: observed time-to-event.
-    :param d: labels of the type of even observed. d[i] == 1, if the i-th event is failure (death); d[i] == 0 otherwise.
+    :param e: labels of the type of even observed. e[i] == 1, if the i-th event is failure (death); e[i] == 0 otherwise.
     :param scores_pred: predicted risk/hazard scores.
     :return: return the concordance index.
     """
     try:
-        ci = concordance_index(event_times=t, event_observed=d, predicted_scores=scores_pred)
+        ci = concordance_index(event_times=t, event_observed=e, predicted_scores=scores_pred)
     except ZeroDivisionError:
         print('Cannot devide by zero.')
         ci = float(0.5)
@@ -66,9 +66,9 @@ def rae(t_pred, t_true, cens_t):
     return np.sum(min_rea_i) / len(t_true)
 
 
-def calibration(predicted_samples, t, d):
+def calibration(predicted_samples, t, e):
     kmf = KaplanMeierFitter()
-    kmf.fit(t, event_observed=d)
+    kmf.fit(t, event_observed=e)
 
     range_quant = np.arange(start=0, stop=1.010, step=0.010)
     t_empirical_range = np.unique(np.sort(np.append(t, [0])))
@@ -76,7 +76,7 @@ def calibration(predicted_samples, t, d):
     empirical_dead = 1 - np.array(km_pred_alive_prob)
 
     km_dead_dist, km_var_dist, km_dist_ci = compute_km_dist(predicted_samples, t_empirical_range=t_empirical_range,
-                                                            event=d)
+                                                            event=e)
 
     slope, intercept, r_value, p_value, std_err = linregress(x=km_dead_dist, y=empirical_dead)
 

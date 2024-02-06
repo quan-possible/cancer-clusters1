@@ -6,7 +6,7 @@ import tensorflow as tf
 
 class Losses:
     def __init__(self, configs):
-        self.input_dim = configs['training']['inp_shape']
+        self.input_dim = configs['inp_shape']
         self.tuple = False
         if isinstance(self.input_dim, list):
             print("\nData is tuple!\n")

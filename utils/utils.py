@@ -1,29 +1,31 @@
 """
 miscellaneous utility functions.
 """
-import matplotlib
-
-import matplotlib.pyplot as plt
+import datetime
 import logging
-from scipy.optimize import linear_sum_assignment as linear_assignment
-
-import numpy as np
-
-from scipy.stats import weibull_min, fisk
-
+import os
+import socket
 import sys
 
-from utils.constants import ROOT_LOGGER_STR
-
+import keras
+import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
 import tensorflow as tf
 import tensorflow_probability as tfp
+from keras.callbacks import Callback
+from scipy.optimize import linear_sum_assignment as linear_assignment
+from scipy.stats import fisk, weibull_min
+from tqdm import tqdm
+
+from utils.constants import ROOT_LOGGER_STR
 
 tfd = tfp.distributions
 tfkl = tf.keras.layers
 tfpl = tfp.layers
 tfk = tf.keras
 
-matplotlib.use('Agg')
+# matplotlib.use('Agg')
 
 sys.path.insert(0, '../../')
 
@@ -134,14 +136,14 @@ def save_generated_samples(model, inp_size, grid_size=4, cmap='viridis', postfix
 
 
 # Weibull(lmbd, k) log-pdf
-def weibull_log_pdf(t, d, lmbd, k):
+def weibull_log_pdf(t, e, lmbd, k):
     t_ = tf.ones_like(lmbd) * tf.cast(t, tf.float64)
-    d_ = tf.ones_like(lmbd) * tf.cast(d, tf.float64)
+    e_ = tf.ones_like(lmbd) * tf.cast(e, tf.float64)
     k = tf.cast(k, tf.float64)
     a = t_ / (1e-60 + tf.cast(lmbd, tf.float64))
     tf.debugging.check_numerics(a, message="weibull_log_pdf")
 
-    return tf.cast(d_, tf.float64) * (tf.math.log(1e-60 + k) - tf.math.log(1e-60 + tf.cast(lmbd, tf.float64)) +
+    return tf.cast(e_, tf.float64) * (tf.math.log(1e-60 + k) - tf.math.log(1e-60 + tf.cast(lmbd, tf.float64)) +
                                       (k - 1) * tf.math.log(1e-60 + tf.cast(t_, tf.float64)) - (k - 1) *
                                       tf.math.log(1e-60 + tf.cast(lmbd, tf.float64))) - (a) ** k
 
@@ -167,3 +169,31 @@ def sample_weibull_mixture(scales, shape, p_c, n_samples=200):
 def tensor_slice(target_tensor, index_tensor):
     indices = tf.stack([tf.range(tf.shape(index_tensor)[0]), index_tensor], 1)
     return tf.gather_nd(target_tensor, indices)
+
+
+
+class ProgBar(Callback):
+    def __init__(self, epochs, metrics):
+        super(ProgBar, self).__init__()
+        self.epochs = epochs
+        self.metrics = metrics
+        self.bar = None
+
+    def on_train_begin(self, logs=None):
+        self.bar = tqdm(total=self.epochs, desc='Progress', position=0)
+
+    def on_epoch_end(self, epoch, logs=None):
+        postfix = {metric: f"{logs.get(metric):.4f}" for metric in self.metrics}
+        self.bar.set_postfix(postfix, refresh=True)
+        self.bar.update(1)
+
+    def on_train_end(self, logs=None):
+        self.bar.close()
+        
+        
+def get_workdir(dataset=None, exp_name=''):
+    workdir = f"./runs{f'/{dataset.lower()}' if dataset is not None else ''}"\
+        f"/{datetime.datetime.now().strftime('%b%d_%H-%M-%S')}"\
+        f"_{socket.gethostname()}{f'_{exp_name}' if exp_name != '' else ''}"
+    os.makedirs(workdir, exist_ok=True)
+    return workdir

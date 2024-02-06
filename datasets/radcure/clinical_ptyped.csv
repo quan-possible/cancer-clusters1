@@ -1,0 +1,1801 @@
+age,sex,disease site,t stage,n stage,hpv combined,chemo?,ecog,stage,phenotype
+66.7,male,larynx,t3,n0,,0,0.0,iii,1
+68.4,female,hypopharynx,t2,n2b,,0,1.0,iva,1
+49.7,female,nasopharynx,t1,n2,,1,1.0,iii,0
+88.5,male,oropharynx,t2,n2a,,0,2.0,iva,1
+69.8,male,oropharynx,t3,n2b,"yes, positive",0,0.0,iva,1
+59.1,male,larynx,t2,n0,,0,1.0,ii,0
+63.4,female,larynx,t3,n2c,,1,2.0,iva,1
+65.5,male,oropharynx,t4a,n0,,0,0.0,iva,1
+56.6,male,oropharynx,t3,n2b,"yes, positive",0,0.0,iva,0
+71.3,male,larynx,t1a,n0,,0,1.0,i,0
+67.7,female,esophagus,t2,n0,,1,1.0,,1
+50.1,female,larynx,t1,n0,,0,0.0,i,0
+84.3,male,larynx,t1a,n0,,0,2.0,i,1
+58.8,female,oropharynx,t2,n3,"yes, positive",1,0.0,ivb,0
+76.0,male,oropharynx,t4a,n1,"yes, positive",0,1.0,iva,1
+63.1,male,larynx,t1,n2a,,0,0.0,iva,1
+78.9,female,lip & oral cavity,t3,n1,"yes, negative",0,0.0,iii,1
+54.6,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+74.3,male,hypopharynx,t4a,n0,,0,0.0,iva,1
+63.7,female,oropharynx,t2,n1,,1,0.0,iii,0
+60.8,male,oropharynx,t4a,n2c,"yes, positive",1,1.0,iva,1
+56.1,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,0
+74.5,male,larynx,t2,n0,,0,1.0,ii,1
+38.8,male,lip & oral cavity,t3,n2c,,1,0.0,iva,0
+49.4,male,larynx,t1,n0,"yes, positive",0,0.0,i,0
+59.0,male,oropharynx,t1,n3,"yes, positive",0,2.0,ivb,1
+78.6,male,larynx,t1a,n0,,0,1.0,i,1
+57.9,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,0
+66.7,male,oropharynx,t2,n2b,"yes, negative",0,0.0,iva,1
+71.9,male,oropharynx,t3,n2b,,0,0.0,iva,1
+72.8,male,larynx,t2,n0,,0,0.0,ii,0
+59.1,male,oropharynx,t1,n0,"yes, positive",0,0.0,i,0
+53.0,male,oropharynx,t3,n3,"yes, positive",0,0.0,ivb,0
+79.5,male,larynx,t3,n0,,0,0.0,iii,1
+81.0,male,larynx,t2,n0,,0,1.0,ii,1
+58.4,female,hypopharynx,t2,n2b,"yes, negative",1,1.0,iva,1
+67.7,female,larynx,t2,n0,,0,2.0,ii,1
+81.8,male,lip & oral cavity,t3,n2b,,0,1.0,iva,1
+51.3,female,nasopharynx,t3,n2,,1,0.0,iii,0
+55.4,male,larynx,t1,n0,,0,0.0,i,0
+52.2,male,hypopharynx,t3,n2b,,0,1.0,iva,1
+52.1,female,oropharynx,t3,n1,"yes, positive",0,0.0,iii,0
+65.4,female,oropharynx,t3,n2b,,0,1.0,iva,1
+61.3,male,oropharynx,t1,n2b,"yes, positive",0,0.0,iva,0
+57.7,male,oropharynx,t2,n2c,"yes, negative",1,1.0,iva,0
+85.0,male,lip & oral cavity,t4a,n2a,,0,0.0,iva,1
+59.1,male,hypopharynx,t2,n3,,1,2.0,ivb,1
+55.5,male,nasopharynx,t4,n2,,1,1.0,iva,0
+78.9,female,nasopharynx,t3,n2,"yes, positive",0,1.0,iii,1
+46.3,female,oropharynx,t4b,n2b,"yes, positive",1,0.0,ivb,0
+71.6,male,oropharynx,t1,n1,"yes, negative",0,0.0,iii,1
+60.3,male,oropharynx,t2,n2a,"yes, negative",1,1.0,iva,1
+69.9,male,larynx,t3,n0,,0,1.0,iii,1
+76.3,male,larynx,t1a,n0,,0,0.0,i,0
+64.3,male,oropharynx,t3,n2c,"yes, positive",0,0.0,iva,1
+70.5,male,larynx,t2,n0,,0,0.0,ii,0
+47.1,male,oropharynx,t4b,n2c,"yes, positive",1,0.0,ivb,0
+66.1,male,oropharynx,t1,n2c,"yes, positive",1,1.0,iva,1
+75.5,male,larynx,t1a,n0,,0,0.0,i,0
+80.1,female,larynx,t1a,n0,,0,1.0,i,1
+55.1,male,larynx,t3,n0,,1,1.0,iva,0
+60.4,male,oropharynx,t1,n2b,"yes, positive",0,1.0,iva,1
+49.1,male,oropharynx,t3,n1,,0,0.0,iii,0
+61.7,male,larynx,tis,n0,,0,0.0,0,0
+68.3,male,larynx,t1b,n0,,0,0.0,i,0
+73.3,male,larynx,t1b,n0,"yes, negative",0,0.0,i,0
+83.3,female,oropharynx,t2,n0,"yes, positive",0,2.0,ii,1
+43.8,male,oropharynx,t3,n0,"yes, positive",0,2.0,iii,0
+62.2,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+59.1,male,hypopharynx,t2,n2b,,0,0.0,iva,1
+56.5,female,nasal cavity,t2,n0,"yes, positive",1,0.0,ii,0
+75.1,male,oropharynx,t1,n3,"yes, positive",0,0.0,ivb,1
+62.9,male,larynx,t4a,n2c,,1,1.0,iva,1
+55.5,male,oropharynx,t1,n2b,"yes, negative",1,0.0,iva,0
+62.0,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+48.0,female,nasopharynx,t4,n1,,1,0.0,iva,0
+69.3,male,oropharynx,t4a,n2b,"yes, positive",0,1.0,iva,1
+62.2,female,nasal cavity,t2,n1,"yes, negative",0,1.0,iii,1
+56.0,male,oropharynx,t4a,n2c,"yes, positive",1,0.0,iva,1
+69.3,male,lip & oral cavity,t4a,n0,,0,1.0,iva,1
+63.5,male,oropharynx,t2,n3,"yes, negative",0,0.0,ivb,1
+77.2,male,oropharynx,t1,n1,"yes, positive",0,0.0,iii,1
+59.7,male,larynx,t3,n2c,,1,1.0,iva,1
+64.3,female,oropharynx,t3,n2b,"yes, positive",1,1.0,iva,1
+59.5,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+73.4,male,larynx,t2,n0,,0,0.0,ii,0
+65.5,male,oropharynx,t4b,n2c,"yes, negative",1,1.0,ivb,1
+67.7,male,larynx,t1b,n0,,0,0.0,i,0
+69.5,female,nasopharynx,t2,n1,,1,0.0,ii,0
+75.7,female,oropharynx,t3,n0,"yes, positive",0,0.0,iii,1
+46.5,male,nasopharynx,t2,n1,,1,0.0,ii,0
+69.0,male,oropharynx,t2,n1,"yes, positive",0,0.0,iii,1
+63.7,female,nasal cavity,t4a,n0,,1,0.0,iva,1
+46.1,female,nasopharynx,t4,n2,,1,0.0,iva,0
+78.5,male,oropharynx,t3,n2c,"yes, positive",0,1.0,iva,1
+58.4,male,larynx,t4a,n0,,0,0.0,iva,1
+65.0,male,oropharynx,t1,n2b,"yes, positive",0,2.0,iva,1
+61.2,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+58.1,male,oropharynx,t1,n3,"yes, positive",0,2.0,ivb,1
+54.8,male,larynx,t3,n0,,0,2.0,iii,0
+65.9,male,larynx,t1a,n0,,0,0.0,i,0
+64.9,male,larynx,t2,n0,"yes, negative",0,0.0,ii,0
+69.0,female,larynx,t3,n2c,,0,0.0,iva,1
+46.6,female,nasal cavity,t2,n0,,0,2.0,ii,0
+75.7,male,oropharynx,t3,n0,"yes, negative",0,3.0,iii,1
+40.5,male,oropharynx,t4a,n3,"yes, positive",1,1.0,ivb,0
+68.0,male,larynx,t1a,n0,,0,0.0,i,0
+56.1,female,lip & oral cavity,t1,n0,,0,0.0,i,0
+68.2,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,1
+71.1,male,oropharynx,t4a,n2c,,0,1.0,iva,1
+49.8,male,oropharynx,t2,n1,"yes, positive",0,0.0,iii,0
+77.1,male,larynx,t2,n0,,0,0.0,ii,1
+76.4,male,hypopharynx,t3,n0,,0,0.0,iii,1
+78.2,male,larynx,t1b,n0,,0,0.0,i,1
+57.4,male,oropharynx,t3,n0,,0,2.0,iii,1
+62.0,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+58.1,male,oropharynx,t4a,n3,,1,1.0,ivb,1
+78.8,female,hypopharynx,t4a,n2b,"yes, negative",0,0.0,iva,1
+74.5,male,esophagus,t4,n2,,0,2.0,iiic,1
+53.3,female,oropharynx,t1,n0,"yes, negative",0,0.0,i,0
+73.6,female,larynx,t1a,n0,,0,1.0,i,1
+80.1,male,larynx,t3,n2a,,0,1.0,iva,1
+82.0,male,larynx,t2,n0,,0,2.0,ii,1
+61.2,male,oropharynx,t4a,n2b,"yes, positive",1,0.0,iva,1
+62.6,male,oropharynx,t4b,n2c,,1,1.0,ivb,1
+70.4,male,oropharynx,t3,n2c,"yes, positive",0,0.0,iva,1
+74.4,male,larynx,t1a,n0,,0,0.0,i,0
+58.3,male,oropharynx,t3,n2b,"yes, positive",1,1.0,iva,0
+56.7,male,oropharynx,t2,n3,"yes, positive",1,2.0,ivb,0
+81.5,female,oropharynx,t2,n2b,"yes, negative",0,1.0,iva,1
+63.1,male,hypopharynx,t2,n2b,,1,0.0,iva,1
+69.5,male,larynx,t2,n0,,0,0.0,ii,0
+78.0,male,nasopharynx,t3,n0,"yes, negative",0,2.0,iii,1
+65.1,female,oropharynx,t2,n1,"yes, positive",0,0.0,iii,1
+69.5,female,oropharynx,t3,n0,"yes, positive",0,0.0,iii,1
+49.7,female,larynx,t1a,n0,,0,1.0,i,0
+57.7,male,larynx,t2,n0,,0,0.0,ii,0
+67.6,male,larynx,t2,n0,,0,0.0,ii,0
+72.6,male,larynx,tis,n0,,0,0.0,0,1
+76.9,female,lip & oral cavity,tis,n0,,0,,0,1
+77.6,male,hypopharynx,t1,n0,"yes, negative",0,0.0,i,1
+34.4,female,larynx,tis,n0,,0,0.0,0,0
+59.2,male,nasal cavity,t3,n0,,1,,iii,0
+53.7,male,nasopharynx,t2,n2,,1,0.0,iii,0
+68.4,male,larynx,t2,n1,,0,1.0,iii,1
+65.6,male,hypopharynx,t1,n3,,1,,ivb,1
+67.1,male,hypopharynx,t3,n0,,0,1.0,iii,1
+77.1,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,1
+64.4,female,larynx,t2,n0,,0,0.0,ii,0
+58.2,male,larynx,tis,n0,,0,0.0,0,0
+59.0,male,oropharynx,t3,n2c,"yes, positive",1,1.0,iva,1
+71.8,male,hypopharynx,t3,n2b,,0,0.0,iva,1
+65.8,female,oropharynx,t1,n2b,"yes, negative",1,0.0,iva,1
+79.2,male,nasopharynx,t3,n3b,,1,1.0,ivb,1
+65.8,female,oropharynx,t4a,n0,"yes, negative",0,3.0,iva,1
+46.6,female,lip & oral cavity,t4b,n0,,0,0.0,ivb,0
+42.9,female,nasopharynx,t4,n2,,1,2.0,iva,0
+60.8,female,oropharynx,t1,n2a,"yes, positive",1,0.0,iva,0
+69.1,male,oropharynx,t1,n2a,"yes, positive",0,2.0,iva,1
+78.7,male,larynx,t1b,n0,,0,4.0,i,1
+52.4,female,nasopharynx,t4,n3a,,1,,ivb,0
+78.7,male,oropharynx,t3,n2c,"yes, positive",0,0.0,iva,1
+51.6,male,hypopharynx,t4a,n2c,"yes, positive",1,1.0,iva,1
+58.8,male,larynx,t3,n0,,0,0.0,iii,0
+63.7,male,oropharynx,t2,n2b,"yes, negative",1,1.0,iva,1
+67.5,female,larynx,t1a,n0,,0,2.0,i,0
+45.9,male,larynx,t2,n0,"yes, positive",0,0.0,ii,0
+63.5,male,larynx,t1,n2b,,0,0.0,iva,1
+49.4,male,nasopharynx,t2,n1,,1,1.0,ii,0
+80.1,male,larynx,t3,n2b,"yes, negative",0,1.0,iva,1
+56.5,male,oropharynx,t3,n2b,"yes, positive",0,1.0,iva,0
+52.9,male,oropharynx,t1,n2a,"yes, positive",0,0.0,iva,0
+50.0,male,larynx,t2,n0,"yes, positive",0,0.0,ii,0
+72.8,male,oropharynx,t4a,n2b,"yes, positive",1,0.0,iva,1
+59.1,male,oropharynx,t3,n2b,"yes, positive",1,2.0,iva,1
+55.5,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,0
+53.2,female,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+46.0,male,oropharynx,t2,n2b,"yes, positive",1,1.0,iva,0
+53.2,male,oropharynx,t3,n0,"yes, positive",1,0.0,iii,0
+52.2,male,larynx,t3,n0,,0,0.0,iii,0
+65.8,male,larynx,t3,n2c,,0,1.0,iva,1
+70.0,male,larynx,t2,n0,,0,0.0,ii,0
+65.0,male,oropharynx,t4a,n3,"yes, negative",0,2.0,ivb,1
+60.1,female,oropharynx,t3,n2c,"yes, negative",1,0.0,iva,1
+72.9,male,larynx,tis,n0,,0,0.0,0,1
+68.1,male,hypopharynx,t4a,n0,"yes, negative",0,,iva,1
+58.5,male,larynx,t1a,n0,,0,0.0,i,0
+67.5,male,nasal cavity,t2,n0,,0,1.0,ii,1
+69.4,male,hypopharynx,t3,n2c,"yes, negative",1,1.0,iva,1
+81.7,male,oropharynx,t1,n2b,"yes, positive",0,0.0,iva,1
+43.7,male,nasopharynx,t2,n2,,1,0.0,iii,0
+60.6,male,larynx,t2,n2c,,0,0.0,iva,0
+40.6,male,larynx,t1a,n0,,0,0.0,i,0
+49.6,male,nasopharynx,t2,n2,,1,0.0,iii,0
+59.7,male,oropharynx,t1,n2b,"yes, positive",0,1.0,iva,1
+64.4,male,larynx,t3,n2a,,0,1.0,iva,1
+50.0,male,oropharynx,t3,n3,"yes, positive",0,1.0,ivb,0
+52.5,female,oropharynx,t4b,n2b,,1,0.0,ivb,0
+77.2,male,larynx,t2,n2a,,0,1.0,iva,1
+55.6,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,0
+77.8,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,1
+74.3,female,larynx,t1b,n0,,0,0.0,i,1
+66.0,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+66.3,male,lip & oral cavity,t4a,n2b,,1,0.0,iva,1
+90.0,male,larynx,t1a,n0,,0,0.0,i,1
+46.8,female,nasal cavity,t4a,n0,,1,0.0,iva,0
+56.8,male,oropharynx,t2,n2c,"yes, positive",0,0.0,iva,0
+50.5,female,lip & oral cavity,t1,n0,,0,0.0,i,0
+71.1,male,larynx,t1a,n0,,0,0.0,i,0
+76.3,male,oropharynx,t1,n0,"yes, negative",0,0.0,i,1
+48.9,male,larynx,t1a,n0,"yes, negative",0,0.0,i,0
+54.4,male,oropharynx,t3,n2b,"yes, positive",0,2.0,iva,1
+77.5,male,larynx,t3,n2c,,0,1.0,iva,1
+80.7,female,oropharynx,t4a,n1,"yes, negative",0,2.0,iva,1
+58.1,male,oropharynx,t3,n3,"yes, positive",1,0.0,ivb,1
+58.3,female,larynx,t4a,n2c,,0,1.0,iva,1
+73.8,male,larynx,t4a,n1,,0,2.0,iva,1
+85.5,male,lip & oral cavity,t2,n0,,0,0.0,ii,1
+75.5,male,larynx,t1a,n0,,0,0.0,i,0
+81.9,male,larynx,tis,n0,,0,1.0,0,1
+68.0,male,lip & oral cavity,t2,n0,,0,0.0,ii,0
+61.3,male,paranasal sinus,t3,n0,,1,1.0,iii,0
+65.1,male,larynx,t1a,n0,,0,0.0,i,0
+64.2,male,larynx,t3,n0,,1,0.0,iii,1
+77.2,male,oropharynx,t4a,n3,,0,0.0,ivb,1
+63.1,female,nasal cavity,t1,n0,,0,0.0,i,0
+69.9,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,1
+50.4,male,oropharynx,t1,n2b,"yes, positive",0,0.0,iva,0
+79.5,male,larynx,tis,n0,,0,0.0,0,1
+84.9,male,larynx,t2,n0,"yes, negative",0,0.0,ii,1
+52.7,male,hypopharynx,t3,n1,"yes, negative",1,1.0,iii,0
+70.3,male,hypopharynx,t2,n1,,0,0.0,iii,1
+53.3,male,lip & oral cavity,tis,n0,,0,0.0,0,0
+84.5,male,larynx,t2,n0,,0,0.0,ii,1
+74.8,male,larynx,t1a,n0,,0,0.0,i,0
+67.1,male,oropharynx,t4b,n1,"yes, negative",0,0.0,ivb,1
+61.8,female,larynx,t2,n0,,0,1.0,ii,0
+56.2,male,nasopharynx,t3,n3a,,1,0.0,ivb,0
+62.1,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,1
+64.4,male,oropharynx,t2,n1,"yes, positive",0,0.0,iii,0
+83.9,female,larynx,t2,n0,,0,0.0,ii,1
+72.5,male,oropharynx,t1,n0,"yes, positive",0,0.0,i,1
+43.5,male,nasopharynx,t1,n2,,0,0.0,iii,0
+70.8,female,oropharynx,t1,n1,"yes, negative",0,0.0,iii,1
+68.5,female,oropharynx,t2,n2b,"yes, positive",1,1.0,iva,1
+72.1,female,larynx,t3,n0,,0,1.0,iii,1
+56.6,male,oropharynx,t2,n2b,,0,0.0,iva,0
+66.5,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+78.1,male,oropharynx,t3,n1,"yes, negative",0,3.0,iii,1
+56.7,male,hypopharynx,t3,n2b,,0,,iva,1
+72.7,male,hypopharynx,t4a,n2b,,0,2.0,iva,1
+33.0,male,oropharynx,t4a,n0,"yes, negative",1,1.0,iva,0
+75.9,male,oropharynx,t4b,n2b,"yes, negative",0,2.0,ivb,1
+56.4,male,oropharynx,t1,n0,"yes, positive",0,0.0,i,0
+56.6,female,nasopharynx,t4,n1,,1,0.0,iva,0
+54.9,male,nasopharynx,t1,n1,"yes, positive",1,0.0,ii,0
+76.0,male,hypopharynx,t2,n2c,,0,0.0,iva,1
+81.0,male,larynx,t1a,n0,,0,0.0,i,1
+81.0,male,oropharynx,t2,n0,"yes, negative",0,1.0,ii,1
+47.4,male,oropharynx,t3,n1,"yes, positive",1,0.0,iii,0
+63.3,male,larynx,t2,n0,"yes, negative",0,0.0,ii,0
+80.0,female,larynx,t3,n0,,0,2.0,iii,1
+65.2,male,larynx,t2,n0,"yes, negative",0,0.0,ii,0
+68.6,female,larynx,t2,n0,,0,1.0,ii,1
+66.1,male,oropharynx,t3,n2c,,0,1.0,iva,1
+66.0,female,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,1
+63.1,male,oropharynx,t2,n2b,,1,0.0,iva,0
+48.9,male,lip & oral cavity,t4a,n2c,,1,2.0,iva,1
+59.6,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,1
+64.7,male,oropharynx,t2,n2c,"yes, positive",1,1.0,iva,1
+71.0,male,oropharynx,t3,n0,,0,0.0,iii,1
+48.8,female,oropharynx,t1,n1,"yes, positive",0,0.0,iii,0
+44.3,male,oropharynx,t2,n2b,,1,0.0,iva,0
+75.9,male,lip & oral cavity,t3,n0,,0,0.0,iii,1
+61.3,male,oropharynx,t3,n1,"yes, positive",0,0.0,iii,1
+50.6,male,hypopharynx,t2,n0,,0,,ii,0
+54.0,female,larynx,tis,n0,"yes, positive",0,0.0,0,0
+68.6,male,larynx,t2,n0,,0,0.0,ii,0
+83.3,female,larynx,t2,n1,,0,0.0,iii,1
+43.6,male,larynx,t3,n1,,1,1.0,iii,0
+63.1,male,larynx,t4a,n0,,0,2.0,iii,1
+47.7,male,larynx,t2,n0,,0,1.0,ii,0
+56.6,male,nasopharynx,t4,n3a,,1,0.0,ivb,0
+61.6,male,hypopharynx,t4a,n2c,,0,1.0,iva,1
+75.2,male,larynx,t4a,n0,,0,2.0,iva,1
+42.3,female,nasopharynx,t1,n1,,1,0.0,ii,0
+55.0,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,0
+57.7,male,oropharynx,t1,n2b,"yes, positive",1,1.0,iva,0
+44.0,male,larynx,t2,n0,,0,0.0,ii,0
+49.2,female,oropharynx,t2,n2c,"yes, negative",0,2.0,iva,0
+56.7,female,oropharynx,t3,n1,,0,1.0,iii,1
+57.8,male,larynx,t2,n0,"yes, negative",0,2.0,ii,0
+35.7,female,larynx,t1b,n0,,0,1.0,i,0
+79.5,male,oropharynx,t2,n2b,"yes, positive",0,2.0,iva,1
+66.2,male,larynx,t2,n0,,0,0.0,ii,0
+53.3,male,oropharynx,t4a,n2c,"yes, positive",1,0.0,iva,0
+72.5,female,oropharynx,t2,n1,,0,2.0,iii,1
+75.9,male,nasal cavity,t2,n0,"yes, negative",0,0.0,ii,1
+65.1,male,oropharynx,t1,n2a,"yes, positive",0,1.0,iva,1
+67.9,male,larynx,t1a,n0,,0,0.0,i,0
+61.7,female,larynx,t1a,n0,,0,0.0,i,0
+88.0,male,larynx,t2,n0,,0,0.0,ii,1
+52.2,male,oropharynx,t2,n2c,"yes, positive",1,1.0,iva,0
+68.8,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,1
+61.4,female,nasopharynx,t2,n2,,1,0.0,iii,0
+69.9,male,larynx,t2,n0,"yes, negative",0,1.0,ii,1
+43.7,female,larynx,t3,n2b,,1,0.0,iva,0
+65.5,male,oropharynx,t4a,n1,,0,0.0,iva,1
+63.9,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+67.9,male,larynx,t2,n2a,,1,0.0,iva,1
+72.0,male,larynx,t2,n0,,0,0.0,ii,0
+68.0,male,oropharynx,t2,n2a,"yes, negative",1,0.0,iva,1
+53.7,male,larynx,t1a,n0,"yes, positive",0,1.0,i,0
+63.6,male,larynx,t1a,n0,,0,0.0,i,0
+89.6,male,larynx,t1b,n0,,0,0.0,i,1
+80.5,female,oropharynx,t2,n0,"yes, negative",0,1.0,ii,1
+72.5,male,oropharynx,t3,n2c,,0,1.0,iva,1
+66.8,male,hypopharynx,t1,n0,,0,0.0,i,1
+72.6,male,hypopharynx,t4a,n2b,,0,1.0,iva,1
+70.6,male,larynx,t3,n0,,0,1.0,iii,1
+56.3,male,oropharynx,t3,n2b,,1,1.0,iva,0
+71.0,male,oropharynx,t1,n2b,"yes, positive",1,1.0,iva,1
+52.9,male,nasopharynx,t1,n2,,1,0.0,iii,0
+83.3,male,larynx,t3,n0,,0,0.0,iii,1
+50.9,female,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+64.9,male,oropharynx,t2,n2c,"yes, negative",1,1.0,iva,1
+62.5,male,oropharynx,t4a,n2b,"yes, negative",0,3.0,iva,1
+58.2,male,hypopharynx,t4a,n2b,,0,3.0,iva,1
+55.7,male,oropharynx,t2,n2b,,1,0.0,iva,0
+83.6,male,oropharynx,t1,n2c,"yes, negative",0,1.0,iva,1
+68.4,male,larynx,t1b,n0,,0,0.0,i,0
+64.6,male,oropharynx,t2 (2),n0,"yes, positive",0,0.0,ii,0
+51.3,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,0
+84.0,male,larynx,t2,n0,,0,0.0,ii,1
+58.9,male,oropharynx,t3,n0,"yes, negative",0,0.0,iii,0
+67.3,male,larynx,t1a,n0,,0,0.0,i,0
+69.2,male,oropharynx,t3,n2b,"yes, positive",0,0.0,iva,1
+81.2,male,oropharynx,t3,n2b,"yes, positive",0,0.0,iva,1
+50.6,male,larynx,t2,n0,,0,0.0,ii,0
+79.1,male,larynx,t1a,n0,,0,0.0,i,1
+73.1,female,hypopharynx,t1,n0,,0,,i,1
+65.2,female,larynx,t3,n1,"yes, negative",1,1.0,iii,1
+77.9,male,larynx,tis,n0,,0,0.0,0,1
+55.7,male,nasopharynx,t2,n2,,1,0.0,iii,0
+54.9,male,oropharynx,t1,n2b,"yes, positive",0,0.0,iva,0
+90.0,male,larynx,t1a,n0,,0,0.0,i,1
+52.9,male,oropharynx,t3,n0,"yes, negative",0,2.0,iii,0
+57.1,male,larynx,t3,n2c,,0,2.0,iva,1
+65.2,male,oropharynx,t1,n1,"yes, negative",0,0.0,iii,1
+58.2,male,oropharynx,t3,n2c,"yes, negative",1,0.0,iva,1
+71.6,male,larynx,t3,n2b,"yes, negative",0,0.0,iva,1
+73.2,male,oropharynx,t3,n1,"yes, negative",0,0.0,iii,1
+59.4,male,larynx,t1a,n0,,0,0.0,i,0
+64.0,male,larynx,t3,n0,,0,0.0,iii,1
+49.4,female,oropharynx,t1,n2b,,0,0.0,iva,0
+77.4,male,larynx,t3,n0,,0,0.0,iii,1
+81.7,male,oropharynx,t4b,n2b,"yes, negative",0,2.0,ivb,1
+61.2,male,oropharynx,t2,n0,"yes, positive",0,1.0,ii,0
+73.2,male,oropharynx,t2,n2b,"yes, positive",0,1.0,iva,1
+80.3,female,lip & oral cavity,t4a,n2c,,0,,iva,1
+72.1,male,nasopharynx,t4,n0,,1,1.0,iva,1
+70.2,male,larynx,tis,n0,,0,0.0,0,1
+32.9,male,nasopharynx,t1,n3b,"yes, negative",1,0.0,ivb,0
+67.2,male,oropharynx,t3,n2c,"yes, positive",0,1.0,iva,1
+64.3,male,larynx,t2,n0,,0,0.0,ii,0
+67.2,male,larynx,t1a,n0,,0,0.0,i,0
+16.1,male,nasopharynx,t4,n2,,1,0.0,iva,0
+58.4,male,paranasal sinus,t4b,n0,,1,0.0,ivb,0
+77.1,male,lip & oral cavity,t3,n0,,0,0.0,iii,1
+74.7,male,larynx,t3,n0,,0,,iii,1
+79.3,female,esophagus,t3,n0,,0,2.0,iii,1
+60.4,male,oropharynx,t2,n2a,,1,0.0,iva,0
+75.9,male,oropharynx,t1,n2b,"yes, positive",0,0.0,iva,1
+61.7,male,larynx,t1b,n0,,0,1.0,i,0
+56.6,male,larynx,t3,n2c,,0,1.0,iva,1
+73.9,male,oropharynx,t4a,n2c,"yes, negative",0,1.0,iva,1
+56.6,female,nasopharynx,t1,n1,,1,0.0,ii,0
+65.6,male,oropharynx,t1,n3,,1,0.0,ivb,1
+58.9,female,larynx,t3,n0,,1,0.0,iii,0
+63.9,male,larynx,t2,n2b,,1,0.0,iva,0
+77.5,female,oropharynx,t2,n1,"yes, positive",0,1.0,iii,1
+75.1,male,hypopharynx,t3,n2b,,0,2.0,iva,1
+69.7,male,larynx,t3,n0,,0,1.0,iii,1
+88.1,male,nasopharynx,t3,n0,,0,0.0,iii,1
+62.3,male,oropharynx,t3,n2c,"yes, positive",0,1.0,iva,1
+53.7,male,larynx,t3,n2b,,0,0.0,iva,0
+62.5,male,nasopharynx,t1,n1,,1,0.0,ii,0
+76.0,male,oropharynx,t2,n2b,"yes, negative",0,2.0,iva,1
+68.0,female,hypopharynx,t2,n1,,0,0.0,iii,1
+46.9,male,oropharynx,t1,n2a,"yes, positive",0,0.0,iva,0
+49.8,female,larynx,t2,n0,,0,1.0,ii,0
+55.1,male,oropharynx,t3,n0,,0,1.0,iii,0
+52.5,male,oropharynx,t1,n2b,"yes, positive",0,0.0,iva,0
+67.0,male,hypopharynx,t3,n2c,,1,1.0,iva,1
+49.7,female,oropharynx,t1,n1,"yes, positive",0,0.0,iii,0
+48.1,male,larynx,t1,n0,,0,1.0,i,0
+54.6,male,nasopharynx,t4,n0,,1,0.0,iva,0
+72.6,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,1
+50.7,male,larynx,t1a,n0,,0,0.0,i,0
+60.6,male,larynx,t2,n0,,0,1.0,ii,0
+40.9,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+47.3,female,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,0
+66.3,male,oropharynx,t3,n0,"yes, negative",0,0.0,iii,1
+39.7,male,oropharynx,t2,n2a,,1,1.0,iva,0
+61.9,male,larynx,t2,n0,,0,0.0,ii,0
+53.8,male,oropharynx,t1,n2b,,1,0.0,iva,0
+66.0,male,larynx,t1b,n0,,0,0.0,i,0
+70.5,male,larynx,t4a,n0,,0,0.0,iva,1
+64.0,male,larynx,t1a,n0,,0,0.0,i,0
+50.8,male,oropharynx,t2,n2c,,1,0.0,iva,0
+33.1,female,oropharynx,t3,n0,,0,0.0,iii,0
+61.7,male,lip & oral cavity,t1,n0,,0,0.0,i,0
+66.9,male,oropharynx,t2,n2b,"yes, negative",0,0.0,iva,1
+54.1,female,oropharynx,t3,n2b,"yes, negative",1,1.0,iva,0
+71.5,male,larynx,t1b,n0,,0,1.0,i,1
+43.8,male,nasopharynx,t3,n0,,1,0.0,iii,0
+71.6,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,1
+64.0,female,oropharynx,t2,n2c,"yes, positive",0,0.0,iva,1
+55.4,male,larynx,t3,n0,,0,0.0,iii,0
+58.8,male,larynx,t1a,n0,,0,0.0,i,0
+72.8,male,larynx,t2,n0,,0,0.0,ii,0
+61.0,female,larynx,t1a,n0,,0,0.0,i,0
+64.2,male,oropharynx,t2,n2c,"yes, negative",1,0.0,iva,1
+47.8,male,lip & oral cavity,t1,n0,,0,0.0,i,0
+78.7,male,hypopharynx,t3,n2b,,0,,iva,1
+82.3,male,larynx,t1a,n0,,0,1.0,i,1
+63.3,male,oropharynx,t3,n2c,"yes, positive",0,0.0,iva,1
+35.0,male,nasopharynx,t2,n1,,1,0.0,ii,0
+71.9,female,larynx,t3,n0,,0,0.0,iii,1
+74.4,male,larynx,t1b,n0,,0,1.0,i,1
+57.7,male,oropharynx,t3,n2c,,1,1.0,iva,1
+67.3,male,larynx,t4a,n0,,0,2.0,iva,1
+64.0,female,nasopharynx,t3,n0,,1,0.0,iii,1
+41.2,male,nasopharynx,t1,n1,,0,0.0,ii,0
+57.4,male,oropharynx,t2,n2a,,0,0.0,iva,0
+63.8,female,larynx,t2,n0,,0,0.0,ii,0
+64.6,female,nasopharynx,t2,n1,,1,0.0,ii,0
+68.4,male,oropharynx,t1,n3,"yes, positive",1,2.0,ivb,1
+59.6,male,oropharynx,t4a,n2b,"yes, positive",1,1.0,iva,1
+21.7,male,nasopharynx,t4,n3b,,1,0.0,ivb,0
+65.8,male,larynx,t1a,n0,,0,0.0,i,0
+49.5,female,paranasal sinus,t4a,n2b,,0,0.0,iva,1
+65.9,male,hypopharynx,t3,n2b,,0,3.0,iva,1
+45.6,male,oropharynx,t2,n1,,0,0.0,iii,0
+47.5,male,oropharynx,t2,n1,,0,0.0,iii,0
+54.4,male,nasopharynx,t2,n3a,,1,1.0,ivb,0
+82.1,male,larynx,t3,n0,,0,1.0,iii,1
+52.9,female,oropharynx,t4b,n1,"yes, positive",0,2.0,ivb,1
+61.1,male,oropharynx,t3,n1,"yes, negative",0,1.0,iii,1
+65.3,male,larynx,t2,n2c,,0,0.0,iva,1
+89.2,female,oropharynx,t3,n1,"yes, negative",0,0.0,iii,1
+65.1,male,hypopharynx,t1,n2b,,1,0.0,iva,1
+64.3,male,oropharynx,t2,n0,"yes, negative",0,0.0,ii,0
+58.3,female,larynx,t2,n0,,0,0.0,ii,0
+80.5,male,oropharynx,t2,n2b,"yes, negative",0,0.0,iva,1
+60.2,male,larynx,t1a,n0,,0,,i,0
+50.5,male,larynx,t2,n3,,1,0.0,ivb,0
+77.3,male,larynx,t3,n0,,0,0.0,iii,1
+45.9,male,larynx,t1a,n0,,0,0.0,i,0
+35.2,male,larynx,t1b,n0,,0,0.0,i,0
+81.4,male,larynx,t2,n0,,0,0.0,ii,1
+59.8,male,oropharynx,t4a,n2a,"yes, positive",0,2.0,iva,1
+61.1,male,larynx,t2,n0,,0,0.0,ii,0
+71.6,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,1
+54.7,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+75.9,male,paranasal sinus,t4b,n0,,1,0.0,ivb,1
+80.9,male,oropharynx,t4b,n2b,"yes, positive",1,1.0,ivb,1
+76.5,male,hypopharynx,t1,n3,,1,1.0,ivb,1
+68.6,male,larynx,t3,n0,,0,3.0,iii,1
+61.5,male,larynx,t2,n0,,0,0.0,ii,0
+90.0,male,larynx,t3,n2c,,0,2.0,iva,1
+64.2,male,lip & oral cavity,t4a,n0,,0,2.0,iva,1
+77.4,male,larynx,t1a,n0,,0,0.0,i,0
+76.0,male,larynx,t3,n0,,0,2.0,iii,1
+74.6,female,larynx,t3,n0,,0,1.0,iii,1
+75.2,male,hypopharynx,t3,n2b,,1,1.0,iva,1
+55.0,female,oropharynx,t2,n2a,"yes, positive",1,0.0,iva,0
+60.7,male,oropharynx,t2,n2a,"yes, positive",1,0.0,iva,0
+42.6,female,nasopharynx,t4,n1,,1,0.0,iva,0
+58.5,female,larynx,t3,n0,,0,0.0,iii,0
+77.4,male,larynx,t3,n0,,0,1.0,iii,1
+59.2,male,larynx,t3,n2b,,1,0.0,iva,0
+59.6,male,larynx,t3,n0,,0,0.0,iii,0
+44.7,male,oropharynx,t1,n2b,,1,0.0,iva,0
+73.4,female,larynx,t3,n0,,0,1.0,iii,1
+71.9,male,larynx,t2,n0,,0,0.0,ii,0
+69.2,male,larynx,t1a,n0,,0,0.0,i,0
+43.8,male,nasopharynx,t4,n0,,1,0.0,iva,0
+55.6,male,oropharynx,t4a,n2c,"yes, positive",1,0.0,iva,1
+71.1,male,larynx,t1a,n0,,0,0.0,i,0
+74.8,female,nasopharynx,t4,n1,,0,0.0,iva,1
+79.0,female,lip & oral cavity,t4a,n2b,,0,0.0,iva,1
+69.3,male,larynx,t4a,n0,,0,0.0,iva,1
+66.3,female,nasopharynx,t3,n2,,1,0.0,iii,1
+59.3,male,larynx,t4a,n2b,,1,0.0,iva,1
+43.1,male,lip & oral cavity,t1,n0,,0,0.0,i,0
+66.8,male,oropharynx,t3,n2b,,0,0.0,iva,1
+61.4,male,nasopharynx,t4,n3b,,1,0.0,ivb,0
+81.5,male,larynx,t1a,n0,,0,1.0,i,1
+70.6,male,oropharynx,t3,n0,"yes, positive",0,0.0,iii,1
+75.9,female,oropharynx,t3,n2c,"yes, negative",0,2.0,iva,1
+60.3,male,larynx,t3,n0,,0,0.0,iii,0
+53.6,male,oropharynx,t1,n2b,"yes, positive",0,2.0,iva,0
+59.9,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+39.9,male,nasopharynx,t1,n2,,1,0.0,iii,0
+74.1,male,nasopharynx,t1,n1,,0,0.0,ii,1
+44.4,male,larynx,t2,n2c,,1,0.0,iva,0
+64.4,female,nasopharynx,t3,n2,,1,0.0,iii,1
+69.5,male,larynx,t1b,n0,,0,0.0,i,0
+53.1,female,oropharynx,t4a,n2c,"yes, negative",0,2.0,iva,1
+63.8,female,oropharynx,t2,n0,,0,2.0,ii,1
+65.0,female,oropharynx,t4a,n2c,"yes, negative",0,3.0,iva,1
+64.9,male,larynx,t1b,n0,,0,1.0,i,0
+78.1,male,larynx,t2,n0,,0,2.0,ii,1
+82.7,male,esophagus,t2,n1,,0,0.0,iii,1
+64.4,male,oropharynx,t3,n2c,"yes, positive",0,1.0,iva,1
+49.4,female,oropharynx,t1,n1,"yes, positive",0,0.0,iii,0
+81.7,male,hypopharynx,t3,n0,,0,1.0,iii,1
+58.7,male,oropharynx,t2,n2b,,1,0.0,iva,0
+72.1,male,larynx,t2,n0,,0,0.0,ii,0
+75.2,male,larynx,t1b,n0,,0,2.0,i,1
+67.5,male,larynx,t1a,n0,,0,0.0,i,0
+71.6,female,oropharynx,t2,n0,"yes, negative",0,1.0,ii,1
+67.3,female,nasopharynx,t4,n2,,1,0.0,iva,1
+61.7,male,larynx,t1a,n0,,0,0.0,i,0
+61.7,female,oropharynx,t4a,n2c,"yes, positive",0,2.0,iva,1
+62.8,female,nasopharynx,t4,n2,,1,0.0,iva,1
+62.3,male,larynx,t2,n0,,0,0.0,ii,0
+73.9,male,larynx,t3,n0,"yes, negative",0,0.0,iii,1
+60.4,female,nasopharynx,t1,n2,,1,0.0,iii,0
+76.4,male,larynx,t3,n0,,0,0.0,iii,1
+69.5,male,lip & oral cavity,t2,n2b,,0,0.0,iva,1
+57.4,male,oropharynx,t2,n2a,"yes, positive",0,0.0,iva,0
+58.1,male,hypopharynx,t2,n3,,1,0.0,ivb,1
+71.8,male,nasopharynx,t1,n0,,0,0.0,i,0
+60.9,male,hypopharynx,t4a,n2b,,1,2.0,iva,1
+55.5,male,hypopharynx,t3,n2b,,0,1.0,iva,1
+77.7,male,larynx,t2,n0,,0,1.0,ii,1
+62.4,male,nasopharynx,t2,n0,,1,0.0,ii,0
+54.3,female,lip & oral cavity,t2,n0,,0,0.0,ii,0
+59.9,male,oropharynx,t4a,n0,"yes, negative",1,1.0,iva,1
+71.6,male,oropharynx,t3,n2b,"yes, positive",0,2.0,iva,1
+71.5,male,lip & oral cavity,t2,n0,,0,1.0,ii,1
+61.7,female,larynx,t2,n0,,0,0.0,ii,0
+68.4,female,hypopharynx,t4a,n3,,0,2.0,ivb,1
+57.7,male,larynx,t1b,n0,,0,0.0,i,0
+68.7,female,larynx,t3,n2c,,1,0.0,iva,1
+76.0,male,hypopharynx,t1,n0,,0,0.0,i,1
+69.2,female,oropharynx,t2,n0,"yes, negative",0,1.0,ii,1
+73.8,female,larynx,t2,n0,,0,0.0,ii,1
+68.3,male,paranasal sinus,t4,n0,,0,0.0,iva,1
+55.8,male,oropharynx,t1,n1,,0,0.0,iii,0
+74.1,male,larynx,tis,n0,,0,0.0,0,1
+50.6,male,nasopharynx,t4,n2,,1,0.0,iva,0
+59.1,male,esophagus,t3,n0,,1,0.0,iia,0
+73.8,male,oropharynx,t3,n2b,"yes, negative",0,0.0,iva,1
+69.9,male,oropharynx,t1,n0,"yes, positive",0,0.0,i,0
+75.4,male,larynx,t1a,n0,,0,0.0,i,0
+59.2,male,larynx,t1b,n0,,0,0.0,i,0
+66.2,female,oropharynx,t4a,n0,"yes, negative",1,1.0,iva,1
+75.0,male,larynx,t3,n0,,0,1.0,iii,1
+43.0,male,nasopharynx,t1,n2,,1,0.0,iii,0
+59.6,male,larynx,t1b,n0,,0,0.0,i,0
+82.4,male,oropharynx,t3,n2c,"yes, positive",0,1.0,iva,1
+60.8,female,oropharynx,t2,n2c,,1,0.0,iva,1
+60.5,male,oropharynx,t1,n3,"yes, negative",1,0.0,ivb,1
+69.0,female,larynx,t2,n0,,0,0.0,ii,0
+61.5,male,larynx,t2,n0,,0,0.0,ii,0
+69.1,female,oropharynx,t3,n2a,,0,0.0,iva,1
+55.7,female,oropharynx,t3,n0,"yes, positive",0,0.0,iii,0
+45.1,male,oropharynx,t3,n3,"yes, positive",1,0.0,ivb,0
+59.0,male,oropharynx,t2,n2c,"yes, negative",1,1.0,iva,0
+48.6,female,nasopharynx,t1,n1,,1,0.0,ii,0
+79.8,male,oropharynx,t3,n2c,"yes, negative",0,2.0,iva,1
+67.0,male,larynx,t3,n2b,,1,1.0,iva,1
+60.4,male,hypopharynx,t3,n3,,0,1.0,ivb,1
+29.7,male,nasopharynx,t1,n1,,1,0.0,ii,0
+62.4,male,larynx,t1b,n0,,0,0.0,i,0
+76.9,male,larynx,t1b,n0,,0,1.0,i,1
+58.6,female,nasopharynx,t1,n2,,1,0.0,iii,0
+74.2,male,hypopharynx,t4b,n2c,,1,1.0,ivb,1
+56.9,male,larynx,t4a,n3,,1,1.0,ivb,1
+58.9,male,oropharynx,t4a,n2c,"yes, negative",1,0.0,iva,1
+47.6,male,oropharynx,t3,n0,"yes, positive",0,0.0,iii,0
+76.5,female,hypopharynx,t2,n0,,0,0.0,ii,1
+67.8,male,oropharynx,t4a,n2c,"yes, positive",0,3.0,iva,1
+65.3,male,oropharynx,t3,n2b,,0,0.0,iva,1
+66.6,male,larynx,t3,n0,,0,0.0,iii,1
+62.3,male,larynx,t3,n0,,0,1.0,iii,1
+61.9,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,0
+51.8,male,oropharynx,t1,n2a,,1,0.0,iva,0
+62.9,male,larynx,t1a,n0,,0,1.0,i,0
+47.8,male,oropharynx,t3,n2b,"yes, negative",1,0.0,iva,0
+65.5,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+65.1,male,oropharynx,t4b,n0,"yes, positive",0,0.0,ivb,1
+53.0,male,larynx,t2,n0,,0,0.0,ii,0
+73.6,male,hypopharynx,t4a,n1,,1,0.0,iva,1
+48.4,male,oropharynx,t4a,n0,,1,1.0,iva,0
+62.6,male,nasopharynx,t3,n2,,1,1.0,iii,0
+76.2,male,larynx,t1b,n0,,0,1.0,i,1
+60.6,male,lip & oral cavity,t2,n2a,,1,1.0,iva,1
+66.6,male,lip & oral cavity,t4,n0,,0,0.0,iva,1
+62.1,female,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+73.0,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,0
+61.4,male,larynx,t2,n0,,0,1.0,ii,0
+74.1,male,oropharynx,t3,n0,"yes, positive",0,1.0,iii,1
+61.1,male,larynx,t4a,n2c,,1,0.0,iva,1
+56.9,male,larynx,t2,n2c,,0,0.0,iva,0
+56.3,male,oropharynx,t2,n2c,"yes, positive",0,0.0,iva,0
+50.7,male,nasopharynx,t4,n2,,1,0.0,iva,0
+42.6,male,oropharynx,t4a,n2c,,1,0.0,iva,0
+64.0,male,larynx,t1b,n0,,0,0.0,i,0
+58.1,male,larynx,t4a,n0,,0,0.0,iva,1
+55.4,male,oropharynx,t3,n2c,,1,0.0,iva,1
+46.3,male,larynx,t2,n0,,0,0.0,ii,0
+58.6,male,oropharynx,t2,n2b,"yes, negative",0,1.0,iva,1
+76.8,male,hypopharynx,t3,n1,,0,1.0,iii,1
+59.8,male,oropharynx,t3,n2c,"yes, negative",1,0.0,iva,1
+82.1,male,oropharynx,t3,n0,"yes, negative",0,1.0,iii,1
+61.3,male,nasopharynx,t1,n2,,0,0.0,iii,0
+64.9,male,larynx,t1a,n0,,0,1.0,i,0
+55.1,male,oropharynx,t3,n0,"yes, negative",0,,iii,0
+78.3,male,oropharynx,t3,n1,"yes, positive",0,2.0,iii,1
+61.8,male,larynx,t2,n0,,0,0.0,ii,0
+67.0,male,oropharynx,t2,n2b,"yes, negative",0,0.0,iva,1
+60.3,male,nasopharynx,t1,n1,,1,0.0,ii,0
+51.4,male,larynx,t2,n0,,0,0.0,ii,0
+74.9,male,oropharynx,t4a,n0,"yes, positive",0,0.0,iva,1
+71.9,male,nasal cavity,t1,n0,,0,0.0,i,1
+48.7,female,nasopharynx,t4,n2,,1,0.0,iva,0
+83.3,male,larynx,t1b,n0,,0,1.0,i,1
+87.9,male,larynx,t3,n0,,0,1.0,iii,1
+60.1,female,nasopharynx,t3,n2,,1,0.0,iii,0
+64.2,male,larynx,t2,n0,,0,1.0,ii,0
+81.9,male,larynx,t4a,n1,,0,2.0,iva,1
+79.8,male,larynx,t2,n2c,,0,0.0,iva,1
+40.8,female,nasal cavity,t3,n0,,1,0.0,iii,0
+54.2,male,oropharynx,t2,n2c,,1,0.0,iva,0
+48.4,male,larynx,t1a,n0,,0,0.0,i,0
+83.1,female,oropharynx,t3,n2b,,0,0.0,iva,1
+52.5,male,oropharynx,t1,n0,,0,0.0,i,0
+55.7,male,oropharynx,t3,n0,,0,1.0,iii,0
+63.8,female,oropharynx,t2,n0,"yes, negative",0,0.0,ii,0
+37.0,male,nasopharynx,t2,n2,,1,0.0,iii,0
+55.4,male,larynx,t1a,n0,,0,0.0,i,0
+70.4,female,lip & oral cavity,t4a,n0,,0,0.0,iva,1
+78.0,male,lip & oral cavity,t1,n0,"yes, negative",0,1.0,i,1
+60.2,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+75.8,male,larynx,t3,n0,,0,1.0,iii,1
+66.5,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,1
+67.5,male,larynx,t3,n0,,0,0.0,iii,1
+49.6,male,oropharynx,t3,n2b,"yes, positive",0,0.0,iva,0
+55.4,male,oropharynx,t3,n2b,,0,3.0,iva,1
+63.9,male,nasal cavity,t1,n0,,0,0.0,i,0
+62.9,male,larynx,t1a,n0,,0,0.0,i,0
+56.4,male,oropharynx,t4a,n2b,"yes, positive",1,0.0,iva,0
+39.5,male,larynx,t3,n0,,0,0.0,iii,0
+39.3,male,nasopharynx,t4,n0,,1,0.0,iva,0
+44.3,male,oropharynx,t1,n2a,"yes, positive",1,0.0,iva,0
+81.6,male,larynx,t2,n0,,0,1.0,ii,1
+63.8,male,larynx,t1b,n0,,0,0.0,i,0
+78.4,male,larynx,t3,n0,,0,1.0,iii,1
+58.4,male,oropharynx,t2,n2b,,1,0.0,iva,0
+60.1,male,larynx,t1a,n0,,0,0.0,i,0
+62.5,female,nasopharynx,t1,n1,,1,1.0,ii,0
+82.5,female,oropharynx,t2,n0,"yes, negative",0,1.0,ii,1
+47.0,male,nasopharynx,t4,n2,,1,0.0,iva,0
+49.0,male,oropharynx,t2,n2b,"yes, positive",1,1.0,iva,0
+64.4,male,larynx,t1a,n0,,0,0.0,i,0
+80.4,male,larynx,t2,n0,,0,1.0,ii,1
+45.9,female,nasopharynx,t1,n2,,1,0.0,iii,0
+64.3,male,larynx,tis,n0,,0,0.0,0,0
+53.4,male,oropharynx,t1,n2c,,0,0.0,iva,0
+57.2,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+60.5,female,lip & oral cavity,t3,n2b,,1,1.0,iva,1
+55.5,male,lip & oral cavity,t4,n2c,,1,0.0,iva,1
+66.8,male,larynx,t1a,n0,,0,0.0,i,0
+59.5,male,oropharynx,t3,n2c,,1,0.0,iva,1
+73.6,female,hypopharynx,t3,n1,,0,2.0,iii,1
+66.3,female,oropharynx,t1,n0,"yes, negative",0,0.0,i,1
+52.3,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,0
+51.2,male,hypopharynx,t3,n2c,,1,0.0,iva,1
+48.3,female,nasopharynx,t3,n0,,1,0.0,iii,0
+90.0,male,larynx,t2,n0,,0,1.0,ii,1
+56.2,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,0
+51.3,female,lip & oral cavity,t3,n2c,,1,2.0,iva,1
+68.9,male,oropharynx,t3,n0,"yes, positive",0,1.0,iii,1
+58.0,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+53.4,female,nasopharynx,t1,n2,,1,0.0,iii,0
+82.2,male,larynx,t2,n0,,0,1.0,ii,1
+70.8,female,lip & oral cavity,t4a,n2c,,0,0.0,iva,1
+67.9,male,hypopharynx,t4a,n2c,,1,1.0,iva,1
+54.0,female,nasopharynx,t3,n2,,1,0.0,iii,0
+69.5,male,hypopharynx,t3,n0,,1,0.0,iii,1
+58.7,female,oropharynx,t4a,n2c,"yes, positive",1,0.0,iva,1
+49.6,male,oropharynx,t1,n1,"yes, positive",0,0.0,iii,0
+81.1,male,oropharynx,t4b,n2c,"yes, positive",0,1.0,ivb,1
+59.7,female,larynx,t4a,n2b,,0,1.0,iva,1
+45.9,male,nasopharynx,t4,n2,,1,0.0,iva,0
+55.6,male,hypopharynx,t3,n2c,,1,3.0,iva,1
+53.1,male,oropharynx,t2,n0,"yes, positive",0,1.0,ii,0
+60.5,male,larynx,t4a,n0,,0,0.0,iva,1
+66.0,male,larynx,t4a,n0,,0,1.0,iva,1
+67.5,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,1
+76.0,male,hypopharynx,t2,n0,,0,1.0,ii,1
+54.7,male,oropharynx,t4b,n2c,"yes, negative",1,1.0,ivb,1
+52.1,female,nasopharynx,t2,n3,,1,0.0,ivb,0
+42.8,male,nasopharynx,t1,n2,,1,0.0,iii,0
+56.7,male,paranasal sinus,t4,n2c,,1,0.0,iva,1
+70.1,male,larynx,t1a,n0,,0,1.0,i,0
+73.5,female,larynx,t2,n2c,,0,3.0,iva,1
+57.2,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,0
+60.9,male,larynx,t2,n0,,0,0.0,ii,0
+64.5,female,oropharynx,t3,n3,"yes, positive",0,0.0,ivb,1
+41.9,female,oropharynx,t4a,n3,"yes, positive",1,1.0,ivb,0
+54.3,male,larynx,t3,n2c,,0,0.0,iva,0
+60.7,male,oropharynx,t2,n2b,,1,0.0,iva,0
+68.8,female,lip & oral cavity,t4a,n2c,,1,0.0,iva,1
+77.7,male,hypopharynx,t2,n0,,0,0.0,ii,1
+86.1,male,larynx,t2,n0,,0,1.0,ii,1
+54.9,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,0
+56.3,male,oropharynx,t1,n2a,"yes, positive",0,0.0,iva,0
+69.1,male,larynx,t3,n1,,0,2.0,iii,1
+55.1,male,larynx,t3,n2c,,1,1.0,iva,0
+65.3,male,larynx,t2,n0,,0,0.0,ii,0
+47.2,male,oropharynx,t4a,n2c,"yes, positive",1,0.0,iva,0
+42.4,female,nasopharynx,t4,n1,,1,0.0,iva,0
+42.8,male,nasopharynx,t4,n2,,1,0.0,iva,0
+56.7,male,nasopharynx,t4,n2,,1,0.0,iva,0
+54.4,male,nasopharynx,t4,n1,,1,0.0,iva,0
+70.0,male,larynx,t1a,n0,,0,0.0,i,0
+60.6,male,oropharynx,t3,n2a,"yes, positive",1,0.0,iva,0
+46.5,male,oropharynx,t3,n2c,"yes, positive",1,2.0,iva,0
+53.1,male,larynx,t2,n2c,,0,0.0,iva,0
+68.1,male,lip & oral cavity,t2,n2b,,1,1.0,iva,1
+80.2,male,oropharynx,t4a,n0,,0,1.0,iva,1
+53.4,male,larynx,t1a,n0,,0,0.0,i,0
+51.4,male,nasopharynx,t3,n2,,1,0.0,iii,0
+48.5,male,larynx,t3,n2c,,0,1.0,iva,0
+56.4,male,oropharynx,t4a,n2b,"yes, positive",0,,iva,1
+47.7,female,oropharynx,t3,n2c,,0,0.0,iva,0
+53.8,female,nasopharynx,t4,n2,,1,0.0,iva,0
+69.4,male,hypopharynx,t2,n1,,0,0.0,iii,1
+74.8,male,larynx,t4a,n0,,0,1.0,iva,1
+60.3,male,larynx,t4a,n2c,,1,3.0,iva,1
+52.7,male,oropharynx,t4b,n2c,"yes, positive",1,0.0,ivb,0
+56.0,male,hypopharynx,t1,n3,,1,1.0,ivb,1
+55.7,male,hypopharynx,t2,n2c,,1,0.0,iva,0
+49.1,male,oropharynx,t2,n2a,"yes, positive",1,0.0,iva,0
+54.4,male,nasopharynx,t2,n2,,1,1.0,iii,0
+61.0,male,larynx,t1b,n0,,0,0.0,i,0
+27.6,male,nasopharynx,t3,n2,"yes, negative",1,0.0,iii,0
+48.2,female,oropharynx,t4a,n2c,"yes, positive",1,1.0,iva,0
+57.7,male,larynx,t3,n2c,,0,1.0,iva,1
+75.1,male,larynx,t3,n0,,0,0.0,iii,1
+60.9,male,oropharynx,t4b,n2c,"yes, positive",1,0.0,ivb,1
+50.9,male,oropharynx,t1,n0,"yes, negative",0,0.0,i,0
+70.5,male,oropharynx,t4a,n2c,,1,4.0,iva,1
+52.4,female,oropharynx,t3,n2c,,1,1.0,iva,1
+55.7,male,larynx,t3,n2b,,0,0.0,iva,0
+46.3,female,nasopharynx,t4,n2,,1,0.0,iva,0
+80.3,male,larynx,t1b,n0,,0,1.0,i,1
+58.1,female,hypopharynx,t4a,n2b,,1,0.0,ivb,1
+74.8,female,nasopharynx,t2,n3b,,1,1.0,ivb,1
+70.9,male,larynx,t2,n3,,1,0.0,ivb,1
+69.8,male,larynx,t2,n2a,,0,1.0,iva,1
+47.9,male,nasopharynx,t1,n3b,,1,0.0,ivb,0
+53.9,male,oropharynx,t4a,n2c,,1,0.0,iva,1
+69.7,male,larynx,t1a,n0,,0,2.0,i,0
+75.3,male,oropharynx,t3,n1,"yes, negative",0,0.0,iii,1
+61.7,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+71.0,female,oropharynx,t4b,n2c,"yes, positive",0,0.0,ivb,1
+71.3,male,larynx,t2,n0,,0,1.0,ii,1
+36.9,male,nasopharynx,t4,n3b,,1,3.0,ivb,0
+52.5,male,larynx,t1b,n0,,0,1.0,i,0
+44.8,male,oropharynx,t1,n2a,"yes, positive",1,0.0,iva,0
+67.7,female,esophagus,tx,n1,,0,0.0,iii,1
+55.3,female,nasal cavity,t4b,n0,,0,2.0,ivb,1
+70.7,male,oropharynx,t2,n2b,"yes, negative",0,2.0,iva,1
+63.2,male,lip & oral cavity,t2,n0,,0,0.0,ii,0
+67.0,male,nasopharynx,t3,n3b,,1,0.0,ivb,1
+64.1,female,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,1
+84.0,female,larynx,t1b,n0,,0,1.0,i,1
+61.8,male,nasopharynx,t4,n2,,1,0.0,iva,0
+49.3,male,oropharynx,t4a,n2c,"yes, negative",1,0.0,iva,0
+42.7,female,nasopharynx,t3,n2,,1,0.0,iii,0
+61.4,male,lip & oral cavity,t4b,n1,,0,2.0,ivb,1
+61.9,male,oropharynx,t3,n2b,,1,0.0,iva,1
+73.3,male,larynx,t1a,n0,,0,0.0,i,0
+58.2,female,oropharynx,t1,n2b,,1,0.0,iva,0
+78.0,female,esophagus,t3,n0,,0,2.0,iii,1
+64.6,male,oropharynx,t3,n0,,0,,iii,1
+45.4,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,0
+57.9,male,hypopharynx,t2,n3,,1,0.0,ivb,1
+43.6,male,oropharynx,t1,n0,"yes, positive",0,0.0,i,0
+32.3,male,larynx,t2,n0,"yes, negative",0,0.0,ii,0
+52.3,male,larynx,t2,n0,,0,0.0,ii,0
+65.2,male,oropharynx,t3,n2b,,1,1.0,iva,1
+86.8,male,oropharynx,t4a,n2b,"yes, positive",0,1.0,iva,1
+44.1,male,oropharynx,t2,n2b,,1,0.0,iva,0
+86.2,male,lip & oral cavity,t3,n1,,0,2.0,iii,1
+51.0,male,oropharynx,t2,n2b,,1,2.0,iva,0
+79.6,male,hypopharynx,t4a,n2c,,0,,iva,1
+33.2,male,nasopharynx,t1,n2,,1,0.0,iii,0
+57.0,male,oropharynx,t4a,n2b,"yes, positive",1,0.0,iva,1
+78.7,female,oropharynx,t4b,n2c,"yes, positive",0,0.0,ivb,1
+63.4,male,larynx,t3,n0,,0,2.0,iii,1
+61.3,male,oropharynx,t2,n1,"yes, positive",0,0.0,iii,0
+54.5,female,larynx,t3,n2c,,1,0.0,iva,0
+67.8,male,nasopharynx,t4,n0,,1,0.0,iva,1
+47.5,female,oropharynx,t1,n3,"yes, positive",1,0.0,ivb,0
+59.3,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+65.7,female,larynx,t3,n0,,0,2.0,iii,1
+65.8,male,oropharynx,t2,n1,"yes, positive",0,1.0,iii,1
+63.8,male,larynx,tis,n0,,0,0.0,0,0
+51.7,male,oropharynx,t3,n2c,"yes, negative",0,1.0,iva,1
+60.1,female,larynx,t2,n1,,0,1.0,iii,1
+59.5,male,oropharynx,t3,n3,"yes, positive",0,1.0,ivb,1
+74.8,male,oropharynx,t2,n2b,"yes, negative",0,2.0,iva,1
+55.0,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+76.2,male,oropharynx,t3,n0,,0,2.0,iii,1
+55.6,male,hypopharynx,t3,n2c,,1,0.0,iva,1
+68.8,male,hypopharynx,t2,n0,,0,0.0,ii,1
+61.4,male,oropharynx,t2,n1,,0,0.0,iii,0
+74.3,female,oropharynx,t2,n2c,,0,0.0,iva,1
+50.2,male,oropharynx,t2,n2a,,1,0.0,iva,0
+48.4,male,oropharynx,t1,n2b,,1,0.0,iva,0
+67.5,male,larynx,t4a,n0,,1,0.0,iva,1
+65.0,male,larynx,t1a,n0,,0,0.0,i,0
+46.8,male,nasopharynx,t3,n2,,1,0.0,iii,0
+55.6,male,oropharynx,t4b,n3,"yes, positive",0,1.0,ivb,1
+38.8,male,nasopharynx,t3,n1,,1,0.0,iii,0
+55.2,male,oropharynx,t4a,n0,"yes, negative",0,1.0,iva,1
+75.4,female,oropharynx,t3,n2b,"yes, positive",0,0.0,iva,1
+61.9,male,hypopharynx,t3,n2b,,0,1.0,iva,1
+47.7,male,oropharynx,t2,n3,"yes, positive",1,0.0,ivb,0
+52.1,male,nasopharynx,t4,n2,,1,0.0,iva,0
+72.2,male,larynx,t3,n0,,0,0.0,iii,1
+64.5,male,oropharynx,t1,n2a,"yes, positive",1,0.0,iva,0
+57.5,female,nasopharynx,t3,n2,,1,1.0,iii,0
+65.8,male,larynx,t3,n0,,1,0.0,iii,1
+72.4,male,nasal cavity,t1,n2b,,0,0.0,iva,1
+61.5,male,larynx,t1a,n0,,0,0.0,i,0
+84.0,female,lip & oral cavity,tis,n0,,0,1.0,0,1
+52.1,male,nasopharynx,t3,n3b,,1,0.0,ivb,0
+62.6,male,oropharynx,t4a,n2b,,0,2.0,iva,1
+59.3,male,oropharynx,t2,n2c,,1,0.0,iva,0
+58.4,male,larynx,t2,n0,,0,0.0,ii,0
+45.7,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+77.3,female,lip & oral cavity,t2,n0,,0,2.0,ii,1
+55.5,male,oropharynx,t3,n2c,"yes, negative",1,2.0,iva,1
+48.9,male,nasopharynx,t3,n2,,1,0.0,iii,0
+82.9,female,larynx,t2,n0,,0,0.0,ii,1
+57.0,male,oropharynx,t2,n0,"yes, negative",0,1.0,ii,0
+68.5,male,larynx,t1a,n0,,0,1.0,i,0
+46.2,male,oropharynx,t4b,n2c,"yes, positive",1,3.0,ivb,0
+54.6,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+65.0,female,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,1
+35.1,male,nasopharynx,t2,n3a,,1,0.0,ivb,0
+77.8,male,hypopharynx,t3,n0,,0,4.0,iii,1
+71.0,male,oropharynx,t4a,n2c,"yes, positive",0,0.0,iva,1
+61.8,male,larynx,t3,n2b,,1,0.0,iva,1
+75.0,male,oropharynx,t2,n2b,"yes, positive",0,1.0,iva,1
+58.7,male,larynx,t3,n0,,0,1.0,iii,0
+68.8,male,nasopharynx,t1,n1,,0,0.0,ii,0
+82.6,female,salivary glands,t1,n0,,0,1.0,i,1
+71.7,female,oropharynx,t3,n2c,"yes, positive",0,1.0,iva,1
+81.6,male,larynx,t3,n0,,0,1.0,iii,1
+64.9,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+54.1,male,lip & oral cavity,t3,n2b,,1,0.0,iva,0
+53.0,male,nasopharynx,t4,n2,,1,0.0,iva,0
+32.7,male,nasopharynx,t2,n1,,1,0.0,ii,0
+65.9,male,larynx,t3,n1,,1,0.0,iii,1
+74.1,male,oropharynx,t4a,n0,,0,0.0,iva,1
+82.9,male,larynx,t2,n0,,0,1.0,ii,1
+75.3,male,larynx,t3,n2c,,0,2.0,iva,1
+73.1,female,oropharynx,t3,n0,"yes, negative",0,1.0,iii,1
+69.8,male,oropharynx,t3,n2c,"yes, negative",0,2.0,iva,1
+60.5,male,oropharynx,t4a,n2b,"yes, positive",1,0.0,iva,1
+43.0,male,larynx,t2,n2b,,1,0.0,iva,0
+58.8,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+64.9,male,oropharynx,t2,n2a,,0,0.0,iva,1
+70.6,male,larynx,t1a,n0,,0,0.0,i,0
+62.9,male,oropharynx,t4a,n2c,"yes, positive",1,0.0,iva,1
+70.3,male,hypopharynx,t4a,n2b,,0,1.0,iva,1
+70.5,male,oropharynx,t2,n2a,"yes, negative",0,0.0,iva,1
+57.9,male,larynx,t2,n0,,0,1.0,ii,0
+75.9,male,oropharynx,t4a,n2c,"yes, negative",0,1.0,iva,1
+59.8,male,larynx,t2,n0,,0,0.0,ii,0
+60.2,male,nasopharynx,t3,n0,,1,0.0,iii,0
+82.4,male,larynx,t1a,n0,,0,1.0,i,1
+65.3,male,oropharynx,t4a,n2c,,1,0.0,iva,1
+41.4,male,nasopharynx,t1,n3a,"yes, negative",1,0.0,ivb,0
+54.2,female,lip & oral cavity,t4a,n0,,0,2.0,iva,1
+59.4,male,larynx,t3,n2b,,1,2.0,iva,1
+63.7,male,hypopharynx,t4a,n2b,,0,0.0,iva,1
+46.5,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+62.6,female,oropharynx,t4a,n2c,,1,1.0,iva,1
+49.1,male,oropharynx,t3,n2c,,1,0.0,iva,0
+61.6,male,nasopharynx,t4,n2,,1,1.0,iva,0
+48.2,male,oropharynx,t4a,n2c,"yes, negative",1,0.0,iva,0
+75.3,male,oropharynx,t3,n2b,"yes, negative",0,1.0,iva,1
+51.2,male,oropharynx,t2,n3,"yes, positive",1,2.0,ivb,0
+56.0,male,larynx,t1a,n0,,0,0.0,i,0
+69.7,female,hypopharynx,t2,n0,,0,0.0,ii,1
+53.6,female,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+53.0,male,larynx,t3,n0,,1,0.0,iii,0
+33.4,female,larynx,t1a,n0,,0,0.0,i,0
+53.0,male,oropharynx,t2,n0,"yes, negative",0,2.0,ii,0
+63.2,male,oropharynx,t4a,n2c,"yes, negative",1,1.0,iva,1
+68.0,male,larynx,t3,n2c,,0,0.0,iva,1
+71.0,male,oropharynx,t3,n2c,,0,1.0,iva,1
+73.2,male,larynx,t2,n2b,,0,0.0,iva,1
+76.9,male,larynx,t1a,n0,,0,0.0,i,0
+75.3,male,larynx,t2,n0,,0,1.0,ii,1
+56.9,male,larynx,t2,n0,,0,0.0,ii,0
+39.3,female,nasopharynx,t3,n1,,1,0.0,iii,0
+66.4,female,lip & oral cavity,t4a,n1,,1,1.0,iva,1
+64.3,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+59.6,male,oropharynx,t4a,n0,"yes, positive",1,1.0,iva,1
+53.0,male,oropharynx,t2,n2b,,1,0.0,iva,0
+55.0,female,oropharynx,t2,n2c,"yes, positive",1,1.0,iva,0
+64.0,male,oropharynx,t3,n2c,"yes, positive",0,1.0,iva,1
+59.6,male,larynx,t1b,n0,,0,0.0,i,0
+82.8,male,larynx,t2,n0,,0,0.0,ii,1
+57.6,male,oropharynx,t2,n2c,"yes, negative",0,0.0,iva,0
+48.6,male,nasopharynx,t4,n0,,1,1.0,iva,0
+53.8,male,larynx,t1a,n0,,0,0.0,i,0
+51.9,male,larynx,t3,n0,,0,0.0,iii,0
+58.8,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+72.0,male,larynx,t1a,n0,,0,0.0,i,0
+49.4,male,hypopharynx,t3,n2b,,0,2.0,iva,1
+76.5,male,larynx,t3,n1,,0,0.0,iii,1
+62.5,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,0
+53.1,male,nasopharynx,t1,n1,,1,1.0,ii,0
+58.9,male,oropharynx,t3,n2b,"yes, positive",1,1.0,iva,0
+59.3,male,larynx,t2,n0,,0,0.0,ii,0
+87.2,female,lip & oral cavity,t2,n1,,0,1.0,iii,1
+38.4,male,oropharynx,t3,n2b,"yes, negative",1,0.0,iva,0
+48.1,male,oropharynx,t3,n2b,"yes, positive",0,1.0,iva,0
+67.8,female,oropharynx,t4b,n2c,"yes, negative",0,0.0,ivb,1
+53.7,female,hypopharynx,t3,n1,,1,0.0,iii,0
+70.7,female,larynx,t3,n2c,,0,1.0,iva,1
+73.3,male,oropharynx,t2,n2b,,0,2.0,iva,1
+84.8,male,larynx,t1b,n0,,0,0.0,i,1
+74.5,male,larynx,t3,n0,,0,1.0,iii,1
+59.7,male,oropharynx,t3,n2c,"yes, positive",0,0.0,iva,1
+88.2,female,oropharynx,t2,n1,,0,0.0,iii,1
+65.0,male,larynx,tis,n0,,0,0.0,0,0
+69.1,male,larynx,t3,n1,,0,1.0,iii,1
+68.6,male,oropharynx,t2,n0,"yes, negative",0,0.0,ii,0
+61.4,female,oropharynx,t2,n2a,"yes, positive",1,0.0,iva,0
+64.3,male,oropharynx,t3,n2c,"yes, negative",1,0.0,iva,1
+53.8,male,oropharynx,t1,n2b,"yes, positive",0,0.0,iva,0
+59.7,male,oropharynx,t2,n2a,"yes, positive",1,0.0,iva,0
+49.9,female,salivary glands,t1,nx,,0,0.0,i,0
+52.8,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+64.6,male,larynx,t3,n0,,1,0.0,iii,1
+28.3,male,nasopharynx,t3,n2,,1,0.0,iii,0
+76.2,male,oropharynx,t4b,n1,"yes, negative",0,2.0,ivb,1
+76.8,male,larynx,t1a,n0,,0,0.0,i,0
+71.5,male,larynx,t3,n0,,0,0.0,iii,1
+64.3,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+56.5,female,nasopharynx,t1,n2,,1,0.0,iii,0
+57.7,male,larynx,t2,n0,,0,0.0,ii,0
+37.6,male,nasopharynx,t3,n2,,1,0.0,iii,0
+56.5,female,oropharynx,t1,n2c,"yes, negative",1,0.0,iva,0
+48.2,male,oropharynx,t3,n3,"yes, positive",1,1.0,ivb,0
+56.7,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+60.3,male,nasopharynx,t1,n0,,0,0.0,i,0
+57.5,male,oropharynx,t2,n2b,"yes, negative",0,1.0,iva,1
+55.6,male,oropharynx,t3,n0,,1,0.0,iii,0
+53.6,female,nasopharynx,t4,n1,,1,3.0,iva,0
+59.3,female,larynx,t4a,n2c,,0,2.0,iva,1
+73.8,male,oropharynx,t2,n2b,,0,0.0,iva,1
+58.3,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,1
+80.1,male,larynx,t3,n0,,0,1.0,iii,1
+47.6,female,nasopharynx,t4,n0,,1,0.0,iva,0
+68.7,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,1
+51.0,female,oropharynx,t3,n2b,"yes, positive",1,2.0,iva,0
+73.5,male,larynx,t3,n0,,0,0.0,iii,1
+50.6,male,oropharynx,t3,n2b,"yes, positive",0,1.0,iva,0
+72.0,male,paranasal sinus,t4b,n1,,0,1.0,iva,1
+56.0,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+54.7,male,oropharynx,t2,n3,"yes, positive",1,2.0,ivb,0
+53.3,female,oropharynx,t4a,n2c,"yes, positive",1,0.0,iva,1
+55.5,female,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+51.2,male,oropharynx,t1,n1,"yes, positive",1,0.0,iii,0
+44.6,male,larynx,t4a,n2c,,1,0.0,iva,0
+41.6,male,nasal cavity,t1,n0,"yes, positive",0,0.0,i,0
+43.1,male,oropharynx,t4b,n3,"yes, positive",1,0.0,ivb,0
+73.0,female,nasal cavity,t1,n0,,0,0.0,i,1
+55.3,male,oropharynx,t2,n1,"yes, positive",1,1.0,iii,0
+60.7,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,0
+60.4,male,oropharynx,t3,n2c,"yes, negative",0,1.0,iva,1
+72.6,female,larynx,tis,n0,,0,1.0,0,1
+65.5,male,oropharynx,t2,n0,"yes, negative",0,1.0,ii,0
+61.5,female,oropharynx,t3,n2c,"yes, negative",1,0.0,iva,1
+50.7,male,nasopharynx,t2,n2,,1,0.0,iii,0
+69.4,male,oropharynx,t2,n2b,"yes, negative",1,0.0,iva,1
+45.3,male,nasopharynx,t3,n2,,1,0.0,iii,0
+62.1,female,oropharynx,tis,n0,,0,0.0,0,1
+69.2,female,oropharynx,t1,n2a,"yes, positive",0,0.0,iva,1
+68.1,female,lip & oral cavity,t3,n0,,0,0.0,iii,1
+65.4,male,lip & oral cavity,t3,n1,,0,1.0,iii,1
+57.6,female,oropharynx,t2,n1,"yes, negative",0,0.0,iii,0
+64.7,male,hypopharynx,t3,n2c,,1,1.0,iva,1
+54.4,male,larynx,t2,n0,,0,2.0,ii,0
+53.7,female,nasopharynx,t4,n0,,1,0.0,iva,0
+62.0,male,oropharynx,t1,n1,"yes, positive",1,0.0,iii,0
+52.2,male,nasopharynx,t3,n2,,1,1.0,iii,0
+60.1,male,larynx,t3,n2c,,0,0.0,iva,1
+53.9,male,oropharynx,t4a,n2c,"yes, negative",1,0.0,iva,1
+57.5,female,nasal cavity,t4a,n0,,0,0.0,iva,1
+79.2,male,larynx,t4a,n0,,0,1.0,iva,1
+64.5,male,larynx,t1a,n0,,0,0.0,i,0
+50.6,male,oropharynx,t4a,n2c,"yes, positive",1,0.0,iva,0
+60.6,male,oropharynx,t2,n0,"yes, negative",0,0.0,ii,0
+48.1,male,paranasal sinus,t4b,n0,,1,2.0,ivb,0
+48.5,female,larynx,tis,n0,,0,0.0,0,0
+77.1,male,oropharynx,t4b,n3,"yes, negative",0,1.0,ivb,1
+43.5,male,oropharynx,t3,n2c,"yes, positive",0,1.0,iva,0
+53.4,female,oropharynx,t4a,n0,"yes, negative",1,0.0,iva,1
+31.3,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+73.3,female,larynx,tis,n0,,0,0.0,0,1
+53.8,male,larynx,t1b,n0,,0,0.0,i,0
+64.9,female,larynx,t2,n0,,0,0.0,ii,0
+74.0,male,oropharynx,t2,n0,"yes, negative",0,1.0,ii,1
+85.4,male,oropharynx,t3,n0,,0,0.0,iii,1
+73.0,male,larynx,t2,n2b,,0,0.0,iva,1
+55.7,male,larynx,t1b,n0,,0,0.0,i,0
+49.0,male,hypopharynx,t2,n0,,0,0.0,ii,0
+68.0,female,larynx,t4a,n2b,,1,0.0,iva,1
+57.6,male,larynx,t1a,n0,,0,1.0,i,0
+75.8,female,oropharynx,t4a,n2c,"yes, negative",0,2.0,iva,1
+59.8,male,oropharynx,t2,n2b,,0,0.0,iva,1
+55.1,male,hypopharynx,t2,n1,"yes, negative",0,0.0,iii,0
+70.9,male,lip & oral cavity,t2,n0,,0,0.0,ii,0
+72.2,male,larynx,t3,n0,,0,0.0,iii,1
+55.6,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+73.2,male,larynx,t3,n3,,0,1.0,ivb,1
+61.3,male,larynx,tis,n0,,0,0.0,0,0
+75.3,male,larynx,t3,n0,,0,1.0,iii,1
+76.3,male,nasopharynx,t3,n3a,,0,1.0,ivb,1
+87.5,male,larynx,t3,n2c,,0,2.0,iva,1
+62.0,male,oropharynx,t1,n2b,"yes, positive",0,0.0,iva,1
+50.0,male,oropharynx,t3,n2c,"yes, positive",1,3.0,iva,0
+66.6,male,oropharynx,t2,n2b,"yes, positive",1,1.0,iva,1
+81.1,female,larynx,t3,n0,,0,1.0,iii,1
+61.9,male,nasopharynx,t4,n2,,1,1.0,iva,0
+79.0,male,hypopharynx,t3,n1,,0,0.0,iii,1
+79.8,female,lip & oral cavity,t3,n0,,0,0.0,iii,1
+50.8,male,oropharynx,t4a,n2b,"yes, positive",1,0.0,iva,0
+61.7,male,lip & oral cavity,t4a,n2c,,0,0.0,iva,1
+66.1,male,larynx,t3,n0,,1,0.0,iii,1
+65.1,male,larynx,t2,n0,,0,0.0,ii,0
+56.5,male,oropharynx,t2,n0,"yes, negative",0,1.0,ii,0
+60.9,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+64.0,male,oropharynx,t3,n3,"yes, negative",0,2.0,ivb,1
+60.3,male,hypopharynx,t3,n3,,1,1.0,ivb,1
+44.9,male,nasopharynx,t1,n0,,0,1.0,i,0
+85.4,male,larynx,t1b,n0,,0,0.0,i,1
+69.0,male,larynx,t2,n0,,0,1.0,ii,1
+59.4,female,larynx,t2,n0,,0,1.0,ii,0
+79.5,male,larynx,t1a,n0,,0,0.0,i,1
+50.2,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,0
+60.6,male,oropharynx,t1,n1,"yes, positive",1,0.0,iii,0
+71.5,female,oropharynx,t1,n2b,"yes, positive",0,0.0,iva,1
+79.7,female,oropharynx,t3,n0,"yes, negative",0,1.0,iii,1
+53.9,male,oropharynx,t1,n2c,"yes, positive",1,0.0,iva,0
+27.4,female,larynx,t2,n0,"yes, positive",0,0.0,ii,0
+64.4,male,larynx,t2,n0,,0,1.0,ii,0
+58.1,male,nasopharynx,t3,n1,,1,0.0,iii,0
+45.4,male,oropharynx,t3,n2a,"yes, positive",0,0.0,iva,0
+80.8,male,larynx,t3,n0,,0,0.0,iii,1
+70.7,male,hypopharynx,t4a,n2b,,0,0.0,iva,1
+45.6,male,oropharynx,t2,n2a,"yes, positive",1,0.0,iva,0
+53.0,male,paranasal sinus,t4a,n2b,,1,0.0,iva,1
+55.6,female,nasopharynx,t3,n2,,1,1.0,iii,0
+47.4,male,oropharynx,t1,n2a,"yes, positive",0,1.0,iva,0
+80.5,male,lip & oral cavity,t4a,n2b,"yes, positive",0,1.0,iva,1
+51.7,male,oropharynx,t4b,n0,,0,2.0,ivb,0
+62.7,male,larynx,t4a,n2c,,1,4.0,iva,1
+48.8,male,oropharynx,t2,n2a,"yes, positive",1,0.0,iva,0
+50.8,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+68.9,male,oropharynx,t3,n2c,"yes, negative",0,0.0,iva,1
+62.8,female,larynx,t2,n0,,0,1.0,ii,0
+63.0,female,oropharynx,t3,n2c,"yes, positive",1,0.0,iii,1
+52.0,male,oropharynx,t4a,n2c,"yes, positive",0,0.0,iva,1
+62.7,male,nasopharynx,t3,n1,,1,1.0,iii,1
+83.5,male,lip & oral cavity,t3,n1,,0,0.0,iii,1
+58.3,female,oropharynx,t2,n2b,"yes, negative",1,0.0,iva,0
+50.6,male,oropharynx,t2,n3,"yes, positive",1,1.0,ivb,0
+51.7,male,oropharynx,t4b,n2c,"yes, negative",1,2.0,iva,0
+54.3,male,larynx,tis,n0,,0,1.0,0,0
+59.3,male,oropharynx,t3,n2b,"yes, positive",1,1.0,iva,0
+75.8,female,oropharynx,t1,n0,"yes, negative",0,1.0,i,1
+63.9,male,larynx,t1a,n0,,0,1.0,i,0
+69.7,female,oropharynx,t3,n2b,"yes, negative",1,0.0,iva,1
+57.1,male,oropharynx,t3,n2b,"yes, positive",0,1.0,iva,0
+54.2,female,nasopharynx,t1,n1,,1,1.0,ii,0
+55.0,male,hypopharynx,t4a,n2c,,0,0.0,iva,1
+59.8,female,oropharynx,t2,n2b,"yes, negative",1,0.0,iva,0
+64.4,male,larynx,t1b,n0,,0,0.0,i,0
+69.0,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,1
+41.3,female,nasopharynx,t3,n2,"yes, negative",1,0.0,iii,0
+77.3,male,hypopharynx,t2,n1,,0,1.0,iii,1
+48.0,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+63.7,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+61.0,male,oropharynx,t4a,n2c,"yes, negative",0,1.0,iva,1
+73.2,male,larynx,t3,n0,,0,1.0,iii,1
+75.9,male,lip & oral cavity,t4a,n2b,,0,0.0,iva,1
+77.9,female,larynx,tis,n0,,0,0.0,0,1
+49.5,male,oropharynx,t1,n2b,"yes, positive",0,0.0,iva,0
+65.0,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,1
+54.9,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+68.0,male,hypopharynx,t4a,n3,,0,3.0,iva,1
+48.5,female,nasopharynx,t4,n2,,1,0.0,iva,0
+65.9,female,lip & oral cavity,t2,n0,,0,0.0,ii,0
+76.1,male,oropharynx,t4b,n2c,"yes, positive",0,1.0,ivb,1
+57.9,female,oropharynx,t1,n2c,"yes, positive",0,0.0,iva,1
+56.0,male,larynx,t2,n0,,0,0.0,ii,0
+71.7,male,oropharynx,t3,n1,"yes, negative",1,0.0,iii,1
+70.6,male,larynx,t4a,n0,,0,1.0,iva,1
+66.3,male,larynx,t1a,n0,,0,0.0,i,0
+55.4,female,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+70.4,male,oropharynx,t2,n1,"yes, positive",0,0.0,iii,1
+84.5,male,larynx,t1b,n0,,0,1.0,i,1
+68.8,male,larynx,t1b,n0,,0,0.0,i,0
+61.3,male,larynx,t1a,n0,,0,0.0,i,0
+69.7,male,larynx,t1a,n0,,0,1.0,i,0
+55.8,male,lip & oral cavity,t4b,n2b,,1,2.0,ivb,1
+49.8,female,nasopharynx,t1,n3b,,1,1.0,ivb,0
+48.5,male,oropharynx,t2,n3,"yes, positive",1,2.0,ivb,0
+61.7,male,larynx,t1,n1,"yes, negative",0,1.0,iii,0
+43.3,male,nasal cavity,t4a,n0,,1,0.0,iva,0
+54.2,female,paranasal sinus,t4a,n0,,1,0.0,iva,1
+66.2,male,larynx,t2,n0,,0,0.0,ii,0
+49.9,male,oropharynx,t4a,n2c,"yes, positive",1,1.0,iva,0
+54.9,male,nasopharynx,t3,n1,,1,0.0,iii,0
+60.5,female,oropharynx,t3,n2b,"yes, positive",1,1.0,iva,1
+67.0,male,oropharynx,t4a,n0,"yes, negative",0,0.0,iva,1
+68.6,female,oropharynx,t2,n2a,"yes, positive",1,0.0,iva,1
+73.8,male,nasopharynx,t1,n2,,0,0.0,iii,1
+54.8,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+70.0,female,oropharynx,t4a,n0,"yes, negative",0,1.0,iva,1
+58.9,female,nasopharynx,t2,n2,"yes, negative",1,1.0,iii,0
+44.5,male,nasopharynx,t1,n2,,1,0.0,iii,0
+72.3,female,hypopharynx,t2,n2a,,0,0.0,iva,1
+45.2,female,larynx,tis,n0,,0,0.0,0,0
+63.6,male,nasopharynx,t1,n0,,0,0.0,i,0
+89.5,male,lip & oral cavity,t3,n0,,0,2.0,iii,1
+83.0,male,larynx,t1a,n0,,0,2.0,i,1
+41.5,male,nasopharynx,t3,n2,,1,0.0,iii,0
+55.4,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+66.2,male,oropharynx,t3,n3,"yes, positive",1,0.0,ivb,1
+62.5,male,esophagus,t3,n0,,1,1.0,iii,1
+67.0,male,oropharynx,t3,n2b,"yes, negative",0,1.0,iva,1
+57.0,male,hypopharynx,t3,n0,,0,0.0,iii,1
+67.8,male,oropharynx,t4a,n2c,"yes, positive",1,1.0,iva,1
+64.8,male,oropharynx,t4a,n2b,"yes, positive",1,1.0,iva,1
+62.2,male,oropharynx,t4a,n2c,"yes, positive",0,1.0,iva,1
+55.1,male,oropharynx,t2,n2c,"yes, negative",0,1.0,iva,0
+59.6,male,larynx,t1a,n0,,0,0.0,i,0
+64.8,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+55.3,female,oropharynx,t4a,n2b,"yes, negative",1,1.0,iva,1
+76.6,male,oropharynx,t3,n2c,"yes, positive",0,2.0,iva,1
+51.4,male,nasopharynx,t1,n1,,1,1.0,ii,0
+62.6,male,larynx,t2,n0,,0,0.0,ii,0
+50.3,male,oropharynx,t2,n0,"yes, negative",0,1.0,ii,0
+61.0,male,oropharynx,t3,n1,"yes, negative",1,3.0,iii,0
+61.9,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+58.5,male,oropharynx,t1,n3,"yes, positive",0,1.0,ivb,1
+62.8,female,oropharynx,t1,n0,"yes, negative",0,0.0,i,0
+58.1,male,oropharynx,t2,n1,"yes, positive",0,1.0,iii,0
+58.1,male,larynx,t1a,n0,,0,1.0,i,0
+83.4,male,larynx,t2,n0,,0,1.0,ii,1
+55.7,male,nasopharynx,t1,n2,,1,0.0,iii,0
+50.3,male,oropharynx,t3,n2b,"yes, positive",1,1.0,iva,0
+69.1,male,larynx,t2,n0,,0,0.0,ii,0
+80.8,female,larynx,t3,n2b,,0,0.0,iva,1
+51.9,male,nasopharynx,t3,n2,,1,0.0,iii,0
+74.7,male,larynx,t3,n0,,0,0.0,iii,1
+48.4,female,nasopharynx,t4,n2,,1,1.0,iva,0
+52.7,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,0
+35.5,female,oropharynx,t3,n2b,"yes, positive",0,0.0,iva,0
+55.9,male,larynx,t1,n0,,0,0.0,i,0
+39.5,male,nasopharynx,t1,n3b,"yes, negative",1,0.0,ivb,0
+66.1,male,oropharynx,t3,n0,"yes, negative",0,0.0,iii,1
+36.9,male,nasopharynx,t4,n2,"yes, positive",0,,iva,0
+62.5,male,larynx,t2,n0,,0,0.0,ii,0
+77.0,male,larynx,t2,n0,"yes, negative",0,3.0,ii,1
+62.9,male,larynx,t1a,n0,,0,0.0,i,0
+79.5,male,oropharynx,t4a,n2c,"yes, positive",0,2.0,iva,1
+69.9,male,lip & oral cavity,t4a,n2c,,0,1.0,iii,1
+50.4,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+53.4,male,oropharynx,t3,n3,"yes, positive",1,0.0,ivb,0
+72.2,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,1
+62.9,male,esophagus,t2,n3,,1,1.0,ivb,1
+49.1,male,larynx,t1b,n0,,0,0.0,i,0
+47.2,male,nasopharynx,t4,n0,"yes, negative",1,1.0,iva,0
+49.0,male,hypopharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+53.6,male,larynx,t3,n0,,0,0.0,iii,0
+74.2,male,larynx,t2,n0,,0,0.0,ii,0
+70.3,male,oropharynx,t2,n2b,"yes, negative",0,1.0,iva,1
+69.8,male,larynx,t2,n0,,0,0.0,ii,0
+53.8,male,larynx,t3,n0,,1,1.0,iii,0
+52.1,male,larynx,t4a,n0,,1,1.0,iva,0
+84.0,male,oropharynx,t4b,n0,"yes, positive",0,0.0,ivb,1
+64.4,male,lip & oral cavity,t2,n0,,0,0.0,ii,0
+54.2,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+45.7,male,larynx,t3,n0,"yes, negative",1,1.0,iii,0
+82.7,male,larynx,t1b,n0,,0,0.0,i,1
+61.6,male,oropharynx,t4a,n1,,0,1.0,iva,1
+71.7,male,larynx,t1a,n0,,0,0.0,i,0
+40.3,male,nasopharynx,t3,n1,,1,0.0,iii,0
+52.9,male,oropharynx,t2,n3,,0,0.0,ivb,0
+46.3,male,nasopharynx,t1,n0,,0,0.0,i,0
+22.2,male,nasopharynx,t4,n3a,"yes, negative",1,0.0,ivb,0
+70.7,male,hypopharynx,t4a,n2c,,0,0.0,iva,1
+70.5,female,oropharynx,t4a,n1,"yes, positive",0,1.0,iva,1
+60.9,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,0
+83.3,male,larynx,t3,n0,,0,2.0,iii,1
+51.9,male,larynx,t3,n2b,,1,0.0,iva,0
+83.3,male,larynx,t2,n0,,0,1.0,ii,1
+59.0,male,oropharynx,t4a,n2c,"yes, positive",0,0.0,iva,1
+62.2,male,oropharynx,t4b,n2b,"yes, negative",0,1.0,ivb,1
+65.9,female,oropharynx,t4a,n2b,"yes, negative",1,1.0,iva,1
+64.3,male,oropharynx,t2,n2b,"yes, positive",0,2.0,iva,1
+76.0,male,oropharynx,t2,n2b,"yes, negative",0,0.0,iva,1
+60.5,male,oropharynx,t4b,n2c,"yes, negative",1,1.0,ivb,1
+84.4,male,lip & oral cavity,t3,n1,,0,1.0,iii,1
+54.2,male,oropharynx,t3,n2b,"yes, positive",1,1.0,iva,0
+75.8,male,oropharynx,t4b,n2b,"yes, negative",0,0.0,ivb,1
+65.9,male,oropharynx,t3,n0,"yes, negative",0,0.0,iii,1
+51.7,male,oropharynx,t3,n2b,,0,0.0,iva,0
+63.7,male,larynx,t4a,n2c,"yes, negative",1,0.0,iva,1
+57.7,male,oropharynx,t3,n0,"yes, negative",0,0.0,iii,0
+60.2,male,oropharynx,t2,n2c,"yes, negative",1,0.0,iva,0
+82.8,female,larynx,t1a,n0,,0,0.0,i,1
+49.3,female,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+62.0,male,oropharynx,t1,n3,"yes, positive",1,0.0,ivb,0
+61.2,male,oropharynx,t4a,n2b,"yes, negative",1,0.0,iva,1
+44.1,male,nasopharynx,t3,n2,,1,1.0,iii,0
+62.9,female,larynx,t3,n0,,0,2.0,iii,1
+56.8,male,larynx,t2,n0,,0,0.0,ii,0
+61.7,male,oropharynx,t4a,n2c,"yes, positive",0,0.0,iva,1
+75.0,male,larynx,t1a,n0,,0,0.0,i,0
+62.0,male,oropharynx,t2,n2b,"yes, positive",0,1.0,iva,1
+56.0,male,oropharynx,t1,n2c,"yes, positive",0,0.0,iva,0
+69.2,male,nasopharynx,t3,n3b,,1,1.0,ivb,1
+67.4,male,larynx,t3,n0,,0,0.0,iii,1
+70.4,male,oropharynx,t2,n0,"yes, negative",0,1.0,ii,1
+44.8,male,nasopharynx,t1,n1,,1,0.0,ii,0
+36.7,female,nasopharynx,t4,n2,,1,0.0,iva,0
+56.2,female,larynx,t1a,n0,,0,1.0,i,0
+78.8,male,oropharynx,t2,n3,"yes, positive",0,0.0,ivb,1
+58.8,male,larynx,t4a,n0,,0,1.0,iva,1
+58.6,female,nasopharynx,t3,n2,,1,0.0,iii,0
+41.4,male,oropharynx,t2,n2c,"yes, positive",0,0.0,iva,0
+62.6,male,larynx,t2,n0,"yes, negative",0,0.0,ii,0
+65.7,male,larynx,t2,n0,"yes, negative",0,2.0,ii,0
+75.5,male,hypopharynx,t3,n1,,0,2.0,iii,1
+74.2,male,larynx,t1b,n0,,0,,i,1
+51.3,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+52.1,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+58.0,male,oropharynx,t4b,n2c,"yes, positive",1,0.0,ivb,0
+67.9,male,oropharynx,t3,n3,"yes, negative",0,1.0,ivb,1
+68.4,male,larynx,t1b,n0,,0,0.0,i,0
+55.5,male,oropharynx,t2,n2c,"yes, positive",0,0.0,iva,0
+69.6,male,oropharynx,t2,n2a,"yes, negative",0,2.0,iva,1
+62.7,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,0
+42.5,male,nasopharynx,t3,n2,,1,0.0,iii,0
+54.5,male,oropharynx,t4a,n2c,"yes, negative",0,1.0,iva,1
+61.4,male,oropharynx,t1,n2b,"yes, negative",1,0.0,iva,0
+68.5,female,oropharynx,t2,n2c,"yes, positive",1,1.0,iva,1
+57.1,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+34.9,male,nasal cavity,t4b,n2b,,1,0.0,ivb,0
+57.2,female,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,1
+62.8,male,larynx,t3,n0,,1,0.0,iii,0
+49.6,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+72.0,male,larynx,t2,n0,,0,0.0,ii,0
+52.4,male,larynx,t1b,n0,,0,0.0,i,0
+62.2,male,larynx,t4b,n2c,,1,2.0,ivb,1
+63.2,male,nasopharynx,t1,n2,,0,0.0,iii,0
+61.0,male,oropharynx,t3,n0,"yes, positive",1,0.0,iii,0
+62.2,male,larynx,t2,n0,,0,0.0,ii,0
+55.0,male,larynx,t3,n0,,1,1.0,iii,0
+61.3,male,oropharynx,t4a,n2b,,0,2.0,iva,1
+76.2,male,larynx,t2,n0,,0,0.0,ii,1
+50.6,male,oropharynx,t2,n2c,"yes, positive",0,0.0,iva,0
+64.8,male,oropharynx,t3,n2c,"yes, positive",0,3.0,iva,1
+70.9,male,oropharynx,t4a,n2c,"yes, positive",0,1.0,iva,1
+57.0,male,oropharynx,t4b,n2c,"yes, positive",0,0.0,ivb,1
+80.9,male,hypopharynx,t3,n2c,,0,2.0,iva,1
+59.9,female,nasopharynx,t1,n1,"yes, negative",0,1.0,ii,0
+53.3,female,oropharynx,t4a,n2c,"yes, positive",1,1.0,iva,1
+48.7,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,0
+69.4,female,nasopharynx,t1,n2,,0,0.0,iii,1
+51.1,female,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+55.3,male,hypopharynx,t3,n2c,"yes, negative",1,1.0,iva,1
+58.5,female,larynx,t1a,n0,,0,0.0,i,0
+60.2,male,oropharynx,t3,n2b,"yes, negative",1,1.0,iva,1
+44.4,male,oropharynx,t4b,n2b,,1,1.0,ivb,0
+44.0,male,nasopharynx,t4,n3a,,1,0.0,ivb,0
+47.9,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,0
+50.8,male,larynx,t2,n0,,0,0.0,ii,0
+81.0,male,oropharynx,t2,n1,"yes, positive",0,0.0,iii,1
+52.8,female,oropharynx,t2,n2a,"yes, positive",0,1.0,iva,0
+65.3,male,oropharynx,t3,n3,"yes, negative",1,0.0,ivb,1
+60.3,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+58.1,female,oropharynx,t2,n2b,"yes, positive",0,1.0,iva,0
+65.5,male,larynx,t3,n0,"yes, positive",0,0.0,iii,1
+43.6,female,nasal cavity,t3,n2b,"yes, negative",1,0.0,iva,0
+65.8,female,oropharynx,t2,n0,"yes, negative",0,2.0,ii,1
+74.2,female,lip & oral cavity,t3,n0,,0,1.0,iii,1
+53.1,female,oropharynx,t1,n2a,"yes, positive",0,0.0,iva,0
+74.0,male,larynx,t3,n0,,0,1.0,iii,1
+57.7,male,oropharynx,t3,n1,"yes, negative",1,0.0,iii,0
+59.9,female,larynx,t3,n1,,1,1.0,iva,1
+56.7,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+51.1,male,oropharynx,t2,n2b,"yes, positive",1,1.0,iva,0
+73.2,male,oropharynx,t3,n0,"yes, negative",0,3.0,iii,1
+73.6,male,hypopharynx,t3,n2c,,0,0.0,iva,1
+63.9,male,oropharynx,t2,n0,"yes, negative",0,1.0,ii,0
+36.2,female,larynx,t2,n0,"yes, negative",0,0.0,ii,0
+62.4,male,nasopharynx,t1,n2,,1,0.0,iii,0
+74.5,male,larynx,t2,n0,,0,0.0,ii,0
+76.4,male,larynx,t1b,n0,,0,0.0,i,1
+47.8,male,hypopharynx,t2,n3,"yes, negative",1,1.0,ivb,0
+42.5,female,nasopharynx,t3,n2,,1,0.0,iii,0
+76.3,male,larynx,t3,n0,,0,0.0,iii,1
+61.9,female,oropharynx,t4a,n0,"yes, positive",1,0.0,iva,1
+64.1,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+45.9,female,nasopharynx,t1,n1,"yes, negative",1,0.0,ii,0
+60.3,male,larynx,t2,n2b,"yes, negative",1,0.0,iva,0
+46.3,male,nasopharynx,t4,n2,"yes, negative",1,1.0,iva,0
+86.1,male,larynx,t1b,n0,,0,0.0,i,1
+78.2,male,larynx,t4a,n2b,,0,1.0,iva,1
+55.8,male,larynx,t3,n0,,1,1.0,iii,0
+54.2,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+46.0,male,larynx,t4a,n0,"yes, negative",0,0.0,iva,0
+80.6,male,larynx,t4a,n2c,,0,3.0,iva,1
+71.0,male,oropharynx,t4a,n2c,"yes, negative",0,1.0,iva,1
+83.3,male,larynx,t4a,n1,,0,0.0,iva,1
+68.4,male,hypopharynx,t3,n2c,"yes, negative",0,1.0,iva,1
+48.4,female,oropharynx,t2,n0,,0,0.0,ii,0
+68.9,male,oropharynx,t2,n2a,"yes, positive",1,0.0,iva,1
+67.3,male,oropharynx,t2,n0,"yes, negative",0,1.0,ii,1
+73.4,male,larynx,t1b,n0,,0,0.0,i,0
+63.2,male,oropharynx,t2,n0,"yes, negative",0,0.0,ii,0
+65.9,male,larynx,t3,n2b,"yes, positive",1,0.0,iva,1
+69.7,male,larynx,t1a,n0,,0,0.0,i,0
+70.4,female,larynx,t3,n2c,,0,0.0,iva,1
+79.7,female,paranasal sinus,t4b,n1,,0,3.0,iva,1
+50.0,male,nasopharynx,t1,n2,,1,0.0,iii,0
+59.1,male,oropharynx,t4a,n2b,"yes, positive",0,0.0,iva,1
+63.9,male,oropharynx,t4a,n2b,"yes, negative",0,2.0,iva,1
+48.1,male,lip & oral cavity,t4b,n2b,,1,0.0,ivb,0
+73.0,female,larynx,t3,n1,,0,1.0,iii,1
+73.1,male,oropharynx,t2,n2a,"yes, positive",0,0.0,iva,1
+42.6,male,nasopharynx,t3,n3b,,1,1.0,ivb,0
+51.6,male,oropharynx,t2,n2b,"yes, positive",1,2.0,iva,0
+55.6,male,nasopharynx,t3,n3b,"yes, negative",1,0.0,ivb,0
+41.1,male,nasopharynx,t3,n1,,1,1.0,iii,0
+36.4,male,nasopharynx,t1,n0,,0,0.0,i,0
+67.6,male,hypopharynx,t3,n1,,0,2.0,iii,1
+45.6,female,oropharynx,t3,n2b,"yes, positive",1,2.0,iva,0
+51.5,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+62.1,female,larynx,t1,n0,,0,1.0,i,0
+73.4,male,oropharynx,t3,n2b,"yes, negative",0,1.0,iva,1
+58.5,male,oropharynx,t4a,n2a,"yes, positive",0,1.0,iva,1
+74.2,male,nasal cavity,t4b,n2c,"yes, positive",0,0.0,ivb,1
+45.7,male,oropharynx,t3,n2b,"yes, positive",1,1.0,iva,0
+50.6,male,nasal cavity,t4,n0,"yes, positive",1,0.0,iv,0
+70.3,male,oropharynx,t4b,n2c,"yes, positive",0,2.0,ivb,1
+64.1,male,larynx,t1b,n0,,0,0.0,i,0
+56.9,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+72.3,male,larynx,t3,n0,,0,0.0,iii,1
+56.8,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+53.5,male,oropharynx,t1,n1,"yes, positive",0,0.0,iii,0
+53.2,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,0
+42.0,male,larynx,t3,n2b,,1,0.0,iva,0
+52.5,male,hypopharynx,t1,n2a,"yes, positive",0,0.0,iva,0
+61.5,male,nasal cavity,t4a,n0,,1,0.0,iva,1
+55.5,male,oropharynx,t4a,n2c,"yes, negative",1,1.0,iva,1
+55.7,male,oropharynx,t2,n2c,,1,1.0,iva,0
+50.4,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+52.3,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,0
+59.9,male,oropharynx,t3,n2b,"yes, negative",1,1.0,iva,1
+63.5,male,larynx,t3,n0,,0,1.0,iii,1
+57.7,female,oropharynx,t3,n2c,"yes, positive",1,1.0,iva,1
+60.5,female,nasal cavity,t1,n0,,0,0.0,i,0
+63.2,male,oropharynx,t3,n2c,"yes, positive",1,1.0,iva,1
+58.1,male,oropharynx,t1,n0,"yes, negative",0,0.0,i,0
+72.5,male,oropharynx,t4a,n1,"yes, negative",0,2.0,iva,1
+54.2,male,oropharynx,t2,n2c,"yes, negative",1,1.0,iva,0
+74.0,male,larynx,t1a,n0,,0,0.0,i,0
+57.5,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+55.1,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+42.3,male,oropharynx,t1,n2b,,1,0.0,iva,0
+50.4,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,0
+48.0,male,nasopharynx,t4,n0,,1,1.0,iva,0
+78.1,male,larynx,t3,n0,,0,0.0,iii,1
+55.6,male,paranasal sinus,t4b,n2b,"yes, positive",1,1.0,ivb,0
+55.2,male,larynx,t2,n0,,0,0.0,ii,0
+52.4,male,oropharynx,t1,n3,"yes, negative",0,0.0,ivb,0
+68.3,male,hypopharynx,t2,n2b,,1,1.0,iva,1
+73.9,male,larynx,t2,n0,,0,0.0,ii,0
+77.0,female,oropharynx,t2,n1,"yes, positive",0,0.0,iii,1
+51.4,male,lip & oral cavity,t4a,n2c,,1,1.0,iva,1
+52.1,male,nasopharynx,t4,n2,,1,1.0,iva,0
+68.0,male,oropharynx,t2,n2b,"yes, positive",0,1.0,iva,1
+70.8,female,oropharynx,t4b,n2b,"yes, negative",0,2.0,ivb,1
+51.4,male,larynx,t1a,n0,,0,0.0,i,0
+71.7,female,oropharynx,t1,n3,"yes, positive",0,0.0,ivb,1
+65.5,male,larynx,t4a,n0,,0,0.0,iva,1
+70.5,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,1
+57.8,male,oropharynx,t1,n2b,"yes, positive",0,0.0,iva,0
+81.2,female,oropharynx,t2,n2b,"yes, negative",0,1.0,iva,1
+65.2,female,oropharynx,t3,n2a,"yes, positive",1,0.0,iva,1
+59.6,male,larynx,t4a,n0,,1,0.0,iva,0
+43.9,male,oropharynx,t4a,n2b,"yes, positive",1,0.0,iva,0
+52.3,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+61.8,female,lip & oral cavity,t2,n0,,0,0.0,ii,0
+72.9,male,larynx,t3,n2b,"yes, negative",0,2.0,iva,1
+65.6,male,larynx,tis,n0,,0,0.0,0,0
+58.4,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,1
+62.4,male,oropharynx,t3,n2b,"yes, positive",1,1.0,iva,1
+73.8,male,larynx,t1a,n0,,0,0.0,i,0
+52.3,male,oropharynx,t1,n2a,"yes, positive",1,0.0,iva,0
+70.4,male,larynx,t2,n1,,0,1.0,iii,1
+55.2,male,nasopharynx,t3,n2,"yes, positive",1,0.0,iii,0
+70.2,male,larynx,t1a,n0,,0,0.0,i,0
+47.2,female,paranasal sinus,t4b,n0,,0,1.0,iva,0
+63.0,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+77.9,male,hypopharynx,t4a,n2b,,0,2.0,iva,1
+38.5,male,larynx,t1b,n0,,0,0.0,i,0
+58.8,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,0
+65.2,male,oropharynx,t1,n1,"yes, positive",0,1.0,iii,1
+50.7,female,hypopharynx,t2,n2b,,1,0.0,iva,0
+61.5,male,oropharynx,t4b,n2c,"yes, positive",1,1.0,ivb,1
+61.6,male,oropharynx,t1,n0,"yes, negative",0,0.0,i,0
+71.2,male,oropharynx,t1,n2b,"yes, negative",0,1.0,iva,1
+63.1,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+69.4,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,1
+57.5,male,oropharynx,t4a,n2b,"yes, positive",1,1.0,iva,1
+65.6,male,oropharynx,t4b,n2c,"yes, negative",1,1.0,ivb,1
+60.9,male,larynx,t1a,n0,,0,0.0,i,0
+61.2,male,hypopharynx,t3,n2c,"yes, negative",1,2.0,iva,1
+62.5,male,nasopharynx,t4,n2,,1,1.0,iva,0
+81.3,male,larynx,t2,n0,,0,1.0,ii,1
+53.4,male,oropharynx,t1,n1,"yes, positive",0,0.0,iii,0
+15.6,male,nasopharynx,t1,n2,,1,0.0,iii,0
+69.3,male,nasopharynx,t3,n2,"yes, negative",1,1.0,iii,1
+76.7,male,hypopharynx,t3,n2c,,0,2.0,iva,1
+32.8,male,larynx,t4a,n2b,"yes, negative",1,0.0,iva,0
+83.0,male,oropharynx,t3,n2c,"yes, positive",0,2.0,iva,1
+79.7,male,oropharynx,t3,n2c,"yes, positive",0,1.0,iva,1
+61.2,female,nasal cavity,t4b,n3,"yes, negative",1,1.0,iva,1
+64.3,male,oropharynx,t1,n2b,"yes, positive",1,1.0,iva,1
+41.6,male,nasopharynx,t3,n2,,1,0.0,iii,0
+71.3,male,oropharynx,t3,n2c,"yes, positive",0,0.0,iva,1
+71.8,male,larynx,t3,n2b,,0,0.0,iva,1
+70.5,male,oropharynx,t2,n2b,"yes, positive",0,1.0,iva,1
+67.9,male,larynx,t1a,n0,,0,1.0,i,0
+57.0,male,larynx,t2,n0,,0,0.0,ii,0
+49.5,female,nasopharynx,t3,n1,,1,1.0,iii,0
+68.5,male,oropharynx,t3,n2b,"yes, positive",0,0.0,iva,1
+83.6,male,oropharynx,t2,n2a,"yes, negative",0,0.0,iva,1
+61.9,male,lip & oral cavity,t2,n1,,1,1.0,iii,0
+61.7,female,oropharynx,t2,n0,"yes, positive",0,1.0,ii,0
+75.3,female,lip & oral cavity,t4a,n0,,0,0.0,iva,1
+56.2,male,oropharynx,t2,n1,"yes, positive",0,0.0,iii,0
+52.8,male,hypopharynx,t4b,n2c,"yes, positive",1,1.0,ivb,1
+35.0,male,nasopharynx,t3,n2,,1,1.0,iii,0
+53.6,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+59.2,male,oropharynx,t3,n2b,"yes, positive",1,1.0,iva,0
+58.6,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,0
+75.7,male,larynx,t1b,n0,,0,0.0,i,1
+56.3,male,larynx,t2,n0,,0,0.0,ii,0
+61.5,male,nasopharynx,t3,n1,,1,0.0,iii,0
+60.1,male,larynx,t4a,n2b,,1,2.0,iva,1
+68.8,male,larynx,t2,n0,,0,0.0,ii,0
+53.8,male,larynx,t1a,n0,"yes, negative",0,0.0,i,0
+60.0,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+86.2,female,lip & oral cavity,t4a,n1,,0,0.0,iva,1
+45.7,female,oropharynx,t2,n2b,"yes, positive",0,1.0,iva,0
+67.1,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,1
+62.8,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+74.2,male,oropharynx,t4a,n0,"yes, negative",0,1.0,iva,1
+45.2,male,oropharynx,t4b,n2c,"yes, negative",1,2.0,ivb,0
+46.2,male,nasopharynx,t2,n2,,1,0.0,iii,0
+71.4,male,larynx,t2,n0,,0,0.0,ii,0
+51.7,female,larynx,t3,n2c,,1,0.0,iva,0
+57.2,male,oropharynx,t3,n3,"yes, positive",1,0.0,ivb,1
+65.1,male,oropharynx,t3,n3,,1,1.0,ivb,1
+72.5,male,larynx,t3,n0,,0,0.0,iii,1
+68.1,male,oropharynx,t4a,n1,"yes, negative",0,0.0,iva,1
+50.7,male,oropharynx,t4b,n2c,"yes, positive",1,1.0,ivb,0
+81.9,male,larynx,t1a,n0,,0,0.0,i,1
+63.9,female,larynx,t1b,n0,,0,0.0,i,0
+71.4,male,larynx,t3,n2b,"yes, negative",1,0.0,iva,1
+50.0,male,oropharynx,t2,n3,"yes, positive",1,0.0,ivb,0
+77.2,male,nasopharynx,t2,n1,,1,1.0,ii,1
+58.0,male,nasopharynx,t4,n0,"yes, negative",1,0.0,iva,0
+52.9,female,oropharynx,t2,n2a,"yes, positive",1,0.0,iva,0
+67.3,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,1
+55.8,male,oropharynx,t1,n3,"yes, negative",1,1.0,ivb,1
+61.2,male,oropharynx,t1,n2c,"yes, positive",1,0.0,iva,0
+82.3,male,larynx,t3,n0,,0,3.0,iii,1
+49.4,female,nasopharynx,t4,n2,,1,1.0,iva,0
+21.6,male,nasopharynx,t3,n1,,1,0.0,iii,0
+62.8,male,oropharynx,t4b,n2b,"yes, positive",1,0.0,ivb,1
+66.3,male,hypopharynx,t4a,n0,"yes, positive",1,1.0,iva,1
+73.0,male,larynx,t1,n0,"yes, negative",0,0.0,i,1
+38.6,male,oropharynx,t2,n0,"yes, negative",0,0.0,ii,0
+85.1,male,larynx,t3,n0,,0,1.0,iii,1
+77.7,male,hypopharynx,t3,n3,,0,1.0,ivb,1
+63.2,male,larynx,t2,n0,,0,0.0,ii,0
+65.7,female,oropharynx,t3,n1,,0,1.0,iii,1
+72.4,male,larynx,t3,n1,,0,0.0,iii,1
+58.5,male,nasopharynx,t3,n2,"yes, negative",1,1.0,iii,0
+78.3,female,oropharynx,t4a,n0,,0,0.0,iva,1
+71.9,male,nasopharynx,t3,n1,"yes, negative",1,0.0,iii,1
+47.2,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+37.9,male,oropharynx,t1,n2b,"yes, positive",0,0.0,iva,0
+21.0,female,nasopharynx,t3,n2,"yes, negative",1,0.0,iii,0
+68.4,male,larynx,t2,n0,,0,0.0,ii,0
+51.6,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+52.5,male,oropharynx,t2,n2c,"yes, positive",0,1.0,iva,0
+58.1,male,hypopharynx,t4b,n3,,1,0.0,ivb,1
+58.0,female,larynx,tis,n0,"yes, positive",0,1.0,0,0
+83.2,male,larynx,t3,n2b,,0,1.0,iva,1
+61.1,female,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+85.4,male,lip & oral cavity,t3,n2b,,0,1.0,iva,1
+57.4,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,0
+62.2,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,0
+66.6,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,1
+56.3,male,nasopharynx,t4,n2,,1,1.0,iva,0
+59.9,male,hypopharynx,t2,n2c,,1,0.0,iva,1
+74.9,male,larynx,t4a,n2c,"yes, negative",0,0.0,iva,1
+81.9,male,oropharynx,t4b,n2c,"yes, positive",0,0.0,ivb,1
+48.9,male,larynx,t1a,n0,,0,1.0,i,0
+61.3,female,nasopharynx,t3,n0,,1,0.0,iii,0
+59.0,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,1
+51.3,male,oropharynx,t2,n2c,"yes, positive",1,0.0,iva,0
+39.8,male,oropharynx,t4b,n2c,"yes, negative",1,1.0,ivb,0
+65.4,female,oropharynx,t3,n0,"yes, negative",1,1.0,iii,1
+60.5,female,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+55.6,male,larynx,t1a,n0,,0,0.0,i,0
+57.9,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,0
+51.6,male,oropharynx,t4b,n3,"yes, negative",1,1.0,ivb,1
+67.5,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,1
+61.9,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,1
+81.1,male,larynx,t2,n0,,0,1.0,ii,1
+70.5,female,oropharynx,t3,n0,"yes, negative",0,1.0,iii,1
+88.5,female,lip & oral cavity,t2,n0,,0,0.0,ii,1
+77.1,female,oropharynx,t2,n1,"yes, positive",0,0.0,iii,1
+42.2,male,esophagus,t3,n1,,1,3.0,iii,0
+48.5,male,larynx,t2,n0,,0,0.0,ii,0
+36.5,male,nasopharynx,t1,n2,,1,0.0,iii,0
+57.7,male,larynx,t1a,n0,,0,0.0,i,0
+78.0,male,oropharynx,t2,n2b,"yes, positive",0,0.0,iva,1
+45.9,male,nasopharynx,t3,n2,,1,0.0,iii,0
+67.7,male,larynx,t3,n0,,0,3.0,iii,1
+44.4,male,nasopharynx,t3,n2,"yes, negative",1,1.0,iii,0
+49.3,female,larynx,t3,n0,,0,1.0,iii,0
+52.6,male,nasopharynx,t3,n1,,1,0.0,iii,0
+84.8,female,oropharynx,t2,n0,"yes, negative",0,2.0,ii,1
+64.0,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+42.3,male,oropharynx,t4b,n2c,"yes, positive",1,0.0,ivb,0
+44.2,female,larynx,t2,n0,"yes, negative",0,1.0,ii,0
+43.5,male,esophagus,t2,n1,,1,0.0,ii,0
+60.5,female,nasopharynx,t4,n2,,1,0.0,iva,1
+39.3,female,nasopharynx,t1,n2,"yes, negative",1,0.0,iii,0
+79.3,female,oropharynx,t2,n2c,"yes, negative",0,1.0,iva,1
+55.0,male,oropharynx,t4a,n2c,"yes, negative",1,0.0,iva,1
+54.8,male,oropharynx,t3,n2c,"yes, positive",1,1.0,iva,0
+46.2,male,nasopharynx,t3,n2,,1,0.0,iva,0
+51.6,male,hypopharynx,t4b,n2c,,1,1.0,ivb,1
+67.3,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+61.1,male,oropharynx,t2,n2c,"yes, positive",1,1.0,iva,0
+60.5,male,oropharynx,t4a,n2c,"yes, positive",1,0.0,iva,1
+81.1,female,hypopharynx,t2,n3,,0,1.0,ivb,1
+65.8,female,oropharynx,t2,n2a,"yes, positive",1,0.0,iva,1
+72.0,male,hypopharynx,t1,n3,,0,0.0,ivb,1
+44.2,male,oropharynx,t2,n2a,"yes, positive",1,0.0,iva,0
+32.1,female,nasopharynx,t3,n2,,1,0.0,iii,0
+54.5,male,oropharynx,t3,n2c,,0,2.0,iva,1
+77.9,male,nasopharynx,t3,n2,"yes, negative",1,1.0,iii,1
+51.1,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+61.9,male,nasopharynx,t3,n0,"yes, negative",0,0.0,iii,0
+40.4,male,larynx,t1a,n0,,0,0.0,i,0
+48.1,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+28.2,female,nasopharynx,t2,n3b,,1,0.0,ivb,0
+62.3,female,nasal cavity,t2,n2b,,1,2.0,iva,1
+60.3,male,oropharynx,t1,n0,"yes, positive",0,1.0,i,0
+75.0,male,larynx,t3,n0,,0,1.0,iii,1
+45.4,male,oropharynx,t1,n2c,"yes, positive",1,0.0,iva,0
+66.3,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+49.0,female,oropharynx,t2,n2c,"yes, positive",1,1.0,iva,0
+77.7,male,larynx,t2,n2b,,0,0.0,iva,1
+42.5,male,esophagus,t3,n1,,1,0.0,iiia,0
+77.8,male,larynx,t1a,n0,,0,0.0,i,0
+85.1,male,larynx,t2,n0,"yes, negative",0,0.0,ii,1
+75.9,female,nasopharynx,t1,n3,,1,0.0,ivb,1
+53.3,male,nasopharynx,t4,n1,,1,0.0,iva,0
+70.0,male,hypopharynx,t3,n2c,"yes, negative",0,1.0,iva,1
+72.9,male,oropharynx,t3,n0,"yes, positive",0,0.0,iii,1
+56.8,female,lip & oral cavity,t4a,n2c,,1,1.0,iva,1
+69.2,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,1
+64.4,female,larynx,t3,n0,,0,1.0,iii,1
+67.5,male,hypopharynx,t4b,n2c,"yes, positive",1,1.0,ivb,1
+65.1,male,lip & oral cavity,t2,n1,,0,0.0,iii,0
+63.7,male,larynx,t1b,n0,,0,0.0,i,0
+76.3,male,larynx,t2,n0,"yes, negative",0,0.0,ii,1
+49.2,female,nasopharynx,t4,n3a,"yes, negative",1,1.0,ivb,0
+79.3,female,larynx,t1a,n0,,0,0.0,i,1
+65.5,male,larynx,t1a,n0,,0,0.0,i,0
+50.5,female,nasal cavity,t4a,n1,,0,1.0,iva,0
+57.4,male,oropharynx,t3,n1,"yes, positive",1,1.0,iii,0
+74.1,male,larynx,t1a,n0,"yes, negative",0,0.0,i,0
+85.3,male,oropharynx,t3,n2c,"yes, positive",0,1.0,iva,1
+45.4,male,larynx,t3,n1,,0,0.0,iii,0
+68.8,male,larynx,t3,n1,,0,0.0,iii,1
+75.5,male,nasal cavity,t2,n1,"yes, positive",0,1.0,iii,1
+62.6,male,larynx,t2,n0,,0,0.0,ii,0
+56.6,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+45.3,male,oropharynx,t2,n3,"yes, positive",1,1.0,iva,0
+62.2,male,oropharynx,t4a,n2b,"yes, negative",1,1.0,iva,1
+73.4,male,larynx,t1a,n0,"yes, negative",0,0.0,i,0
+76.4,male,oropharynx,t3,n2b,"yes, negative",0,1.0,iva,1
+69.7,male,hypopharynx,t3,n2b,,1,0.0,iva,1
+69.3,male,larynx,t1a,n0,,0,0.0,i,0
+54.4,female,oropharynx,t4b,n2c,"yes, positive",1,1.0,ivb,1
+47.9,male,oropharynx,t4b,n2b,"yes, positive",1,1.0,ivb,0
+56.0,male,larynx,t2,n0,,0,0.0,ii,0
+61.8,male,larynx,t1a,n0,,0,0.0,i,0
+46.1,female,nasopharynx,t1,n3b,,1,0.0,ivb,0
+48.8,male,larynx,t1b,n0,,0,0.0,i,0
+69.1,male,nasopharynx,t3,n2,,1,0.0,iii,1
+61.7,male,nasopharynx,t4,n1,,1,0.0,iva,1
+75.5,male,nasopharynx,t1,n3,,0,0.0,ivb,1
+64.7,male,nasopharynx,t4,n2,,1,1.0,iva,1
+60.0,female,oropharynx,t2,n2b,"yes, positive",0,1.0,iva,1
+74.9,male,larynx,tis,n0,,0,0.0,0,1
+51.8,male,hypopharynx,t4a,n2b,,1,0.0,iva,1
+70.8,male,larynx,t4a,n2c,,0,1.0,iva,1
+33.4,female,nasopharynx,t4,n2,,1,0.0,iva,0
+61.2,female,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+59.6,male,oropharynx,t1,n2c,"yes, positive",1,0.0,iva,0
+63.4,male,larynx,t2,n0,,0,1.0,ii,0
+52.8,male,oropharynx,t4b,n2b,"yes, positive",0,2.0,ivb,0
+50.1,male,oropharynx,t2,n1,"yes, positive",0,1.0,iii,0
+54.8,female,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+54.4,male,larynx,t2,n0,,1,1.0,ii,0
+53.2,male,larynx,t1b,n0,,0,0.0,i,0
+43.1,male,oropharynx,t2,n2c,"yes, positive",1,1.0,iva,0
+52.4,female,oropharynx,t4a,n2c,"yes, positive",1,1.0,iva,0
+42.7,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,0
+51.6,male,larynx,t2,n0,,0,0.0,ii,0
+57.1,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,0
+80.8,male,oropharynx,t1,n0,"yes, negative",0,0.0,i,1
+55.4,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+48.4,female,nasopharynx,t1,n3,,1,0.0,ivb,0
+63.9,male,oropharynx,t3,n2c,"yes, positive",1,1.0,iva,1
+87.5,male,esophagus,t3,n1,,0,2.0,iiia,1
+55.0,female,oropharynx,t1,n0,"yes, negative",0,1.0,i,0
+81.1,female,oropharynx,t2,n2b,"yes, positive",0,1.0,iva,1
+56.4,male,oropharynx,t2,n2b,"yes, positive",1,1.0,iva,0
+56.8,male,larynx,t2,n0,,0,0.0,ii,0
+58.1,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+75.2,male,esophagus,t2,n0,,0,1.0,ii,1
+59.3,female,nasopharynx,t4,n2,,1,1.0,iva,0
+56.8,male,larynx,t3,n0,,0,2.0,iii,1
+58.2,female,oropharynx,t4b,n0,"yes, negative",0,3.0,ivb,1
+30.3,female,nasopharynx,t1,n3b,,1,2.0,ivb,0
+58.0,male,oropharynx,t4a,n2c,"yes, positive",1,1.0,iva,1
+53.9,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+69.3,male,oropharynx,t1,n3,"yes, positive",1,0.0,ivb,1
+73.9,female,larynx,t3,n0,,0,0.0,iii,1
+56.6,male,oropharynx,t2,n2b,"yes, positive",0,1.0,iva,0
+63.8,male,larynx,t1a,n0,,0,0.0,i,0
+70.1,male,oropharynx,t1,n2c,"yes, positive",0,0.0,iva,1
+62.0,female,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,1
+73.9,female,nasal cavity,t1,n0,,0,0.0,i,1
+28.6,female,nasopharynx,t1,n2,"yes, negative",1,0.0,iii,0
+52.1,male,larynx,t2,n0,,0,0.0,ii,0
+45.8,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+79.8,male,larynx,t4a,n0,"yes, negative",0,0.0,iva,1
+57.1,male,larynx,t3,n0,,0,1.0,iii,0
+65.4,male,larynx,t3,n0,,1,1.0,iii,1
+44.6,male,nasopharynx,t4,n2,,1,0.0,iva,0
+51.6,male,oropharynx,t4a,n2c,"yes, positive",1,0.0,iva,0
+47.4,male,nasopharynx,t1,n2,,1,0.0,iii,0
+73.9,male,larynx,t1a,n0,,0,0.0,i,0
+64.6,male,oropharynx,t2,n3,"yes, positive",1,0.0,ivb,0
+47.2,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,0
+71.4,male,oropharynx,t4b,n2c,"yes, negative",0,3.0,ivb,1
+82.5,male,larynx,t2,n0,,0,0.0,ii,1
+58.3,female,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+39.6,female,larynx,t1,n2b,,0,0.0,iva,0
+34.6,male,nasopharynx,t3,n2,,1,1.0,iii,0
+49.9,male,nasopharynx,t2,n3b,,1,0.0,ivb,0
+45.2,male,paranasal sinus,t4a,n2b,,1,0.0,iva,0
+57.4,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+54.5,male,larynx,t3,n0,,0,0.0,iii,0
+68.5,male,larynx,t4a,n2c,,0,3.0,iva,1
+67.6,male,larynx,t3,n0,,1,0.0,iii,1
+60.9,male,hypopharynx,t2,n0,"yes, negative",0,0.0,ii,0
+69.3,male,hypopharynx,t2,n2b,,0,2.0,iva,1
+61.2,male,oropharynx,t3,n0,"yes, positive",0,0.0,iii,0
+66.3,male,nasopharynx,t4,n3b,,1,1.0,ivb,1
+72.2,male,larynx,t1b,n0,,0,0.0,i,0
+53.4,male,oropharynx,t2,n2c,"yes, negative",1,0.0,iva,0
+58.7,male,oropharynx,t3 (2),n2c,"yes, positive",1,0.0,iva,0
+43.8,male,larynx,t1a,n0,"yes, negative",0,0.0,i,0
+47.7,male,oropharynx,t4a,n0,"yes, negative",1,0.0,iva,0
+48.5,male,nasopharynx,t3,n2,,1,0.0,iii,0
+64.3,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+56.1,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+56.7,male,paranasal sinus,t4a,n0,,0,1.0,iva,1
+81.8,male,oropharynx,t3,n2b,"yes, positive",0,1.0,iva,1
+67.6,male,oropharynx,t4b,n2c,"yes, positive",0,2.0,iva,1
+58.8,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,0
+86.3,male,larynx,t1b,n0,,0,4.0,i,1
+55.0,male,oropharynx,t2,n2c,"yes, positive",0,0.0,iva,0
+37.9,male,nasopharynx,t1,n1,,1,0.0,ii,0
+52.4,male,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+55.7,male,larynx,t1a,n0,,0,0.0,i,0
+56.0,male,oropharynx,t1,n2b,"yes, positive",1,0.0,iva,0
+53.5,female,hypopharynx,t4a,n2b,"yes, negative",0,0.0,iva,1
+59.1,male,oropharynx,t2,n3,"yes, positive",1,0.0,ivb,0
+65.1,female,larynx,t3,n2b,,1,0.0,iva,1
+57.3,male,larynx,t2,n0,,0,0.0,ii,0
+39.2,male,oropharynx,t4a,n2b,"yes, positive",1,1.0,iva,0
+74.0,female,lip & oral cavity,t4b,n2c,,0,2.0,ivb,1
+77.9,male,larynx,t3,n0,,0,0.0,iii,1
+69.9,male,oropharynx,t2,n2b,"yes, negative",0,2.0,iva,1
+55.5,male,oropharynx,t1,n2c,"yes, positive",1,0.0,iva,0
+54.3,male,oropharynx,t3,n3,"yes, positive",1,0.0,ivb,0
+70.0,male,larynx,t1a,n0,,0,0.0,i,0
+58.0,male,oropharynx,t4a,n1,"yes, positive",1,0.0,iva,0
+67.9,male,larynx,t1a,n0,,0,1.0,i,0
+57.9,male,nasopharynx,t3,n2,"yes, positive",1,1.0,iva,0
+50.7,male,oropharynx,t3,n2a,"yes, positive",1,0.0,iva,0
+49.3,male,oropharynx,t3,n2c,"yes, positive",1,0.0,iva,0
+59.2,male,lip & oral cavity,t3,n2c,,1,1.0,iva,1
+65.9,male,hypopharynx,t2,n2b,,0,1.0,iva,1
+74.9,female,larynx,t2,n0,,0,1.0,ii,1
+59.1,male,hypopharynx,t1,n2b,"yes, positive",1,0.0,iva,1
+70.7,female,larynx,t3,n1,,0,1.0,iii,1
+50.8,male,larynx,t3,n0,,0,2.0,iii,0
+54.8,male,larynx,t2,n0,,0,0.0,ii,0
+80.0,male,hypopharynx,t4a,n2b,,0,2.0,iva,1
+67.3,male,nasal cavity,t4a,n0,,0,2.0,iva,1
+78.2,male,nasopharynx,t4,n2,,0,1.0,iva,1
+62.3,male,larynx,t3,n3,,1,0.0,ivb,1
+76.4,male,oropharynx,t3,n0,"yes, negative",0,1.0,iii,1
+85.6,male,larynx,t3,n0,,0,1.0,iii,1
+75.7,male,larynx,t2,n1,,0,0.0,iii,1
+75.3,male,nasopharynx,t3,n1,,1,1.0,iii,1
+73.4,female,oropharynx,t3,n0,"yes, negative",0,0.0,iii,1
+71.1,male,lip & oral cavity,t2,n0,,0,0.0,ii,0
+63.6,male,nasopharynx,t1,n0,,0,0.0,i,0
+54.3,male,oropharynx,t3,n2b,"yes, positive",1,0.0,iva,0
+62.1,male,hypopharynx,t3,n0,,0,1.0,iii,1
+63.6,female,larynx,t2,n2b,,0,1.0,iva,1
+61.2,male,oropharynx,t1,n3,"yes, positive",1,0.0,ivb,0
+86.7,male,larynx,t4a,n0,,0,1.0,iva,1
+54.7,male,larynx,t1a,n0,,0,0.0,i,0
+76.6,male,nasopharynx,t1,n2,,0,0.0,iii,1
+73.2,male,oropharynx,t2,n0,,0,0.0,ii,1
+55.4,male,nasopharynx,t1,n2,,1,1.0,iii,0
+62.7,female,oropharynx,t4a,n2c,"yes, negative",0,2.0,iva,1
+67.1,female,larynx,t2,n2b,,0,0.0,iva,1
+64.0,male,larynx,t2,n0,,0,2.0,ii,0
+49.5,male,oropharynx,t3,n2b,"yes, positive",1,1.0,iva,0
+71.8,male,larynx,t3,n0,,0,1.0,iii,1
+50.2,female,larynx,t3,n2a,,1,1.0,iva,0
+73.8,female,oropharynx,t4b,n2b,"yes, negative",0,0.0,ivb,1
+53.1,male,oropharynx,t2,n2c,"yes, negative",0,1.0,iva,0
+65.4,male,paranasal sinus,t1,n0,,0,0.0,i,0
+62.9,male,larynx,t1,n0,,0,0.0,i,0
+82.7,male,larynx,t2,n0,,0,0.0,ii,1
+52.5,male,larynx,t4a,n2c,,1,2.0,iva,1
+65.0,female,oropharynx,t2,n1,"yes, negative",0,0.0,iii,1
+55.4,female,oropharynx,t3,n2c,"yes, positive",1,1.0,iva,1
+58.0,male,hypopharynx,t1,n3,,1,0.0,ivb,1
+58.1,female,oropharynx,t3,n1,"yes, positive",1,0.0,iii,0
+53.7,male,oropharynx,t1,n0,"yes, negative",0,0.0,i,0
+69.4,male,hypopharynx,t4a,n0,,0,0.0,iva,1
+80.0,female,nasal cavity,t2,n0,,0,0.0,ii,1
+60.5,male,larynx,t1a,n0,,0,0.0,i,0
+68.3,male,oropharynx,t2,n2b,"yes, positive",0,1.0,iva,1
+53.9,male,larynx,t2,n0,,0,0.0,ii,0
+58.3,male,oropharynx,t2,n0,"yes, positive",0,0.0,ii,0
+52.4,female,oropharynx,t2,n2b,"yes, positive",1,0.0,iva,0
+71.3,male,oropharynx,t2,n0,,0,1.0,ii,1

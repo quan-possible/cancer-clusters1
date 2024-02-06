@@ -30,21 +30,21 @@ def plotting_setup(font_size=12):
     rc('text', usetex=False)
 
 
-def plot_overall_kaplan_meier(t, d, dir=None):
+def plot_overall_kaplan_meier(t, e, dir=None):
     kmf = KaplanMeierFitter()
-    kmf.fit(t, d, label="Overall KM estimate")
+    kmf.fit(t, e, label="Overall KM estimate")
     kmf.plot(ci_show=True)
     if dir is not None:
         plt.savefig(fname=os.path.join(dir, "km_plot.png"), dpi=300, pad_inches=0.2)
     plt.show()
 
 
-def plot_group_kaplan_meier(t, d, c, dir=None, experiment_name=''):
+def plot_group_kaplan_meier(t, e, c, dir=None, experiment_name=''):
     fig = plt.figure()
     labels = np.unique(c)
     for l in labels:
         kmf = KaplanMeierFitter()
-        kmf.fit(t[c == l], d[c == l], label="Cluster " + str(int(l + 1)))
+        kmf.fit(t[c == l], e[c == l], label="Cluster " + str(int(l + 1)))
         kmf.plot(ci_show=True, color=CB_COLOR_CYCLE[int(l)])
     plt.xlabel("Time")
     plt.ylabel("Survival Probability")
@@ -54,7 +54,7 @@ def plot_group_kaplan_meier(t, d, c, dir=None, experiment_name=''):
         plt.show()
 
 
-def plot_bigroup_kaplan_meier(t, d, c, c_, dir=None, postfix=None, legend=False, legend_outside=False):
+def plot_bigroup_kaplan_meier(t, e, c, c_, dir=None, postfix=None, legend=False, legend_outside=False):
     fig = plt.figure()
 
     # Plot true clusters
@@ -62,9 +62,9 @@ def plot_bigroup_kaplan_meier(t, d, c, c_, dir=None, postfix=None, legend=False,
     for l in labels:
         kmf = KaplanMeierFitter()
         if legend:
-            kmf.fit(t[c == l], d[c == l], label="Cluster " + str(int(l + 1)))
+            kmf.fit(t[c == l], e[c == l], label="Cluster " + str(int(l + 1)))
         else:
-            kmf.fit(t[c == l], d[c == l])
+            kmf.fit(t[c == l], e[c == l])
         kmf.plot(ci_show=True, alpha=0.75, color=CB_COLOR_CYCLE[int(l)], linewidth=5)
 
     # Plot assigned clusters
@@ -72,9 +72,9 @@ def plot_bigroup_kaplan_meier(t, d, c, c_, dir=None, postfix=None, legend=False,
     for l in labels:
         kmf = KaplanMeierFitter()
         if legend:
-            kmf.fit(t[c_ == l], d[c_ == l], label="Ass. cluster " + str(int(l + 1)))
+            kmf.fit(t[c_ == l], e[c_ == l], label="Ass. cluster " + str(int(l + 1)))
         else:
-            kmf.fit(t[c_ == l], d[c_ == l])
+            kmf.fit(t[c_ == l], e[c_ == l])
         kmf.plot(ci_show=True, color='black', alpha=0.25, linestyle=LINE_TYPES[int(l)], dashes=DASH_STYLES[int(l)],
                  linewidth=5)
 
@@ -99,10 +99,10 @@ def plot_bigroup_kaplan_meier(t, d, c, c_, dir=None, postfix=None, legend=False,
         plt.show()
 
 
-def plot_dataset(X, t, d, c, font_size=12, seed=42, dir=None, postfix=None):
+def plot_dataset(X, t, e, c, font_size=12, seed=42, dir=None, postfix=None):
     plotting_setup(font_size=font_size)
 
-    plot_group_kaplan_meier(t=t, d=d, c=c, dir=dir)
+    plot_group_kaplan_meier(t=t, e=e, c=c, dir=dir)
 
     if X.shape[0] > 10000:
         inds = np.random.choice(a=np.arange(0, X.shape[0]), size=(10000, ))
@@ -163,7 +163,7 @@ def plot_tsne_by_cluster(X, c, font_size=12, seed=42, dir=None, postfix=None):
         plt.show()
 
 
-def plot_tsne_by_survival(X, t, d, font_size=16, seed=42, dir=None, postfix=None, plot_censored=True):
+def plot_tsne_by_survival(X, t, e, font_size=16, seed=42, dir=None, postfix=None, plot_censored=True):
     np.random.seed(seed)
 
     plotting_setup(font_size=font_size)
@@ -171,19 +171,19 @@ def plot_tsne_by_survival(X, t, d, font_size=16, seed=42, dir=None, postfix=None
     if X.shape[0] > 10000:
         inds = np.random.choice(a=np.arange(0, X.shape[0]), size=(10000,))
         t_ = t[inds]
-        d_ = d[inds]
+        e_ = e[inds]
         X_ = X[inds]
     else:
         t_ = t
-        d_ = d
+        e_ = e
         X_ = X
 
     X_embedded = fastTSNE(n_components=2, n_jobs=8, random_state=seed).fit(X_)
 
     fig = plt.figure()
-    plt.scatter(X_embedded[d_ == 1, 0], X_embedded[d_ == 1, 1], s=1.5, c=np.log(t_[d_ == 1]), cmap='cividis', alpha=0.5)
+    plt.scatter(X_embedded[e_ == 1, 0], X_embedded[e_ == 1, 1], s=1.5, c=np.log(t_[e_ == 1]), cmap='cividis', alpha=0.5)
     if plot_censored:
-        plt.scatter(X_embedded[d_ == 0, 0], X_embedded[d_ == 0, 1], s=1.5, c=np.log(t_[d_ == 0]), cmap='cividis',
+        plt.scatter(X_embedded[e_ == 0, 0], X_embedded[e_ == 0, 1], s=1.5, c=np.log(t_[e_ == 0]), cmap='cividis',
                     alpha=0.5, marker='s')
     clb = plt.colorbar()
     clb.ax.set_title(r'$\log(T)$')

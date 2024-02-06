@@ -1,0 +1,253 @@
+- !!python/tuple
+  - 2
+  - - !!python/tuple
+      - - 0.0024206794218411816
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - !!python/object/apply:numpy.dtype
+            args:
+            - U5
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - 20
+            - 4
+            - 8
+          - !!binary |
+            MwAAADIAAAAtAAAANgAAADQAAAA=
+        - 2.04095495910241
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - !!python/object/apply:numpy.dtype
+            args:
+            - U4
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - 16
+            - 4
+            - 8
+          - !!binary |
+            VAAAAHIAAAB1AAAAZQAAAA==
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - &id001 !!python/object/apply:numpy.dtype
+            args:
+            - i8
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - -1
+            - -1
+            - 0
+          - !!binary |
+            DAAAAAAAAAA=
+      - !!python/object/apply:numpy.core.multiarray.scalar
+        - &id002 !!python/object/apply:numpy.dtype
+          args:
+          - f8
+          - false
+          - true
+          state: !!python/tuple
+          - 3
+          - <
+          - null
+          - null
+          - null
+          - -1
+          - -1
+          - 0
+        - !!binary |
+          XsFNsJTRwj8=
+    - !!python/tuple
+      - - 0.0008334068492000477
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - !!python/object/apply:numpy.dtype
+            args:
+            - U7
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - 28
+            - 4
+            - 8
+          - !!binary |
+            MQAAADAAAAAwAAAALQAAADIAAAAwAAAAMAAAAA==
+        - 1.772977962251724
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - !!python/object/apply:numpy.dtype
+            args:
+            - U4
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - 16
+            - 4
+            - 8
+          - !!binary |
+            VAAAAHIAAAB1AAAAZQAAAA==
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - *id001
+          - !!binary |
+            CAAAAAAAAAA=
+      - !!python/object/apply:numpy.core.multiarray.scalar
+        - *id002
+        - !!binary |
+          hKiTsBfSwj8=
+    - !!python/tuple
+      - - 0.00300493862930259
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - !!python/object/apply:numpy.dtype
+            args:
+            - U5
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - 20
+            - 4
+            - 8
+          - !!binary |
+            MwAAADIAAAAtAAAANgAAADQAAAA=
+        - 2.715891235245514
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - !!python/object/apply:numpy.dtype
+            args:
+            - U4
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - 16
+            - 4
+            - 8
+          - !!binary |
+            VAAAAHIAAAB1AAAAZQAAAA==
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - *id001
+          - !!binary |
+            CwAAAAAAAAA=
+      - !!python/object/apply:numpy.core.multiarray.scalar
+        - *id002
+        - !!binary |
+          8mq+poDfwj8=
+    - !!python/tuple
+      - - 0.001013028482301124
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - !!python/object/apply:numpy.dtype
+            args:
+            - U7
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - 28
+            - 4
+            - 8
+          - !!binary |
+            MgAAADAAAAAwAAAALQAAADQAAAAwAAAAMAAAAA==
+        - 1.4331007088487437
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - !!python/object/apply:numpy.dtype
+            args:
+            - U5
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - 20
+            - 4
+            - 8
+          - !!binary |
+            RgAAAGEAAABsAAAAcwAAAGUAAAA=
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - *id001
+          - !!binary |
+            BwAAAAAAAAA=
+      - !!python/object/apply:numpy.core.multiarray.scalar
+        - *id002
+        - !!binary |
+          b79tnBOIwz8=
+    - !!python/tuple
+      - - 0.003104010943632249
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - !!python/object/apply:numpy.dtype
+            args:
+            - U5
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - 20
+            - 4
+            - 8
+          - !!binary |
+            MwAAADIAAAAtAAAANgAAADQAAAA=
+        - 1.1985607007179477
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - !!python/object/apply:numpy.dtype
+            args:
+            - U4
+            - false
+            - true
+            state: !!python/tuple
+            - 3
+            - <
+            - null
+            - null
+            - null
+            - 16
+            - 4
+            - 8
+          - !!binary |
+            VAAAAHIAAAB1AAAAZQAAAA==
+        - !!python/object/apply:numpy.core.multiarray.scalar
+          - *id001
+          - !!binary |
+            CwAAAAAAAAA=
+      - !!python/object/apply:numpy.core.multiarray.scalar
+        - *id002
+        - !!binary |
+          lx42DFCpwz8=

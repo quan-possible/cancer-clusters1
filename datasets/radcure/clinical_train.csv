@@ -1,0 +1,1801 @@
+Study ID,Age,Sex,Disease Site,T Stage,N Stage,HPV Combined,Chemo? ,ECOG,Stage,survival_time,death,split,target_binary
+303,66.7,Male,Larynx,T3,N0,,0,0.0,III,6.038356164,0,training,0
+304,68.4,Female,Hypopharynx,T2,N2b,,0,1.0,IVA,5.8,0,training,0
+305,49.7,Female,Nasopharynx,T1,N2,,1,1.0,III,7.556164384,0,training,0
+306,88.5,Male,Oropharynx,T2,N2a,,0,2.0,IVA,5.460273973,0,training,0
+307,69.8,Male,Oropharynx,T3,N2b,"Yes, positive",0,0.0,IVA,5.15890411,0,training,0
+308,59.1,Male,Larynx,T2,N0,,0,1.0,II,9.687671233,0,training,0
+309,63.4,Female,Larynx,T3,N2c,,1,2.0,IVA,6.789041096,0,training,0
+311,65.5,Male,Oropharynx,T4a,N0,,0,0.0,IVA,7.657534247,1,training,0
+313,56.6,Male,Oropharynx,T3,N2b,"Yes, positive",0,0.0,IVA,6.02739726,0,training,0
+314,71.3,Male,Larynx,T1a,N0,,0,1.0,I,5.364383562,0,training,0
+316,67.7,Female,Esophagus,T2,N0,,1,1.0,,9.367123288,0,training,0
+317,50.1,Female,Larynx,T1,N0,,0,0.0,I,7.210958904,0,training,0
+319,84.3,Male,Larynx,T1a,N0,,0,2.0,I,4.189041096,1,training,0
+321,58.8,Female,Oropharynx,T2,N3,"Yes, positive",1,0.0,IVB,3.912328767,0,training,0
+322,76.0,Male,Oropharynx,T4a,N1,"Yes, positive",0,1.0,IVA,6.249315068,0,training,0
+324,63.1,Male,Larynx,T1,N2a,,0,0.0,IVA,4.780821918,1,training,0
+326,78.9,Female,Lip & Oral Cavity,T3,N1,"Yes, Negative",0,0.0,III,2.046575342,1,training,0
+329,54.6,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,5.194520548,0,training,0
+332,74.3,Male,Hypopharynx,T4a,N0,,0,0.0,IVA,4.482191781,0,training,0
+333,63.7,Female,Oropharynx,T2,N1,,1,0.0,III,6.312328767,0,training,0
+334,60.8,Male,Oropharynx,T4a,N2c,"Yes, positive",1,1.0,IVA,4.550684932,0,training,0
+335,56.1,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,5.260273973,0,training,0
+337,74.5,Male,Larynx,T2,N0,,0,1.0,II,1.550684932,1,training,1
+338,38.8,Male,Lip & Oral Cavity,T3,N2c,,1,0.0,IVA,0.767123288,1,training,1
+345,49.4,Male,Larynx,T1,N0,"Yes, positive",0,0.0,I,4.871232877,0,training,0
+346,59.0,Male,Oropharynx,T1,N3,"Yes, positive",0,2.0,IVB,1.84109589,1,training,1
+348,78.6,Male,Larynx,T1a,N0,,0,1.0,I,1.542465753,1,training,1
+349,57.9,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,7.77260274,0,training,0
+352,66.7,Male,Oropharynx,T2,N2b,"Yes, Negative",0,0.0,IVA,0.605479452,1,training,1
+355,71.9,Male,Oropharynx,T3,N2b,,0,0.0,IVA,1.156164384,1,training,1
+358,72.8,Male,Larynx,T2,N0,,0,0.0,II,5.117808219,1,training,0
+360,59.1,Male,Oropharynx,T1,N0,"Yes, positive",0,0.0,I,6.134246575,0,training,0
+362,53.0,Male,Oropharynx,T3,N3,"Yes, positive",0,0.0,IVB,9.145205479,0,training,0
+363,79.5,Male,Larynx,T3,N0,,0,0.0,III,6.978082192,0,training,0
+364,81.0,Male,Larynx,T2,N0,,0,1.0,II,9.468493151,1,training,0
+365,58.4,Female,Hypopharynx,T2,N2b,"Yes, Negative",1,1.0,IVA,1.002739726,1,training,1
+366,67.7,Female,Larynx,T2,N0,,0,2.0,II,3.301369863,1,training,0
+367,81.8,Male,Lip & Oral Cavity,T3,N2b,,0,1.0,IVA,4.046575342,1,training,0
+371,51.3,Female,Nasopharynx,T3,N2,,1,0.0,III,7.460273973,0,training,0
+374,55.4,Male,Larynx,T1,N0,,0,0.0,I,3.02739726,1,training,0
+376,52.2,Male,Hypopharynx,T3,N2b,,0,1.0,IVA,1.904109589,1,training,1
+379,52.1,Female,Oropharynx,T3,N1,"Yes, positive",0,0.0,III,7.4,1,training,0
+383,65.4,Female,Oropharynx,T3,N2b,,0,1.0,IVA,1.402739726,1,training,1
+384,61.3,Male,Oropharynx,T1,N2b,"Yes, positive",0,0.0,IVA,10.04931507,0,training,0
+385,57.7,Male,Oropharynx,T2,N2c,"Yes, Negative",1,1.0,IVA,0.84109589,1,training,1
+386,85.0,Male,Lip & Oral Cavity,T4a,N2a,,0,0.0,IVA,1.287671233,1,training,1
+388,59.1,Male,Hypopharynx,T2,N3,,1,2.0,IVB,7.6,1,training,0
+394,55.5,Male,Nasopharynx,T4,N2,,1,1.0,IVA,6.821917808,1,training,0
+395,78.9,Female,Nasopharynx,T3,N2,"Yes, positive",0,1.0,III,7.8,1,training,0
+396,46.3,Female,Oropharynx,T4b,N2b,"Yes, positive",1,0.0,IVB,5.643835616,0,training,0
+402,71.6,Male,Oropharynx,T1,N1,"Yes, Negative",0,0.0,III,5.789041096,0,training,0
+403,60.3,Male,Oropharynx,T2,N2a,"Yes, Negative",1,1.0,IVA,5.983561644,0,training,0
+405,69.9,Male,Larynx,T3,N0,,0,1.0,III,1.263013699,1,training,1
+406,76.3,Male,Larynx,T1a,N0,,0,0.0,I,9.254794521,1,training,0
+407,64.3,Male,Oropharynx,T3,N2c,"Yes, positive",0,0.0,IVA,4.77260274,0,training,0
+408,70.5,Male,Larynx,T2,N0,,0,0.0,II,5.430136986,1,training,0
+411,47.1,Male,Oropharynx,T4b,N2c,"Yes, positive",1,0.0,IVB,2.863013699,1,training,0
+414,66.1,Male,Oropharynx,T1,N2c,"Yes, positive",1,1.0,IVA,1.95890411,1,training,1
+415,75.5,Male,Larynx,T1a,N0,,0,0.0,I,5.635616438,0,training,0
+418,80.1,Female,Larynx,T1a,N0,,0,1.0,I,5.317808219,1,training,0
+422,55.1,Male,Larynx,T3,N0,,1,1.0,IVA,9.191780822,0,training,0
+425,60.4,Male,Oropharynx,T1,N2b,"Yes, positive",0,1.0,IVA,4.298630137,0,training,0
+427,49.1,Male,Oropharynx,T3,N1,,0,0.0,III,0.879452055,1,training,1
+430,61.7,Male,Larynx,Tis,N0,,0,0.0,0,6.216438356,0,training,0
+431,68.3,Male,Larynx,T1b,N0,,0,0.0,I,3.057534247,1,training,0
+432,73.3,Male,Larynx,T1b,N0,"Yes, Negative",0,0.0,I,4.643835616,0,training,0
+435,83.3,Female,Oropharynx,T2,N0,"Yes, positive",0,2.0,II,8.098630137,0,training,0
+436,43.8,Male,Oropharynx,T3,N0,"Yes, positive",0,2.0,III,5.673972603,0,training,0
+437,62.2,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,10.19726027,0,training,0
+442,59.1,Male,Hypopharynx,T2,N2b,,0,0.0,IVA,2.04109589,1,training,0
+445,56.5,Female,nasal cavity,T2,N0,"Yes, positive",1,0.0,II,4.739726027,0,training,0
+446,75.1,Male,Oropharynx,T1,N3,"Yes, positive",0,0.0,IVB,0.731506849,1,training,1
+447,62.9,Male,Larynx,T4a,N2c,,1,1.0,IVA,2.939726027,1,training,0
+448,55.5,Male,Oropharynx,T1,N2b,"Yes, Negative",1,0.0,IVA,6.791780822,0,training,0
+451,62.0,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,7.271232877,0,training,0
+452,48.0,Female,Nasopharynx,T4,N1,,1,0.0,IVA,9.342465753,0,training,0
+454,69.3,Male,Oropharynx,T4a,N2b,"Yes, positive",0,1.0,IVA,1.57260274,1,training,1
+455,62.2,Female,Nasal Cavity,T2,N1,"Yes, Negative",0,1.0,III,2.202739726,0,training,0
+456,56.0,Male,Oropharynx,T4a,N2c,"Yes, positive",1,0.0,IVA,4.408219178,0,training,0
+458,69.3,Male,Lip & Oral Cavity,T4a,N0,,0,1.0,IVA,2.953424658,1,training,0
+460,63.5,Male,Oropharynx,T2,N3,"Yes, Negative",0,0.0,IVB,5.194520548,0,training,0
+461,77.2,Male,Oropharynx,T1,N1,"Yes, positive",0,0.0,III,5.408219178,0,training,0
+462,59.7,Male,Larynx,T3,N2c,,1,1.0,IVA,4.284931507,0,training,0
+463,64.3,Female,Oropharynx,T3,N2b,"Yes, positive",1,1.0,IVA,3.383561644,1,training,0
+467,59.5,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,5.736986301,0,training,0
+469,73.4,Male,Larynx,T2,N0,,0,0.0,II,4.301369863,1,training,0
+471,65.5,Male,Oropharynx,T4b,N2c,"Yes, Negative",1,1.0,IVB,5.909589041,0,training,0
+472,67.7,Male,Larynx,T1b,N0,,0,0.0,I,6.660273973,0,training,0
+475,69.5,Female,Nasopharynx,T2,N1,,1,0.0,II,10.01643836,0,training,0
+476,75.7,Female,Oropharynx,T3,N0,"Yes, positive",0,0.0,III,1.328767123,1,training,1
+479,46.5,Male,Nasopharynx,T2,N1,,1,0.0,II,7.819178082,0,training,0
+480,69.0,Male,Oropharynx,T2,N1,"Yes, positive",0,0.0,III,5.232876712,0,training,0
+482,63.7,Female,nasal cavity,T4a,N0,,1,0.0,IVA,8.101369863,0,training,0
+483,46.1,Female,Nasopharynx,T4,N2,,1,0.0,IVA,7.230136986,0,training,0
+484,78.5,Male,Oropharynx,T3,N2c,"Yes, positive",0,1.0,IVA,2.471232877,1,training,0
+488,58.4,Male,Larynx,T4a,N0,,0,0.0,IVA,0.764383562,1,training,1
+489,65.0,Male,Oropharynx,T1,N2b,"Yes, positive",0,2.0,IVA,0.520547945,1,training,1
+491,61.2,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,4.369863014,1,training,0
+492,58.1,Male,Oropharynx,T1,N3,"Yes, positive",0,2.0,IVB,4.246575342,0,training,0
+495,54.8,Male,Larynx,T3,N0,,0,2.0,III,5.271232877,1,training,0
+499,65.9,Male,Larynx,T1a,N0,,0,0.0,I,4.046575342,1,training,0
+500,64.9,Male,Larynx,T2,N0,"Yes, Negative",0,0.0,II,3.550684932,0,training,0
+503,69.0,Female,Larynx,T3,N2c,,0,0.0,IVA,5.268493151,1,training,0
+504,46.6,Female,nasal cavity,T2,N0,,0,2.0,II,6.682191781,0,training,0
+505,75.7,Male,Oropharynx,T3,N0,"Yes, Negative",0,3.0,III,1.723287671,1,training,1
+512,40.5,Male,Oropharynx,T4a,N3,"Yes, positive",1,1.0,IVB,4.320547945,0,training,0
+515,68.0,Male,Larynx,T1a,N0,,0,0.0,I,3.936986301,0,training,0
+516,56.1,Female,Lip & Oral Cavity,T1,N0,,0,0.0,I,4.619178082,0,training,0
+517,68.2,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,9.44109589,0,training,0
+518,71.1,Male,Oropharynx,T4a,N2c,,0,1.0,IVA,6.575342466,0,training,0
+522,49.8,Male,Oropharynx,T2,N1,"Yes, positive",0,0.0,III,8.676712329,0,training,0
+523,77.1,Male,Larynx,T2,N0,,0,0.0,II,0.720547945,1,training,1
+525,76.4,Male,Hypopharynx,T3,N0,,0,0.0,III,0.745205479,1,training,1
+526,78.2,Male,Larynx,T1b,N0,,0,0.0,I,9.8,1,training,0
+528,57.4,Male,Oropharynx,T3,N0,,0,2.0,III,4.838356164,0,training,0
+529,62.0,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,6.290410959,0,training,0
+530,58.1,Male,Oropharynx,T4a,N3,,1,1.0,IVB,6.479452055,0,training,0
+531,78.8,Female,Hypopharynx,T4a,N2b,"Yes, Negative",0,0.0,IVA,0.531506849,1,training,1
+533,74.5,Male,esophagus,T4,N2,,0,2.0,IIIC,1.284931507,1,training,1
+535,53.3,Female,Oropharynx,T1,N0,"Yes, Negative",0,0.0,I,3.794520548,0,training,0
+537,73.6,Female,Larynx,T1a,N0,,0,1.0,I,3.887671233,1,training,0
+542,80.1,Male,Larynx,T3,N2a,,0,1.0,IVA,4.268493151,1,training,0
+543,82.0,Male,Larynx,T2,N0,,0,2.0,II,2.610958904,0,training,0
+544,61.2,Male,Oropharynx,T4a,N2b,"Yes, positive",1,0.0,IVA,5.295890411,0,training,0
+545,62.6,Male,Oropharynx,T4b,N2c,,1,1.0,IVB,0.419178082,1,training,1
+546,70.4,Male,Oropharynx,T3,N2c,"Yes, positive",0,0.0,IVA,0.235616438,1,training,1
+547,74.4,Male,Larynx,T1a,N0,,0,0.0,I,9.090410959,1,training,0
+550,58.3,Male,Oropharynx,T3,N2b,"Yes, positive",1,1.0,IVA,4.569863014,0,training,0
+551,56.7,Male,Oropharynx,T2,N3,"Yes, positive",1,2.0,IVB,8.860273973,0,training,0
+552,81.5,Female,Oropharynx,T2,N2b,"Yes, Negative",0,1.0,IVA,2.736986301,1,training,0
+554,63.1,Male,Hypopharynx,T2,N2b,,1,0.0,IVA,3.2,1,training,0
+556,69.5,Male,Larynx,T2,N0,,0,0.0,II,2.2,1,training,0
+557,78.0,Male,Nasopharynx,T3,N0,"Yes, Negative",0,2.0,III,1.547945205,1,training,1
+560,65.1,Female,Oropharynx,T2,N1,"Yes, positive",0,0.0,III,5.55890411,0,training,0
+563,69.5,Female,Oropharynx,T3,N0,"Yes, positive",0,0.0,III,0.632876712,1,training,1
+567,49.7,Female,Larynx,T1a,N0,,0,1.0,I,4.561643836,0,training,0
+569,57.7,Male,Larynx,T2,N0,,0,0.0,II,4.501369863,0,training,0
+570,67.6,Male,Larynx,T2,N0,,0,0.0,II,5.326027397,0,training,0
+571,72.6,Male,Larynx,Tis,N0,,0,0.0,0,5.936986301,0,training,0
+572,76.9,Female,Lip & Oral Cavity,Tis,N0,,0,,0,3.073972603,1,training,0
+575,77.6,Male,Hypopharynx,T1,N0,"Yes, Negative",0,0.0,I,2.383561644,0,training,0
+578,34.4,Female,Larynx,Tis,N0,,0,0.0,0,4.235616438,1,training,0
+579,59.2,Male,nasal cavity,T3,N0,,1,,III,5.44109589,0,training,0
+580,53.7,Male,Nasopharynx,T2,N2,,1,0.0,III,9.863013699,0,training,0
+581,68.4,Male,Larynx,T2,N1,,0,1.0,III,8.882191781,0,training,0
+584,65.6,Male,Hypopharynx,T1,N3,,1,,IVB,0.44109589,1,training,1
+587,67.1,Male,Hypopharynx,T3,N0,,0,1.0,III,2.61369863,1,training,0
+590,77.1,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,5.471232877,0,training,0
+591,64.4,Female,Larynx,T2,N0,,0,0.0,II,5.106849315,0,training,0
+592,58.2,Male,Larynx,Tis,N0,,0,0.0,0,3.17260274,1,training,0
+594,59.0,Male,Oropharynx,T3,N2c,"Yes, positive",1,1.0,IVA,5.424657534,0,training,0
+595,71.8,Male,Hypopharynx,T3,N2b,,0,0.0,IVA,6.4,1,training,0
+596,65.8,Female,Oropharynx,T1,N2b,"Yes, Negative",1,0.0,IVA,4.161643836,0,training,0
+597,79.2,Male,Nasopharynx,T3,N3b,,1,1.0,IVB,1.671232877,1,training,1
+600,65.8,Female,Oropharynx,T4a,N0,"Yes, Negative",0,3.0,IVA,1.202739726,1,training,1
+601,46.6,Female,Lip & Oral Cavity,T4b,N0,,0,0.0,IVB,3.852054795,1,training,0
+604,42.9,Female,Nasopharynx,T4,N2,,1,2.0,IVA,9.671232877,0,training,0
+607,60.8,Female,Oropharynx,T1,N2a,"Yes, positive",1,0.0,IVA,2.273972603,1,training,0
+608,69.1,Male,Oropharynx,T1,N2a,"Yes, positive",0,2.0,IVA,1.561643836,1,training,1
+609,78.7,Male,Larynx,T1b,N0,,0,4.0,I,0.547945205,1,training,1
+610,52.4,Female,Nasopharynx,T4,N3a,,1,,IVB,2.246575342,1,training,0
+611,78.7,Male,Oropharynx,T3,N2c,"Yes, positive",0,0.0,IVA,2.893150685,1,training,0
+612,51.6,Male,Hypopharynx,T4a,N2c,"Yes, positive",1,1.0,IVA,6.389041096,0,training,0
+615,58.8,Male,Larynx,T3,N0,,0,0.0,III,3.501369863,1,training,0
+616,63.7,Male,Oropharynx,T2,N2b,"Yes, Negative",1,1.0,IVA,5.150684932,1,training,0
+619,67.5,Female,Larynx,T1a,N0,,0,2.0,I,6.008219178,0,training,0
+622,45.9,Male,Larynx,T2,N0,"Yes, positive",0,0.0,II,6.967123288,0,training,0
+623,63.5,Male,Larynx,T1,N2b,,0,0.0,IVA,0.761643836,1,training,1
+626,49.4,Male,Nasopharynx,T2,N1,,1,1.0,II,7.150684932,0,training,0
+628,80.1,Male,Larynx,T3,N2b,"Yes, Negative",0,1.0,IVA,3.205479452,1,training,0
+629,56.5,Male,Oropharynx,T3,N2b,"Yes, positive",0,1.0,IVA,8.260273973,0,training,0
+631,52.9,Male,Oropharynx,T1,N2a,"Yes, positive",0,0.0,IVA,5.717808219,0,training,0
+632,50.0,Male,Larynx,T2,N0,"Yes, positive",0,0.0,II,5.295890411,0,training,0
+633,72.8,Male,Oropharynx,T4a,N2b,"Yes, positive",1,0.0,IVA,4.679452055,0,training,0
+634,59.1,Male,Oropharynx,T3,N2b,"Yes, positive",1,2.0,IVA,5.136986301,0,training,0
+636,55.5,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,7.402739726,0,training,0
+639,53.2,Female,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,5.350684932,0,training,0
+640,46.0,Male,Oropharynx,T2,N2b,"Yes, positive",1,1.0,IVA,2.380821918,0,training,0
+644,53.2,Male,Oropharynx,T3,N0,"Yes, positive",1,0.0,III,5.449315068,0,training,0
+645,52.2,Male,Larynx,T3,N0,,0,0.0,III,4.065753425,1,training,0
+650,65.8,Male,Larynx,T3,N2c,,0,1.0,IVA,3.180821918,1,training,0
+651,70.0,Male,Larynx,T2,N0,,0,0.0,II,3.504109589,0,training,0
+652,65.0,Male,Oropharynx,T4a,N3,"Yes, Negative",0,2.0,IVB,0.709589041,1,training,1
+653,60.1,Female,Oropharynx,T3,N2c,"Yes, Negative",1,0.0,IVA,6.024657534,0,training,0
+654,72.9,Male,Larynx,Tis,N0,,0,0.0,0,5.057534247,0,training,0
+655,68.1,Male,Hypopharynx,T4a,N0,"Yes, Negative",0,,IVA,0.671232877,1,training,1
+656,58.5,Male,Larynx,T1a,N0,,0,0.0,I,5.484931507,0,training,0
+660,67.5,Male,nasal cavity,T2,N0,,0,1.0,II,7.191780822,0,training,0
+661,69.4,Male,Hypopharynx,T3,N2c,"Yes, Negative",1,1.0,IVA,1.079452055,1,training,1
+662,81.7,Male,Oropharynx,T1,N2b,"Yes, positive",0,0.0,IVA,6.079452055,0,training,0
+663,43.7,Male,Nasopharynx,T2,N2,,1,0.0,III,9.252054795,0,training,0
+666,60.6,Male,Larynx,T2,N2c,,0,0.0,IVA,6.457534247,1,training,0
+667,40.6,Male,Larynx,T1a,N0,,0,0.0,I,5.794520548,0,training,0
+669,49.6,Male,Nasopharynx,T2,N2,,1,0.0,III,9.871232877,0,training,0
+670,59.7,Male,Oropharynx,T1,N2b,"Yes, positive",0,1.0,IVA,4.339726027,1,training,0
+671,64.4,Male,Larynx,T3,N2a,,0,1.0,IVA,0.561643836,1,training,1
+674,50.0,Male,Oropharynx,T3,N3,"Yes, positive",0,1.0,IVB,0.44109589,1,training,1
+676,52.5,Female,Oropharynx,T4b,N2b,,1,0.0,IVB,0.728767123,1,training,1
+678,77.2,Male,Larynx,T2,N2a,,0,1.0,IVA,6.367123288,1,training,0
+679,55.6,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,5.038356164,0,training,0
+683,77.8,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,10.49041096,1,training,0
+684,74.3,Female,Larynx,T1b,N0,,0,0.0,I,8.339726027,1,training,0
+687,66.0,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,5.202739726,0,training,0
+694,66.3,Male,Lip & Oral Cavity,T4a,N2b,,1,0.0,IVA,1.046575342,1,training,1
+696,90.0,Male,Larynx,T1a,N0,,0,0.0,I,0.504109589,1,training,1
+698,46.8,Female,nasal cavity,T4a,N0,,1,0.0,IVA,7.876712329,0,training,0
+699,56.8,Male,Oropharynx,T2,N2c,"Yes, positive",0,0.0,IVA,5.087671233,0,training,0
+700,50.5,Female,Lip & Oral Cavity,T1,N0,,0,0.0,I,6.347945205,0,training,0
+701,71.1,Male,Larynx,T1a,N0,,0,0.0,I,5.249315068,0,training,0
+702,76.3,Male,Oropharynx,T1,N0,"Yes, Negative",0,0.0,I,1.306849315,1,training,1
+703,48.9,Male,Larynx,T1a,N0,"Yes, Negative",0,0.0,I,7.589041096,0,training,0
+704,54.4,Male,Oropharynx,T3,N2b,"Yes, positive",0,2.0,IVA,2.498630137,1,training,0
+705,77.5,Male,Larynx,T3,N2c,,0,1.0,IVA,2.95890411,1,training,0
+711,80.7,Female,Oropharynx,T4a,N1,"Yes, Negative",0,2.0,IVA,0.619178082,1,training,1
+712,58.1,Male,Oropharynx,T3,N3,"Yes, positive",1,0.0,IVB,0.339726027,1,training,1
+716,58.3,Female,Larynx,T4a,N2c,,0,1.0,IVA,0.432876712,1,training,1
+720,73.8,Male,Larynx,T4a,N1,,0,2.0,IVA,2.175342466,1,training,0
+721,85.5,Male,Lip & Oral Cavity,T2,N0,,0,0.0,II,6.0,0,training,0
+722,75.5,Male,Larynx,T1a,N0,,0,0.0,I,2.419178082,0,training,0
+724,81.9,Male,Larynx,Tis,N0,,0,1.0,0,1.405479452,1,training,1
+725,68.0,Male,Lip & Oral Cavity,T2,N0,,0,0.0,II,8.276712329,1,training,0
+728,61.3,Male,Paranasal Sinus,T3,N0,,1,1.0,III,10.00547945,0,training,0
+730,65.1,Male,Larynx,T1a,N0,,0,0.0,I,10.00273973,0,training,0
+731,64.2,Male,Larynx,T3,N0,,1,0.0,III,5.043835616,0,training,0
+732,77.2,Male,Oropharynx,T4a,N3,,0,0.0,IVB,1.123287671,1,training,1
+735,63.1,Female,nasal cavity,T1,N0,,0,0.0,I,6.287671233,0,training,0
+736,69.9,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,7.194520548,0,training,0
+737,50.4,Male,Oropharynx,T1,N2b,"Yes, positive",0,0.0,IVA,8.476712329,0,training,0
+738,79.5,Male,Larynx,Tis,N0,,0,0.0,0,1.723287671,1,training,1
+742,84.9,Male,Larynx,T2,N0,"Yes, Negative",0,0.0,II,5.37260274,0,training,0
+745,52.7,Male,Hypopharynx,T3,N1,"Yes, Negative",1,1.0,III,2.468493151,1,training,0
+746,70.3,Male,Hypopharynx,T2,N1,,0,0.0,III,6.394520548,1,training,0
+747,53.3,Male,Lip & Oral Cavity,Tis,N0,,0,0.0,0,7.38630137,0,training,0
+748,84.5,Male,Larynx,T2,N0,,0,0.0,II,0.780821918,1,training,1
+749,74.8,Male,Larynx,T1a,N0,,0,0.0,I,3.282191781,1,training,0
+752,67.1,Male,Oropharynx,T4b,N1,"Yes, Negative",0,0.0,IVB,2.673972603,1,training,0
+753,61.8,Female,Larynx,T2,N0,,0,1.0,II,2.342465753,1,training,0
+755,56.2,Male,Nasopharynx,T3,N3a,,1,0.0,IVB,10.72876712,1,training,0
+760,62.1,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,3.6,1,training,0
+761,64.4,Male,Oropharynx,T2,N1,"Yes, positive",0,0.0,III,9.150684932,0,training,0
+762,83.9,Female,Larynx,T2,N0,,0,0.0,II,3.901369863,1,training,0
+767,72.5,Male,Oropharynx,T1,N0,"Yes, positive",0,0.0,I,5.060273973,0,training,0
+773,43.5,Male,Nasopharynx,T1,N2,,0,0.0,III,7.490410959,0,training,0
+775,70.8,Female,Oropharynx,T1,N1,"Yes, Negative",0,0.0,III,10.29315068,0,training,0
+778,68.5,Female,Oropharynx,T2,N2b,"Yes, positive",1,1.0,IVA,6.484931507,0,training,0
+781,72.1,Female,Larynx,T3,N0,,0,1.0,III,2.939726027,1,training,0
+785,56.6,Male,Oropharynx,T2,N2b,,0,0.0,IVA,6.254794521,0,training,0
+791,66.5,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,4.375342466,0,training,0
+794,78.1,Male,Oropharynx,T3,N1,"Yes, Negative",0,3.0,III,1.967123288,1,training,1
+797,56.7,Male,Hypopharynx,T3,N2b,,0,,IVA,1.753424658,1,training,1
+801,72.7,Male,Hypopharynx,T4a,N2b,,0,2.0,IVA,7.920547945,1,training,0
+802,33.0,Male,Oropharynx,T4a,N0,"Yes, Negative",1,1.0,IVA,1.249315068,1,training,1
+803,75.9,Male,Oropharynx,T4b,N2b,"Yes, Negative",0,2.0,IVB,0.331506849,1,training,1
+806,56.4,Male,Oropharynx,T1,N0,"Yes, positive",0,0.0,I,10.18356164,0,training,0
+808,56.6,Female,Nasopharynx,T4,N1,,1,0.0,IVA,4.369863014,1,training,0
+813,54.9,Male,Nasopharynx,T1,N1,"Yes, positive",1,0.0,II,6.268493151,0,training,0
+815,76.0,Male,Hypopharynx,T2,N2c,,0,0.0,IVA,6.575342466,1,training,0
+816,81.0,Male,Larynx,T1a,N0,,0,0.0,I,2.378082192,0,training,0
+817,81.0,Male,Oropharynx,T2,N0,"Yes, Negative",0,1.0,II,5.257534247,1,training,0
+819,47.4,Male,Oropharynx,T3,N1,"Yes, positive",1,0.0,III,6.057534247,0,training,0
+821,63.3,Male,Larynx,T2,N0,"Yes, Negative",0,0.0,II,4.739726027,0,training,0
+823,80.0,Female,Larynx,T3,N0,,0,2.0,III,2.295890411,1,training,0
+825,65.2,Male,Larynx,T2,N0,"Yes, Negative",0,0.0,II,2.323287671,1,training,0
+826,68.6,Female,Larynx,T2,N0,,0,1.0,II,5.512328767,1,training,0
+828,66.1,Male,Oropharynx,T3,N2c,,0,1.0,IVA,1.898630137,1,training,1
+829,66.0,Female,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,8.849315068,0,training,0
+830,63.1,Male,Oropharynx,T2,N2b,,1,0.0,IVA,5.043835616,0,training,0
+831,48.9,Male,Lip & Oral Cavity,T4a,N2c,,1,2.0,IVA,0.797260274,1,training,1
+834,59.6,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,3.142465753,1,training,0
+841,64.7,Male,Oropharynx,T2,N2c,"Yes, positive",1,1.0,IVA,5.726027397,0,training,0
+846,71.0,Male,Oropharynx,T3,N0,,0,0.0,III,9.109589041,0,training,0
+849,48.8,Female,Oropharynx,T1,N1,"Yes, positive",0,0.0,III,7.789041096,0,training,0
+853,44.3,Male,Oropharynx,T2,N2b,,1,0.0,IVA,5.860273973,0,training,0
+859,75.9,Male,Lip & Oral Cavity,T3,N0,,0,0.0,III,5.312328767,0,training,0
+860,61.3,Male,Oropharynx,T3,N1,"Yes, positive",0,0.0,III,3.624657534,1,training,0
+864,50.6,Male,Hypopharynx,T2,N0,,0,,II,6.594520548,1,training,0
+865,54.0,Female,Larynx,Tis,N0,"Yes, positive",0,0.0,0,3.753424658,0,training,0
+867,68.6,Male,Larynx,T2,N0,,0,0.0,II,8.205479452,0,training,0
+872,83.3,Female,Larynx,T2,N1,,0,0.0,III,9.320547945,1,training,0
+873,43.6,Male,Larynx,T3,N1,,1,1.0,III,4.980821918,0,training,0
+874,63.1,Male,Larynx,T4a,N0,,0,2.0,III,5.197260274,0,training,0
+878,47.7,Male,Larynx,T2,N0,,0,1.0,II,6.008219178,0,training,0
+885,56.6,Male,Nasopharynx,T4,N3a,,1,0.0,IVB,6.038356164,0,training,0
+886,61.6,Male,Hypopharynx,T4a,N2c,,0,1.0,IVA,5.654794521,0,training,0
+891,75.2,Male,Larynx,T4a,N0,,0,2.0,IVA,1.0,1,training,1
+892,42.3,Female,Nasopharynx,T1,N1,,1,0.0,II,7.61369863,0,training,0
+895,55.0,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,4.356164384,0,training,0
+896,57.7,Male,Oropharynx,T1,N2b,"Yes, positive",1,1.0,IVA,5.561643836,0,training,0
+897,44.0,Male,Larynx,T2,N0,,0,0.0,II,9.183561644,0,training,0
+900,49.2,Female,Oropharynx,T2,N2c,"Yes, Negative",0,2.0,IVA,0.320547945,1,training,1
+903,56.7,Female,Oropharynx,T3,N1,,0,1.0,III,8.052054795,0,training,0
+906,57.8,Male,Larynx,T2,N0,"Yes, Negative",0,2.0,II,3.271232877,1,training,0
+907,35.7,Female,Larynx,T1b,N0,,0,1.0,I,5.257534247,0,training,0
+910,79.5,Male,Oropharynx,T2,N2b,"Yes, positive",0,2.0,IVA,1.084931507,1,training,1
+912,66.2,Male,Larynx,T2,N0,,0,0.0,II,9.328767123,0,training,0
+913,53.3,Male,Oropharynx,T4a,N2c,"Yes, positive",1,0.0,IVA,5.002739726,0,training,0
+914,72.5,Female,Oropharynx,T2,N1,,0,2.0,III,0.673972603,1,training,1
+918,75.9,Male,nasal cavity,T2,N0,"Yes, Negative",0,0.0,II,3.97260274,1,training,0
+922,65.1,Male,Oropharynx,T1,N2a,"Yes, positive",0,1.0,IVA,6.219178082,0,training,0
+923,67.9,Male,Larynx,T1a,N0,,0,0.0,I,4.178082192,1,training,0
+926,61.7,Female,Larynx,T1a,N0,,0,0.0,I,6.62739726,0,training,0
+931,88.0,Male,Larynx,T2,N0,,0,0.0,II,5.523287671,0,training,0
+933,52.2,Male,Oropharynx,T2,N2c,"Yes, positive",1,1.0,IVA,8.054794521,0,training,0
+934,68.8,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,7.983561644,0,training,0
+935,61.4,Female,Nasopharynx,T2,N2,,1,0.0,III,3.416438356,0,training,0
+937,69.9,Male,Larynx,T2,N0,"Yes, Negative",0,1.0,II,4.967123288,0,training,0
+939,43.7,Female,Larynx,T3,N2b,,1,0.0,IVA,3.156164384,1,training,0
+942,65.5,Male,Oropharynx,T4a,N1,,0,0.0,IVA,4.731506849,1,training,0
+945,63.9,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,6.394520548,0,training,0
+947,67.9,Male,Larynx,T2,N2a,,1,0.0,IVA,2.734246575,0,training,0
+948,72.0,Male,Larynx,T2,N0,,0,0.0,II,2.010958904,1,training,0
+951,68.0,Male,Oropharynx,T2,N2a,"Yes, Negative",1,0.0,IVA,6.975342466,0,training,0
+952,53.7,Male,Larynx,T1a,N0,"Yes, positive",0,1.0,I,7.230136986,0,training,0
+953,63.6,Male,Larynx,T1a,N0,,0,0.0,I,10.15342466,0,training,0
+956,89.6,Male,Larynx,T1b,N0,,0,0.0,I,5.287671233,0,training,0
+957,80.5,Female,Oropharynx,T2,N0,"Yes, Negative",0,1.0,II,0.715068493,1,training,1
+959,72.5,Male,Oropharynx,T3,N2c,,0,1.0,IVA,5.238356164,1,training,0
+962,66.8,Male,Hypopharynx,T1,N0,,0,0.0,I,4.58630137,0,training,0
+963,72.6,Male,Hypopharynx,T4a,N2b,,0,1.0,IVA,0.654794521,1,training,1
+964,70.6,Male,Larynx,T3,N0,,0,1.0,III,5.2,0,training,0
+968,56.3,Male,Oropharynx,T3,N2b,,1,1.0,IVA,2.882191781,1,training,0
+974,71.0,Male,Oropharynx,T1,N2b,"Yes, positive",1,1.0,IVA,5.731506849,1,training,0
+975,52.9,Male,Nasopharynx,T1,N2,,1,0.0,III,10.20547945,0,training,0
+976,83.3,Male,Larynx,T3,N0,,0,0.0,III,4.38630137,0,training,0
+977,50.9,Female,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,5.673972603,0,training,0
+978,64.9,Male,Oropharynx,T2,N2c,"Yes, Negative",1,1.0,IVA,0.843835616,1,training,1
+980,62.5,Male,Oropharynx,T4a,N2b,"Yes, Negative",0,3.0,IVA,0.802739726,1,training,1
+981,58.2,Male,Hypopharynx,T4a,N2b,,0,3.0,IVA,0.942465753,1,training,1
+982,55.7,Male,Oropharynx,T2,N2b,,1,0.0,IVA,12.90958904,0,training,0
+984,83.6,Male,Oropharynx,T1,N2c,"Yes, Negative",0,1.0,IVA,3.342465753,0,training,0
+987,68.4,Male,Larynx,T1b,N0,,0,0.0,I,6.101369863,0,training,0
+988,64.6,Male,Oropharynx,T2 (2),N0,"Yes, positive",0,0.0,II,6.057534247,0,training,0
+989,51.3,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,6.306849315,0,training,0
+990,84.0,Male,Larynx,T2,N0,,0,0.0,II,6.534246575,1,training,0
+992,58.9,Male,Oropharynx,T3,N0,"Yes, Negative",0,0.0,III,7.734246575,0,training,0
+994,67.3,Male,Larynx,T1a,N0,,0,0.0,I,2.728767123,0,training,0
+995,69.2,Male,Oropharynx,T3,N2b,"Yes, positive",0,0.0,IVA,9.298630137,1,training,0
+996,81.2,Male,Oropharynx,T3,N2b,"Yes, positive",0,0.0,IVA,6.528767123,0,training,0
+997,50.6,Male,Larynx,T2,N0,,0,0.0,II,8.810958904,0,training,0
+999,79.1,Male,Larynx,T1a,N0,,0,0.0,I,4.487671233,1,training,0
+1000,73.1,Female,Hypopharynx,T1,N0,,0,,I,0.383561644,1,training,1
+1001,65.2,Female,Larynx,T3,N1,"Yes, Negative",1,1.0,III,3.326027397,0,training,0
+1003,77.9,Male,Larynx,Tis,N0,,0,0.0,0,4.860273973,1,training,0
+1004,55.7,Male,Nasopharynx,T2,N2,,1,0.0,III,8.101369863,0,training,0
+1005,54.9,Male,Oropharynx,T1,N2b,"Yes, positive",0,0.0,IVA,0.591780822,1,training,1
+1007,90.0,Male,Larynx,T1a,N0,,0,0.0,I,5.6,0,training,0
+1008,52.9,Male,Oropharynx,T3,N0,"Yes, Negative",0,2.0,III,1.235616438,1,training,1
+1009,57.1,Male,Larynx,T3,N2c,,0,2.0,IVA,1.271232877,1,training,1
+1012,65.2,Male,Oropharynx,T1,N1,"Yes, Negative",0,0.0,III,6.347945205,0,training,0
+1018,58.2,Male,Oropharynx,T3,N2c,"Yes, Negative",1,0.0,IVA,1.854794521,1,training,1
+1024,71.6,Male,Larynx,T3,N2b,"Yes, Negative",0,0.0,IVA,1.391780822,1,training,1
+1026,73.2,Male,Oropharynx,T3,N1,"Yes, Negative",0,0.0,III,3.756164384,1,training,0
+1030,59.4,Male,Larynx,T1a,N0,,0,0.0,I,5.610958904,0,training,0
+1032,64.0,Male,Larynx,T3,N0,,0,0.0,III,7.364383562,0,training,0
+1037,49.4,Female,Oropharynx,T1,N2b,,0,0.0,IVA,10.43287671,0,training,0
+1039,77.4,Male,Larynx,T3,N0,,0,0.0,III,6.153424658,0,training,0
+1045,81.7,Male,Oropharynx,T4b,N2b,"Yes, Negative",0,2.0,IVB,1.049315068,1,training,1
+1047,61.2,Male,Oropharynx,T2,N0,"Yes, positive",0,1.0,II,2.208219178,1,training,0
+1048,73.2,Male,Oropharynx,T2,N2b,"Yes, positive",0,1.0,IVA,6.663013699,1,training,0
+1049,80.3,Female,Lip & Oral Cavity,T4a,N2c,,0,,IVA,0.61369863,1,training,1
+1053,72.1,Male,Nasopharynx,T4,N0,,1,1.0,IVA,7.339726027,0,training,0
+1055,70.2,Male,Larynx,Tis,N0,,0,0.0,0,6.279452055,0,training,0
+1056,32.9,Male,Nasopharynx,T1,N3b,"Yes, Negative",1,0.0,IVB,8.901369863,0,training,0
+1057,67.2,Male,Oropharynx,T3,N2c,"Yes, positive",0,1.0,IVA,4.334246575,0,training,0
+1063,64.3,Male,Larynx,T2,N0,,0,0.0,II,2.438356164,0,training,0
+1064,67.2,Male,Larynx,T1a,N0,,0,0.0,I,4.030136986,0,training,0
+1067,16.1,Male,Nasopharynx,T4,N2,,1,0.0,IVA,6.638356164,0,training,0
+1071,58.4,Male,Paranasal Sinus,T4b,N0,,1,0.0,IVB,6.728767123,0,training,0
+1074,77.1,Male,Lip & Oral Cavity,T3,N0,,0,0.0,III,4.832876712,0,training,0
+1079,74.7,Male,Larynx,T3,N0,,0,,III,4.791780822,1,training,0
+1087,79.3,Female,esophagus,T3,N0,,0,2.0,III,6.876712329,0,training,0
+1088,60.4,Male,Oropharynx,T2,N2a,,1,0.0,IVA,10.66575342,0,training,0
+1089,75.9,Male,Oropharynx,T1,N2b,"Yes, positive",0,0.0,IVA,5.4,0,training,0
+1092,61.7,Male,Larynx,T1b,N0,,0,1.0,I,2.035616438,1,training,0
+1095,56.6,Male,Larynx,T3,N2c,,0,1.0,IVA,1.389041096,1,training,1
+1118,73.9,Male,Oropharynx,T4a,N2c,"Yes, Negative",0,1.0,IVA,1.909589041,1,training,1
+1123,56.6,Female,Nasopharynx,T1,N1,,1,0.0,II,3.41369863,0,training,0
+1127,65.6,Male,Oropharynx,T1,N3,,1,0.0,IVB,0.77260274,1,training,1
+1167,58.9,Female,Larynx,T3,N0,,1,0.0,III,7.945205479,0,training,0
+1171,63.9,Male,Larynx,T2,N2b,,1,0.0,IVA,5.942465753,0,training,0
+1179,77.5,Female,Oropharynx,T2,N1,"Yes, positive",0,1.0,III,1.57260274,1,training,1
+1184,75.1,Male,Hypopharynx,T3,N2b,,0,2.0,IVA,0.42739726,1,training,1
+1189,69.7,Male,Larynx,T3,N0,,0,1.0,III,2.493150685,0,training,0
+1191,88.1,Male,Nasopharynx,T3,N0,,0,0.0,III,2.802739726,1,training,0
+1197,62.3,Male,Oropharynx,T3,N2c,"Yes, positive",0,1.0,IVA,1.246575342,1,training,1
+1200,53.7,Male,Larynx,T3,N2b,,0,0.0,IVA,8.123287671,1,training,0
+1217,62.5,Male,Nasopharynx,T1,N1,,1,0.0,II,9.323287671,0,training,0
+1220,76.0,Male,Oropharynx,T2,N2b,"Yes, Negative",0,2.0,IVA,0.917808219,1,training,1
+1229,68.0,Female,Hypopharynx,T2,N1,,0,0.0,III,1.632876712,1,training,1
+1235,46.9,Male,Oropharynx,T1,N2a,"Yes, positive",0,0.0,IVA,5.783561644,0,training,0
+1236,49.8,Female,Larynx,T2,N0,,0,1.0,II,6.043835616,0,training,0
+1241,55.1,Male,Oropharynx,T3,N0,,0,1.0,III,4.967123288,0,training,0
+1242,52.5,Male,Oropharynx,T1,N2b,"Yes, positive",0,0.0,IVA,7.353424658,0,training,0
+1243,67.0,Male,Hypopharynx,T3,N2c,,1,1.0,IVA,0.504109589,1,training,1
+1246,49.7,Female,Oropharynx,T1,N1,"Yes, positive",0,0.0,III,9.065753425,0,training,0
+1248,48.1,Male,Larynx,T1,N0,,0,1.0,I,5.104109589,0,training,0
+1250,54.6,Male,Nasopharynx,T4,N0,,1,0.0,IVA,6.153424658,1,training,0
+1251,72.6,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,10.37260274,1,training,0
+1252,50.7,Male,Larynx,T1a,N0,,0,0.0,I,5.024657534,0,training,0
+1253,60.6,Male,Larynx,T2,N0,,0,1.0,II,3.621917808,1,training,0
+1254,40.9,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,2.150684932,0,training,0
+1261,47.3,Female,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,2.920547945,0,training,0
+1262,66.3,Male,Oropharynx,T3,N0,"Yes, Negative",0,0.0,III,5.863013699,0,training,0
+1263,39.7,Male,Oropharynx,T2,N2a,,1,1.0,IVA,9.802739726,0,training,0
+1265,61.9,Male,Larynx,T2,N0,,0,0.0,II,8.010958904,0,training,0
+1267,53.8,Male,Oropharynx,T1,N2b,,1,0.0,IVA,5.4,0,training,0
+1268,66.0,Male,Larynx,T1b,N0,,0,0.0,I,6.980821918,0,training,0
+1269,70.5,Male,Larynx,T4a,N0,,0,0.0,IVA,2.536986301,1,training,0
+1270,64.0,Male,Larynx,T1a,N0,,0,0.0,I,6.643835616,1,training,0
+1272,50.8,Male,Oropharynx,T2,N2c,,1,0.0,IVA,7.282191781,0,training,0
+1273,33.1,Female,Oropharynx,T3,N0,,0,0.0,III,10.40273973,1,training,0
+1276,61.7,Male,Lip & Oral Cavity,T1,N0,,0,0.0,I,9.690410959,1,training,0
+1277,66.9,Male,Oropharynx,T2,N2b,"Yes, Negative",0,0.0,IVA,2.17260274,1,training,0
+1278,54.1,Female,Oropharynx,T3,N2b,"Yes, Negative",1,1.0,IVA,6.789041096,0,training,0
+1282,71.5,Male,Larynx,T1b,N0,,0,1.0,I,8.928767123,1,training,0
+1285,43.8,Male,Nasopharynx,T3,N0,,1,0.0,III,12.75342466,0,training,0
+1286,71.6,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,9.380821918,1,training,0
+1290,64.0,Female,Oropharynx,T2,N2c,"Yes, positive",0,0.0,IVA,10.34794521,1,training,0
+1291,55.4,Male,Larynx,T3,N0,,0,0.0,III,8.865753425,0,training,0
+1295,58.8,Male,Larynx,T1a,N0,,0,0.0,I,4.583561644,0,training,0
+1296,72.8,Male,Larynx,T2,N0,,0,0.0,II,10.75616438,0,training,0
+1301,61.0,Female,Larynx,T1a,N0,,0,0.0,I,6.345205479,0,training,0
+1302,64.2,Male,Oropharynx,T2,N2c,"Yes, Negative",1,0.0,IVA,10.35616438,0,training,0
+1305,47.8,Male,Lip & Oral Cavity,T1,N0,,0,0.0,I,5.104109589,0,training,0
+1310,78.7,Male,Hypopharynx,T3,N2b,,0,,IVA,0.610958904,1,training,1
+1314,82.3,Male,Larynx,T1a,N0,,0,1.0,I,3.219178082,1,training,0
+1315,63.3,Male,Oropharynx,T3,N2c,"Yes, positive",0,0.0,IVA,1.567123288,1,training,1
+1316,35.0,Male,Nasopharynx,T2,N1,,1,0.0,II,12.52876712,0,training,0
+1319,71.9,Female,Larynx,T3,N0,,0,0.0,III,6.134246575,1,training,0
+1320,74.4,Male,Larynx,T1b,N0,,0,1.0,I,1.460273973,1,training,1
+1323,57.7,Male,Oropharynx,T3,N2c,,1,1.0,IVA,1.517808219,1,training,1
+1324,67.3,Male,Larynx,T4a,N0,,0,2.0,IVA,4.383561644,1,training,0
+1326,64.0,Female,Nasopharynx,T3,N0,,1,0.0,III,7.183561644,1,training,0
+1327,41.2,Male,Nasopharynx,T1,N1,,0,0.0,II,10.53972603,0,training,0
+1329,57.4,Male,Oropharynx,T2,N2a,,0,0.0,IVA,7.857534247,1,training,0
+1330,63.8,Female,Larynx,T2,N0,,0,0.0,II,5.178082192,0,training,0
+1332,64.6,Female,Nasopharynx,T2,N1,,1,0.0,II,8.449315068,0,training,0
+1333,68.4,Male,Oropharynx,T1,N3,"Yes, positive",1,2.0,IVB,3.726027397,1,training,0
+1334,59.6,Male,Oropharynx,T4a,N2b,"Yes, positive",1,1.0,IVA,8.345205479,0,training,0
+1336,21.7,Male,Nasopharynx,T4,N3b,,1,0.0,IVB,2.090410959,1,training,0
+1337,65.8,Male,Larynx,T1a,N0,,0,0.0,I,8.117808219,0,training,0
+1338,49.5,Female,Paranasal Sinus,T4a,N2b,,0,0.0,IVA,2.939726027,0,training,0
+1339,65.9,Male,Hypopharynx,T3,N2b,,0,3.0,IVA,1.410958904,1,training,1
+1340,45.6,Male,Oropharynx,T2,N1,,0,0.0,III,3.175342466,1,training,0
+1343,47.5,Male,Oropharynx,T2,N1,,0,0.0,III,5.054794521,0,training,0
+1346,54.4,Male,Nasopharynx,T2,N3a,,1,1.0,IVB,1.775342466,1,training,1
+1349,82.1,Male,Larynx,T3,N0,,0,1.0,III,3.430136986,1,training,0
+1353,52.9,Female,Oropharynx,T4b,N1,"Yes, positive",0,2.0,IVB,0.545205479,1,training,1
+1355,61.1,Male,Oropharynx,T3,N1,"Yes, Negative",0,1.0,III,5.076712329,0,training,0
+1358,65.3,Male,Larynx,T2,N2c,,0,0.0,IVA,4.054794521,1,training,0
+1360,89.2,Female,Oropharynx,T3,N1,"Yes, Negative",0,0.0,III,0.602739726,1,training,1
+1361,65.1,Male,Hypopharynx,T1,N2b,,1,0.0,IVA,3.879452055,0,training,0
+1362,64.3,Male,Oropharynx,T2,N0,"Yes, Negative",0,0.0,II,9.953424658,0,training,0
+1363,58.3,Female,Larynx,T2,N0,,0,0.0,II,5.679452055,1,training,0
+1365,80.5,Male,Oropharynx,T2,N2b,"Yes, Negative",0,0.0,IVA,4.931506849,0,training,0
+1368,60.2,Male,Larynx,T1a,N0,,0,,I,6.293150685,0,training,0
+1370,50.5,Male,Larynx,T2,N3,,1,0.0,IVB,6.189041096,1,training,0
+1372,77.3,Male,Larynx,T3,N0,,0,0.0,III,1.153424658,1,training,1
+1373,45.9,Male,Larynx,T1a,N0,,0,0.0,I,5.005479452,0,training,0
+1374,35.2,Male,Larynx,T1b,N0,,0,0.0,I,5.136986301,0,training,0
+1375,81.4,Male,Larynx,T2,N0,,0,0.0,II,10.49315068,0,training,0
+1376,59.8,Male,Oropharynx,T4a,N2a,"Yes, positive",0,2.0,IVA,0.301369863,1,training,1
+1377,61.1,Male,Larynx,T2,N0,,0,0.0,II,10.26575342,0,training,0
+1383,71.6,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,6.821917808,0,training,0
+1384,54.7,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,7.520547945,0,training,0
+1385,75.9,Male,Paranasal Sinus,T4b,N0,,1,0.0,IVB,0.865753425,1,training,1
+1387,80.9,Male,Oropharynx,T4b,N2b,"Yes, positive",1,1.0,IVB,10.29863014,1,training,0
+1392,76.5,Male,Hypopharynx,T1,N3,,1,1.0,IVB,8.539726027,0,training,0
+1394,68.6,Male,Larynx,T3,N0,,0,3.0,III,6.695890411,1,training,0
+1395,61.5,Male,Larynx,T2,N0,,0,0.0,II,4.290410959,0,training,0
+1397,90.0,Male,Larynx,T3,N2c,,0,2.0,IVA,1.531506849,1,training,1
+1398,64.2,Male,Lip & Oral Cavity,T4a,N0,,0,2.0,IVA,0.271232877,1,training,1
+1400,77.4,Male,Larynx,T1a,N0,,0,0.0,I,8.805479452,1,training,0
+1406,76.0,Male,Larynx,T3,N0,,0,2.0,III,4.471232877,1,training,0
+1407,74.6,Female,Larynx,T3,N0,,0,1.0,III,5.687671233,1,training,0
+1408,75.2,Male,Hypopharynx,T3,N2b,,1,1.0,IVA,4.739726027,1,training,0
+1409,55.0,Female,Oropharynx,T2,N2a,"Yes, positive",1,0.0,IVA,5.361643836,0,training,0
+1410,60.7,Male,Oropharynx,T2,N2a,"Yes, positive",1,0.0,IVA,5.602739726,0,training,0
+1411,42.6,Female,Nasopharynx,T4,N1,,1,0.0,IVA,11.81643836,0,training,0
+1414,58.5,Female,Larynx,T3,N0,,0,0.0,III,2.030136986,1,training,0
+1416,77.4,Male,Larynx,T3,N0,,0,1.0,III,8.084931507,0,training,0
+1418,59.2,Male,Larynx,T3,N2b,,1,0.0,IVA,5.249315068,0,training,0
+1419,59.6,Male,Larynx,T3,N0,,0,0.0,III,1.210958904,1,training,1
+1423,44.7,Male,Oropharynx,T1,N2b,,1,0.0,IVA,2.531506849,0,training,0
+1424,73.4,Female,Larynx,T3,N0,,0,1.0,III,1.684931507,1,training,1
+1426,71.9,Male,Larynx,T2,N0,,0,0.0,II,8.328767123,1,training,0
+1427,69.2,Male,Larynx,T1a,N0,,0,0.0,I,4.997260274,0,training,0
+1429,43.8,Male,Nasopharynx,T4,N0,,1,0.0,IVA,10.09041096,0,training,0
+1436,55.6,Male,Oropharynx,T4a,N2c,"Yes, positive",1,0.0,IVA,2.882191781,1,training,0
+1438,71.1,Male,Larynx,T1a,N0,,0,0.0,I,7.309589041,0,training,0
+1439,74.8,Female,Nasopharynx,T4,N1,,0,0.0,IVA,2.416438356,1,training,0
+1441,79.0,Female,Lip & Oral Cavity,T4a,N2b,,0,0.0,IVA,0.747945205,1,training,1
+1445,69.3,Male,Larynx,T4a,N0,,0,0.0,IVA,10.03561644,0,training,0
+1450,66.3,Female,Nasopharynx,T3,N2,,1,0.0,III,8.093150685,1,training,0
+1455,59.3,Male,Larynx,T4a,N2b,,1,0.0,IVA,2.293150685,1,training,0
+1458,43.1,Male,Lip & Oral Cavity,T1,N0,,0,0.0,I,10.57260274,0,training,0
+1459,66.8,Male,Oropharynx,T3,N2b,,0,0.0,IVA,6.643835616,1,training,0
+1460,61.4,Male,Nasopharynx,T4,N3b,,1,0.0,IVB,8.778082192,0,training,0
+1461,81.5,Male,Larynx,T1a,N0,,0,1.0,I,2.071232877,1,training,0
+1462,70.6,Male,Oropharynx,T3,N0,"Yes, positive",0,0.0,III,8.802739726,0,training,0
+1465,75.9,Female,Oropharynx,T3,N2c,"Yes, Negative",0,2.0,IVA,1.054794521,1,training,1
+1466,60.3,Male,Larynx,T3,N0,,0,0.0,III,1.673972603,1,training,1
+1467,53.6,Male,Oropharynx,T1,N2b,"Yes, positive",0,2.0,IVA,7.871232877,0,training,0
+1470,59.9,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,6.312328767,0,training,0
+1471,39.9,Male,Nasopharynx,T1,N2,,1,0.0,III,5.701369863,0,training,0
+1473,74.1,Male,Nasopharynx,T1,N1,,0,0.0,II,8.164383562,1,training,0
+1476,44.4,Male,Larynx,T2,N2c,,1,0.0,IVA,3.175342466,0,training,0
+1477,64.4,Female,Nasopharynx,T3,N2,,1,0.0,III,10.53150685,0,training,0
+1478,69.5,Male,Larynx,T1b,N0,,0,0.0,I,4.01369863,0,training,0
+1479,53.1,Female,Oropharynx,T4a,N2c,"Yes, Negative",0,2.0,IVA,0.556164384,1,training,1
+1480,63.8,Female,Oropharynx,T2,N0,,0,2.0,II,3.509589041,0,training,0
+1482,65.0,Female,Oropharynx,T4a,N2c,"Yes, Negative",0,3.0,IVA,0.854794521,1,training,1
+1484,64.9,Male,Larynx,T1b,N0,,0,1.0,I,6.301369863,1,training,0
+1485,78.1,Male,Larynx,T2,N0,,0,2.0,II,6.2,1,training,0
+1487,82.7,Male,esophagus,T2,N1,,0,0.0,III,2.101369863,1,training,0
+1489,64.4,Male,Oropharynx,T3,N2c,"Yes, positive",0,1.0,IVA,5.128767123,0,training,0
+1493,49.4,Female,Oropharynx,T1,N1,"Yes, positive",0,0.0,III,6.194520548,0,training,0
+1495,81.7,Male,Hypopharynx,T3,N0,,0,1.0,III,2.77260274,1,training,0
+1498,58.7,Male,Oropharynx,T2,N2b,,1,0.0,IVA,5.076712329,0,training,0
+1499,72.1,Male,Larynx,T2,N0,,0,0.0,II,4.953424658,0,training,0
+1507,75.2,Male,Larynx,T1b,N0,,0,2.0,I,7.983561644,1,training,0
+1508,67.5,Male,Larynx,T1a,N0,,0,0.0,I,6.78630137,0,training,0
+1509,71.6,Female,Oropharynx,T2,N0,"Yes, Negative",0,1.0,II,9.219178082,0,training,0
+1510,67.3,Female,Nasopharynx,T4,N2,,1,0.0,IVA,12.09863014,0,training,0
+1513,61.7,Male,Larynx,T1a,N0,,0,0.0,I,8.323287671,1,training,0
+1516,61.7,Female,Oropharynx,T4a,N2c,"Yes, positive",0,2.0,IVA,0.769863014,1,training,1
+1520,62.8,Female,Nasopharynx,T4,N2,,1,0.0,IVA,11.36986301,0,training,0
+1522,62.3,Male,Larynx,T2,N0,,0,0.0,II,8.161643836,0,training,0
+1523,73.9,Male,Larynx,T3,N0,"Yes, Negative",0,0.0,III,1.947945205,1,training,1
+1524,60.4,Female,Nasopharynx,T1,N2,,1,0.0,III,5.569863014,1,training,0
+1525,76.4,Male,Larynx,T3,N0,,0,0.0,III,1.098630137,1,training,1
+1527,69.5,Male,Lip & Oral Cavity,T2,N2b,,0,0.0,IVA,8.654794521,1,training,0
+1528,57.4,Male,Oropharynx,T2,N2a,"Yes, positive",0,0.0,IVA,5.536986301,0,training,0
+1533,58.1,Male,Hypopharynx,T2,N3,,1,0.0,IVB,2.136986301,1,training,0
+1534,71.8,Male,Nasopharynx,T1,N0,,0,0.0,I,5.389041096,0,training,0
+1535,60.9,Male,Hypopharynx,T4a,N2b,,1,2.0,IVA,6.076712329,0,training,0
+1538,55.5,Male,Hypopharynx,T3,N2b,,0,1.0,IVA,0.306849315,1,training,1
+1540,77.7,Male,Larynx,T2,N0,,0,1.0,II,1.21369863,1,training,1
+1541,62.4,Male,Nasopharynx,T2,N0,,1,0.0,II,6.04109589,0,training,0
+1544,54.3,Female,Lip & Oral Cavity,T2,N0,,0,0.0,II,7.243835616,1,training,0
+1545,59.9,Male,Oropharynx,T4a,N0,"Yes, Negative",1,1.0,IVA,9.975342466,0,training,0
+1547,71.6,Male,Oropharynx,T3,N2b,"Yes, positive",0,2.0,IVA,2.326027397,1,training,0
+1550,71.5,Male,Lip & Oral Cavity,T2,N0,,0,1.0,II,3.947945205,1,training,0
+1552,61.7,Female,Larynx,T2,N0,,0,0.0,II,3.569863014,1,training,0
+1556,68.4,Female,Hypopharynx,T4a,N3,,0,2.0,IVB,0.547945205,1,training,1
+1558,57.7,Male,Larynx,T1b,N0,,0,0.0,I,5.230136986,0,training,0
+1561,68.7,Female,Larynx,T3,N2c,,1,0.0,IVA,3.378082192,1,training,0
+1563,76.0,Male,Hypopharynx,T1,N0,,0,0.0,I,5.304109589,0,training,0
+1565,69.2,Female,Oropharynx,T2,N0,"Yes, Negative",0,1.0,II,2.180821918,1,training,0
+1566,73.8,Female,Larynx,T2,N0,,0,0.0,II,8.936986301,1,training,0
+1567,68.3,Male,Paranasal Sinus,T4,N0,,0,0.0,IVA,7.164383562,1,training,0
+1568,55.8,Male,Oropharynx,T1,N1,,0,0.0,III,3.528767123,0,training,0
+1570,74.1,Male,Larynx,Tis,N0,,0,0.0,0,3.983561644,0,training,0
+1571,50.6,Male,Nasopharynx,T4,N2,,1,0.0,IVA,10.31780822,0,training,0
+1573,59.1,Male,esophagus,T3,N0,,1,0.0,IIA,8.84109589,0,training,0
+1575,73.8,Male,Oropharynx,T3,N2b,"Yes, Negative",0,0.0,IVA,2.049315068,1,training,0
+1576,69.9,Male,Oropharynx,T1,N0,"Yes, positive",0,0.0,I,3.569863014,0,training,0
+1581,75.4,Male,Larynx,T1a,N0,,0,0.0,I,5.287671233,0,training,0
+1582,59.2,Male,Larynx,T1b,N0,,0,0.0,I,5.761643836,0,training,0
+1585,66.2,Female,Oropharynx,T4a,N0,"Yes, Negative",1,1.0,IVA,10.30410959,0,training,0
+1587,75.0,Male,Larynx,T3,N0,,0,1.0,III,3.61369863,1,training,0
+1588,43.0,Male,Nasopharynx,T1,N2,,1,0.0,III,5.293150685,0,training,0
+1589,59.6,Male,Larynx,T1b,N0,,0,0.0,I,10.90958904,0,training,0
+1591,82.4,Male,Oropharynx,T3,N2c,"Yes, positive",0,1.0,IVA,5.578082192,0,training,0
+1594,60.8,Female,Oropharynx,T2,N2c,,1,0.0,IVA,5.553424658,0,training,0
+1595,60.5,Male,Oropharynx,T1,N3,"Yes, Negative",1,0.0,IVB,10.43835616,0,training,0
+1599,69.0,Female,Larynx,T2,N0,,0,0.0,II,3.030136986,0,training,0
+1600,61.5,Male,Larynx,T2,N0,,0,0.0,II,5.482191781,0,training,0
+1602,69.1,Female,Oropharynx,T3,N2a,,0,0.0,IVA,1.402739726,1,training,1
+1604,55.7,Female,Oropharynx,T3,N0,"Yes, positive",0,0.0,III,7.61369863,0,training,0
+1605,45.1,Male,Oropharynx,T3,N3,"Yes, positive",1,0.0,IVB,6.0,1,training,0
+1606,59.0,Male,Oropharynx,T2,N2c,"Yes, Negative",1,1.0,IVA,2.295890411,1,training,0
+1607,48.6,Female,Nasopharynx,T1,N1,,1,0.0,II,11.35890411,0,training,0
+1608,79.8,Male,Oropharynx,T3,N2c,"Yes, Negative",0,2.0,IVA,2.920547945,1,training,0
+1610,67.0,Male,Larynx,T3,N2b,,1,1.0,IVA,0.575342466,1,training,1
+1612,60.4,Male,Hypopharynx,T3,N3,,0,1.0,IVB,1.123287671,1,training,1
+1613,29.7,Male,Nasopharynx,T1,N1,,1,0.0,II,12.23287671,0,training,0
+1616,62.4,Male,Larynx,T1b,N0,,0,0.0,I,5.517808219,0,training,0
+1617,76.9,Male,Larynx,T1b,N0,,0,1.0,I,7.989041096,1,training,0
+1618,58.6,Female,Nasopharynx,T1,N2,,1,0.0,III,9.764383562,0,training,0
+1619,74.2,Male,Hypopharynx,T4b,N2c,,1,1.0,IVB,5.238356164,1,training,0
+1620,56.9,Male,Larynx,T4a,N3,,1,1.0,IVB,2.191780822,1,training,0
+1621,58.9,Male,Oropharynx,T4a,N2c,"Yes, Negative",1,0.0,IVA,0.539726027,1,training,1
+1622,47.6,Male,Oropharynx,T3,N0,"Yes, positive",0,0.0,III,7.342465753,0,training,0
+1623,76.5,Female,Hypopharynx,T2,N0,,0,0.0,II,9.208219178,0,training,0
+1625,67.8,Male,Oropharynx,T4a,N2c,"Yes, positive",0,3.0,IVA,1.78630137,1,training,1
+1628,65.3,Male,Oropharynx,T3,N2b,,0,0.0,IVA,0.490410959,1,training,1
+1629,66.6,Male,Larynx,T3,N0,,0,0.0,III,6.673972603,1,training,0
+1631,62.3,Male,Larynx,T3,N0,,0,1.0,III,9.449315068,0,training,0
+1633,61.9,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,8.024657534,0,training,0
+1634,51.8,Male,Oropharynx,T1,N2a,,1,0.0,IVA,3.112328767,0,training,0
+1635,62.9,Male,Larynx,T1a,N0,,0,1.0,I,3.424657534,1,training,0
+1639,47.8,Male,Oropharynx,T3,N2b,"Yes, Negative",1,0.0,IVA,5.02739726,0,training,0
+1640,65.5,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,8.849315068,0,training,0
+1643,65.1,Male,Oropharynx,T4b,N0,"Yes, positive",0,0.0,IVB,0.638356164,1,training,1
+1645,53.0,Male,Larynx,T2,N0,,0,0.0,II,9.224657534,0,training,0
+1648,73.6,Male,Hypopharynx,T4a,N1,,1,0.0,IVA,6.983561644,1,training,0
+1650,48.4,Male,Oropharynx,T4a,N0,,1,1.0,IVA,9.665753425,0,training,0
+1652,62.6,Male,Nasopharynx,T3,N2,,1,1.0,III,10.01643836,0,training,0
+1654,76.2,Male,Larynx,T1b,N0,,0,1.0,I,4.394520548,0,training,0
+1656,60.6,Male,Lip & Oral Cavity,T2,N2a,,1,1.0,IVA,5.82739726,1,training,0
+1658,66.6,Male,Lip & Oral Cavity,T4,N0,,0,0.0,IVA,1.021917808,1,training,1
+1659,62.1,Female,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,2.791780822,1,training,0
+1661,73.0,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,6.052054795,1,training,0
+1664,61.4,Male,Larynx,T2,N0,,0,1.0,II,7.542465753,0,training,0
+1665,74.1,Male,Oropharynx,T3,N0,"Yes, positive",0,1.0,III,1.4,1,training,1
+1667,61.1,Male,Larynx,T4a,N2c,,1,0.0,IVA,4.024657534,1,training,0
+1669,56.9,Male,Larynx,T2,N2c,,0,0.0,IVA,11.28767123,0,training,0
+1670,56.3,Male,Oropharynx,T2,N2c,"Yes, positive",0,0.0,IVA,2.202739726,1,training,0
+1671,50.7,Male,Nasopharynx,T4,N2,,1,0.0,IVA,11.65479452,0,training,0
+1672,42.6,Male,Oropharynx,T4a,N2c,,1,0.0,IVA,8.454794521,1,training,0
+1673,64.0,Male,Larynx,T1b,N0,,0,0.0,I,8.263013699,1,training,0
+1676,58.1,Male,Larynx,T4a,N0,,0,0.0,IVA,2.293150685,1,training,0
+1679,55.4,Male,Oropharynx,T3,N2c,,1,0.0,IVA,6.369863014,0,training,0
+1681,46.3,Male,Larynx,T2,N0,,0,0.0,II,3.619178082,1,training,0
+1686,58.6,Male,Oropharynx,T2,N2b,"Yes, Negative",0,1.0,IVA,6.197260274,0,training,0
+1688,76.8,Male,Hypopharynx,T3,N1,,0,1.0,III,1.334246575,1,training,1
+1693,59.8,Male,Oropharynx,T3,N2c,"Yes, Negative",1,0.0,IVA,0.578082192,1,training,1
+1697,82.1,Male,Oropharynx,T3,N0,"Yes, Negative",0,1.0,III,3.175342466,1,training,0
+1698,61.3,Male,Nasopharynx,T1,N2,,0,0.0,III,11.12328767,0,training,0
+1700,64.9,Male,Larynx,T1a,N0,,0,1.0,I,3.452054795,0,training,0
+1701,55.1,Male,Oropharynx,T3,N0,"Yes, Negative",0,,III,6.265753425,1,training,0
+1704,78.3,Male,Oropharynx,T3,N1,"Yes, positive",0,2.0,III,3.78630137,1,training,0
+1707,61.8,Male,Larynx,T2,N0,,0,0.0,II,3.194520548,1,training,0
+1709,67.0,Male,Oropharynx,T2,N2b,"Yes, Negative",0,0.0,IVA,1.273972603,1,training,1
+1714,60.3,Male,Nasopharynx,T1,N1,,1,0.0,II,11.04383562,0,training,0
+1715,51.4,Male,Larynx,T2,N0,,0,0.0,II,7.071232877,0,training,0
+1716,74.9,Male,Oropharynx,T4a,N0,"Yes, positive",0,0.0,IVA,5.978082192,0,training,0
+1718,71.9,Male,nasal cavity,T1,N0,,0,0.0,I,5.367123288,0,training,0
+1719,48.7,Female,Nasopharynx,T4,N2,,1,0.0,IVA,11.24383562,0,training,0
+1720,83.3,Male,Larynx,T1b,N0,,0,1.0,I,11.32328767,0,training,0
+1721,87.9,Male,Larynx,T3,N0,,0,1.0,III,2.005479452,1,training,0
+1723,60.1,Female,Nasopharynx,T3,N2,,1,0.0,III,6.15890411,0,training,0
+1724,64.2,Male,Larynx,T2,N0,,0,1.0,II,8.926027397,1,training,0
+1726,81.9,Male,Larynx,T4a,N1,,0,2.0,IVA,4.454794521,1,training,0
+1728,79.8,Male,Larynx,T2,N2c,,0,0.0,IVA,0.682191781,1,training,1
+1729,40.8,Female,nasal cavity,T3,N0,,1,0.0,III,5.101369863,0,training,0
+1730,54.2,Male,Oropharynx,T2,N2c,,1,0.0,IVA,2.287671233,1,training,0
+1733,48.4,Male,Larynx,T1a,N0,,0,0.0,I,5.523287671,0,training,0
+1734,83.1,Female,Oropharynx,T3,N2b,,0,0.0,IVA,5.065753425,0,training,0
+1735,52.5,Male,Oropharynx,T1,N0,,0,0.0,I,5.142465753,0,training,0
+1736,55.7,Male,Oropharynx,T3,N0,,0,1.0,III,3.22739726,1,training,0
+1737,63.8,Female,Oropharynx,T2,N0,"Yes, Negative",0,0.0,II,10.1260274,0,training,0
+1738,37.0,Male,Nasopharynx,T2,N2,,1,0.0,III,6.871232877,0,training,0
+1739,55.4,Male,Larynx,T1a,N0,,0,0.0,I,4.926027397,0,training,0
+1740,70.4,Female,Lip & Oral Cavity,T4a,N0,,0,0.0,IVA,2.279452055,1,training,0
+1746,78.0,Male,Lip & Oral Cavity,T1,N0,"Yes, Negative",0,1.0,I,3.783561644,0,training,0
+1747,60.2,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,4.857534247,1,training,0
+1749,75.8,Male,Larynx,T3,N0,,0,1.0,III,7.808219178,0,training,0
+1753,66.5,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,1.753424658,1,training,1
+1757,67.5,Male,Larynx,T3,N0,,0,0.0,III,5.287671233,0,training,0
+1761,49.6,Male,Oropharynx,T3,N2b,"Yes, positive",0,0.0,IVA,5.309589041,0,training,0
+1762,55.4,Male,Oropharynx,T3,N2b,,0,3.0,IVA,3.260273973,1,training,0
+1764,63.9,Male,nasal cavity,T1,N0,,0,0.0,I,1.756164384,1,training,1
+1765,62.9,Male,Larynx,T1a,N0,,0,0.0,I,8.797260274,0,training,0
+1766,56.4,Male,Oropharynx,T4a,N2b,"Yes, positive",1,0.0,IVA,5.04109589,1,training,0
+1769,39.5,Male,Larynx,T3,N0,,0,0.0,III,6.35890411,0,training,0
+1771,39.3,Male,Nasopharynx,T4,N0,,1,0.0,IVA,6.920547945,1,training,0
+1773,44.3,Male,Oropharynx,T1,N2a,"Yes, positive",1,0.0,IVA,9.515068493,0,training,0
+1774,81.6,Male,Larynx,T2,N0,,0,1.0,II,2.334246575,1,training,0
+1775,63.8,Male,Larynx,T1b,N0,,0,0.0,I,4.654794521,0,training,0
+1777,78.4,Male,Larynx,T3,N0,,0,1.0,III,0.769863014,1,training,1
+1778,58.4,Male,Oropharynx,T2,N2b,,1,0.0,IVA,7.046575342,0,training,0
+1779,60.1,Male,Larynx,T1a,N0,,0,0.0,I,5.887671233,0,training,0
+1780,62.5,Female,Nasopharynx,T1,N1,,1,1.0,II,6.378082192,0,training,0
+1781,82.5,Female,Oropharynx,T2,N0,"Yes, Negative",0,1.0,II,4.432876712,1,training,0
+1783,47.0,Male,Nasopharynx,T4,N2,,1,0.0,IVA,10.24657534,1,training,0
+1784,49.0,Male,Oropharynx,T2,N2b,"Yes, positive",1,1.0,IVA,6.317808219,0,training,0
+1786,64.4,Male,Larynx,T1a,N0,,0,0.0,I,3.183561644,0,training,0
+1787,80.4,Male,Larynx,T2,N0,,0,1.0,II,7.665753425,1,training,0
+1788,45.9,Female,Nasopharynx,T1,N2,,1,0.0,III,5.120547945,0,training,0
+1789,64.3,Male,Larynx,Tis,N0,,0,0.0,0,5.879452055,0,training,0
+1790,53.4,Male,Oropharynx,T1,N2c,,0,0.0,IVA,3.120547945,0,training,0
+1791,57.2,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,11.32054795,0,training,0
+1792,60.5,Female,Lip & Oral Cavity,T3,N2b,,1,1.0,IVA,8.605479452,1,training,0
+1793,55.5,Male,Lip & Oral Cavity,T4,N2c,,1,0.0,IVA,8.608219178,0,training,0
+1796,66.8,Male,Larynx,T1a,N0,,0,0.0,I,3.169863014,1,training,0
+1798,59.5,Male,Oropharynx,T3,N2c,,1,0.0,IVA,9.487671233,1,training,0
+1799,73.6,Female,Hypopharynx,T3,N1,,0,2.0,III,6.432876712,1,training,0
+1801,66.3,Female,Oropharynx,T1,N0,"Yes, Negative",0,0.0,I,3.720547945,1,training,0
+1806,52.3,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,6.82739726,1,training,0
+1807,51.2,Male,Hypopharynx,T3,N2c,,1,0.0,IVA,3.339726027,1,training,0
+1809,48.3,Female,Nasopharynx,T3,N0,,1,0.0,III,6.189041096,0,training,0
+1811,90.0,Male,Larynx,T2,N0,,0,1.0,II,0.660273973,0,training,0
+1814,56.2,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,9.832876712,0,training,0
+1815,51.3,Female,Lip & Oral Cavity,T3,N2c,,1,2.0,IVA,6.490410959,0,training,0
+1819,68.9,Male,Oropharynx,T3,N0,"Yes, positive",0,1.0,III,7.454794521,1,training,0
+1820,58.0,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,8.194520548,0,training,0
+1822,53.4,Female,Nasopharynx,T1,N2,,1,0.0,III,10.61643836,0,training,0
+1823,82.2,Male,Larynx,T2,N0,,0,1.0,II,3.342465753,1,training,0
+1825,70.8,Female,Lip & Oral Cavity,T4a,N2c,,0,0.0,IVA,0.569863014,1,training,1
+1827,67.9,Male,Hypopharynx,T4a,N2c,,1,1.0,IVA,0.424657534,1,training,1
+1831,54.0,Female,Nasopharynx,T3,N2,,1,0.0,III,3.728767123,0,training,0
+1832,69.5,Male,Hypopharynx,T3,N0,,1,0.0,III,7.528767123,1,training,0
+1833,58.7,Female,Oropharynx,T4a,N2c,"Yes, positive",1,0.0,IVA,10.61917808,0,training,0
+1834,49.6,Male,Oropharynx,T1,N1,"Yes, positive",0,0.0,III,6.671232877,0,training,0
+1837,81.1,Male,Oropharynx,T4b,N2c,"Yes, positive",0,1.0,IVB,4.597260274,1,training,0
+1838,59.7,Female,Larynx,T4a,N2b,,0,1.0,IVA,1.339726027,1,training,1
+1839,45.9,Male,Nasopharynx,T4,N2,,1,0.0,IVA,7.224657534,0,training,0
+1841,55.6,Male,Hypopharynx,T3,N2c,,1,3.0,IVA,1.430136986,1,training,1
+1842,53.1,Male,Oropharynx,T2,N0,"Yes, positive",0,1.0,II,7.64109589,0,training,0
+1844,60.5,Male,Larynx,T4a,N0,,0,0.0,IVA,8.64109589,0,training,0
+1847,66.0,Male,Larynx,T4a,N0,,0,1.0,IVA,2.030136986,1,training,0
+1848,67.5,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,2.731506849,1,training,0
+1849,76.0,Male,Hypopharynx,T2,N0,,0,1.0,II,0.61369863,1,training,1
+1850,54.7,Male,Oropharynx,T4b,N2c,"Yes, Negative",1,1.0,IVB,0.695890411,1,training,1
+1851,52.1,Female,Nasopharynx,T2,N3,,1,0.0,IVB,10.43835616,0,training,0
+1852,42.8,Male,Nasopharynx,T1,N2,,1,0.0,III,10.00821918,0,training,0
+1853,56.7,Male,Paranasal Sinus,T4,N2c,,1,0.0,IVA,10.57534247,0,training,0
+1856,70.1,Male,Larynx,T1a,N0,,0,1.0,I,5.695890411,0,training,0
+1857,73.5,Female,Larynx,T2,N2c,,0,3.0,IVA,5.410958904,0,training,0
+1859,57.2,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,10.04931507,0,training,0
+1860,60.9,Male,Larynx,T2,N0,,0,0.0,II,5.534246575,0,training,0
+1862,64.5,Female,Oropharynx,T3,N3,"Yes, positive",0,0.0,IVB,0.690410959,1,training,1
+1864,41.9,Female,Oropharynx,T4a,N3,"Yes, positive",1,1.0,IVB,3.232876712,1,training,0
+1866,54.3,Male,Larynx,T3,N2c,,0,0.0,IVA,5.501369863,0,training,0
+1867,60.7,Male,Oropharynx,T2,N2b,,1,0.0,IVA,6.964383562,0,training,0
+1868,68.8,Female,Lip & Oral Cavity,T4a,N2c,,1,0.0,IVA,0.446575342,1,training,1
+1869,77.7,Male,Hypopharynx,T2,N0,,0,0.0,II,0.578082192,1,training,1
+1870,86.1,Male,Larynx,T2,N0,,0,1.0,II,3.964383562,1,training,0
+1872,54.9,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,8.282191781,0,training,0
+1873,56.3,Male,Oropharynx,T1,N2a,"Yes, positive",0,0.0,IVA,9.402739726,0,training,0
+1874,69.1,Male,Larynx,T3,N1,,0,2.0,III,0.438356164,1,training,1
+1876,55.1,Male,Larynx,T3,N2c,,1,1.0,IVA,10.06849315,0,training,0
+1878,65.3,Male,Larynx,T2,N0,,0,0.0,II,10.67945205,0,training,0
+1879,47.2,Male,Oropharynx,T4a,N2c,"Yes, positive",1,0.0,IVA,10.18630137,0,training,0
+1880,42.4,Female,Nasopharynx,T4,N1,,1,0.0,IVA,10.94520548,0,training,0
+1881,42.8,Male,Nasopharynx,T4,N2,,1,0.0,IVA,10.69863014,0,training,0
+1886,56.7,Male,Nasopharynx,T4,N2,,1,0.0,IVA,9.893150685,0,training,0
+1888,54.4,Male,Nasopharynx,T4,N1,,1,0.0,IVA,10.91506849,0,training,0
+1889,70.0,Male,Larynx,T1a,N0,,0,0.0,I,2.673972603,1,training,0
+1890,60.6,Male,Oropharynx,T3,N2a,"Yes, positive",1,0.0,IVA,6.369863014,0,training,0
+1891,46.5,Male,Oropharynx,T3,N2c,"Yes, positive",1,2.0,IVA,10.15616438,0,training,0
+1892,53.1,Male,Larynx,T2,N2c,,0,0.0,IVA,4.756164384,0,training,0
+1893,68.1,Male,Lip & Oral Cavity,T2,N2b,,1,1.0,IVA,1.805479452,1,training,1
+1894,80.2,Male,Oropharynx,T4a,N0,,0,1.0,IVA,0.471232877,1,training,1
+1895,53.4,Male,Larynx,T1a,N0,,0,0.0,I,5.194520548,0,training,0
+1899,51.4,Male,Nasopharynx,T3,N2,,1,0.0,III,3.931506849,0,training,0
+1900,48.5,Male,Larynx,T3,N2c,,0,1.0,IVA,4.487671233,0,training,0
+1902,56.4,Male,Oropharynx,T4a,N2b,"Yes, positive",0,,IVA,2.8,0,training,0
+1905,47.7,Female,Oropharynx,T3,N2c,,0,0.0,IVA,5.139726027,0,training,0
+1906,53.8,Female,Nasopharynx,T4,N2,,1,0.0,IVA,10.58082192,0,training,0
+1912,69.4,Male,Hypopharynx,T2,N1,,0,0.0,III,3.126027397,1,training,0
+1913,74.8,Male,Larynx,T4a,N0,,0,1.0,IVA,4.542465753,0,training,0
+1915,60.3,Male,Larynx,T4a,N2c,,1,3.0,IVA,8.397260274,0,training,0
+1916,52.7,Male,Oropharynx,T4b,N2c,"Yes, positive",1,0.0,IVB,5.271232877,0,training,0
+1917,56.0,Male,Hypopharynx,T1,N3,,1,1.0,IVB,1.550684932,1,training,1
+1920,55.7,Male,Hypopharynx,T2,N2c,,1,0.0,IVA,5.063013699,1,training,0
+1921,49.1,Male,Oropharynx,T2,N2a,"Yes, positive",1,0.0,IVA,9.873972603,0,training,0
+1922,54.4,Male,Nasopharynx,T2,N2,,1,1.0,III,6.487671233,1,training,0
+1923,61.0,Male,Larynx,T1b,N0,,0,0.0,I,4.701369863,0,training,0
+1925,27.6,Male,Nasopharynx,T3,N2,"Yes, Negative",1,0.0,III,10.54794521,0,training,0
+1927,48.2,Female,Oropharynx,T4a,N2c,"Yes, positive",1,1.0,IVA,10.56712329,0,training,0
+1928,57.7,Male,Larynx,T3,N2c,,0,1.0,IVA,8.397260274,1,training,0
+1929,75.1,Male,Larynx,T3,N0,,0,0.0,III,5.879452055,0,training,0
+1931,60.9,Male,Oropharynx,T4b,N2c,"Yes, positive",1,0.0,IVB,8.660273973,0,training,0
+1932,50.9,Male,Oropharynx,T1,N0,"Yes, Negative",0,0.0,I,5.402739726,0,training,0
+1933,70.5,Male,Oropharynx,T4a,N2c,,1,4.0,IVA,2.057534247,1,training,0
+1934,52.4,Female,Oropharynx,T3,N2c,,1,1.0,IVA,6.660273973,0,training,0
+1935,55.7,Male,Larynx,T3,N2b,,0,0.0,IVA,10.50958904,0,training,0
+1937,46.3,Female,Nasopharynx,T4,N2,,1,0.0,IVA,10.16438356,0,training,0
+1938,80.3,Male,Larynx,T1b,N0,,0,1.0,I,5.263013699,0,training,0
+1941,58.1,Female,Hypopharynx,T4a,N2b,,1,0.0,IVB,1.753424658,1,training,1
+1942,74.8,Female,Nasopharynx,T2,N3b,,1,1.0,IVB,6.21369863,0,training,0
+1943,70.9,Male,Larynx,T2,N3,,1,0.0,IVB,0.536986301,1,training,1
+1944,69.8,Male,Larynx,T2,N2a,,0,1.0,IVA,3.271232877,1,training,0
+1945,47.9,Male,Nasopharynx,T1,N3b,,1,0.0,IVB,9.950684932,0,training,0
+1947,53.9,Male,Oropharynx,T4a,N2c,,1,0.0,IVA,3.378082192,0,training,0
+1948,69.7,Male,Larynx,T1a,N0,,0,2.0,I,7.347945205,1,training,0
+1949,75.3,Male,Oropharynx,T3,N1,"Yes, Negative",0,0.0,III,2.232876712,1,training,0
+1950,61.7,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,6.093150685,0,training,0
+1951,71.0,Female,Oropharynx,T4b,N2c,"Yes, positive",0,0.0,IVB,2.345205479,1,training,0
+1952,71.3,Male,Larynx,T2,N0,,0,1.0,II,5.257534247,0,training,0
+1956,36.9,Male,Nasopharynx,T4,N3b,,1,3.0,IVB,2.684931507,1,training,0
+1957,52.5,Male,Larynx,T1b,N0,,0,1.0,I,7.306849315,0,training,0
+1958,44.8,Male,Oropharynx,T1,N2a,"Yes, positive",1,0.0,IVA,4.526027397,0,training,0
+1959,67.7,Female,esophagus,TX,N1,,0,0.0,III,0.97260274,1,training,1
+1960,55.3,Female,nasal cavity,T4b,N0,,0,2.0,IVB,0.64109589,1,training,1
+1961,70.7,Male,Oropharynx,T2,N2b,"Yes, Negative",0,2.0,IVA,2.495890411,1,training,0
+1962,63.2,Male,Lip & Oral Cavity,T2,N0,,0,0.0,II,1.134246575,1,training,1
+1964,67.0,Male,Nasopharynx,T3,N3b,,1,0.0,IVB,7.6,1,training,0
+1965,64.1,Female,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,9.687671233,0,training,0
+1966,84.0,Female,Larynx,T1b,N0,,0,1.0,I,3.953424658,1,training,0
+1969,61.8,Male,Nasopharynx,T4,N2,,1,0.0,IVA,7.860273973,1,training,0
+1970,49.3,Male,Oropharynx,T4a,N2c,"Yes, Negative",1,0.0,IVA,2.301369863,1,training,0
+1974,42.7,Female,Nasopharynx,T3,N2,,1,0.0,III,9.076712329,0,training,0
+1977,61.4,Male,Lip & Oral Cavity,T4b,N1,,0,2.0,IVB,1.673972603,1,training,1
+1978,61.9,Male,Oropharynx,T3,N2b,,1,0.0,IVA,5.249315068,0,training,0
+1979,73.3,Male,Larynx,T1a,N0,,0,0.0,I,2.082191781,0,training,0
+1980,58.2,Female,Oropharynx,T1,N2b,,1,0.0,IVA,6.22739726,0,training,0
+1981,78.0,Female,esophagus,T3,N0,,0,2.0,III,0.528767123,1,training,1
+1982,64.6,Male,Oropharynx,T3,N0,,0,,III,9.128767123,0,training,0
+1983,45.4,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,9.936986301,0,training,0
+1984,57.9,Male,Hypopharynx,T2,N3,,1,0.0,IVB,1.238356164,1,training,1
+1985,43.6,Male,Oropharynx,T1,N0,"Yes, positive",0,0.0,I,6.643835616,0,training,0
+1986,32.3,Male,Larynx,T2,N0,"Yes, Negative",0,0.0,II,4.871232877,0,training,0
+1987,52.3,Male,Larynx,T2,N0,,0,0.0,II,8.44109589,0,training,0
+1989,65.2,Male,Oropharynx,T3,N2b,,1,1.0,IVA,5.778082192,1,training,0
+1991,86.8,Male,Oropharynx,T4a,N2b,"Yes, positive",0,1.0,IVA,1.550684932,1,training,1
+1992,44.1,Male,Oropharynx,T2,N2b,,1,0.0,IVA,9.493150685,0,training,0
+1994,86.2,Male,Lip & Oral Cavity,T3,N1,,0,2.0,III,4.471232877,1,training,0
+1995,51.0,Male,Oropharynx,T2,N2b,,1,2.0,IVA,5.142465753,0,training,0
+1996,79.6,Male,Hypopharynx,T4a,N2c,,0,,IVA,4.961643836,1,training,0
+1998,33.2,Male,Nasopharynx,T1,N2,,1,0.0,III,8.361643836,0,training,0
+1999,57.0,Male,Oropharynx,T4a,N2b,"Yes, positive",1,0.0,IVA,10.28219178,0,training,0
+2000,78.7,Female,Oropharynx,T4b,N2c,"Yes, positive",0,0.0,IVB,1.054794521,1,training,1
+2001,63.4,Male,Larynx,T3,N0,,0,2.0,III,1.873972603,1,training,1
+2002,61.3,Male,Oropharynx,T2,N1,"Yes, positive",0,0.0,III,5.698630137,1,training,0
+2003,54.5,Female,Larynx,T3,N2c,,1,0.0,IVA,1.843835616,1,training,1
+2004,67.8,Male,Nasopharynx,T4,N0,,1,0.0,IVA,1.180821918,1,training,1
+2007,47.5,Female,Oropharynx,T1,N3,"Yes, positive",1,0.0,IVB,9.635616438,0,training,0
+2008,59.3,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,9.764383562,0,training,0
+2009,65.7,Female,Larynx,T3,N0,,0,2.0,III,4.252054795,1,training,0
+2010,65.8,Male,Oropharynx,T2,N1,"Yes, positive",0,1.0,III,3.134246575,1,training,0
+2011,63.8,Male,Larynx,Tis,N0,,0,0.0,0,4.624657534,0,training,0
+2012,51.7,Male,Oropharynx,T3,N2c,"Yes, Negative",0,1.0,IVA,0.723287671,1,training,1
+2014,60.1,Female,Larynx,T2,N1,,0,1.0,III,5.178082192,0,training,0
+2015,59.5,Male,Oropharynx,T3,N3,"Yes, positive",0,1.0,IVB,3.632876712,0,training,0
+2017,74.8,Male,Oropharynx,T2,N2b,"Yes, Negative",0,2.0,IVA,0.887671233,1,training,1
+2019,55.0,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,9.947945205,0,training,0
+2022,76.2,Male,Oropharynx,T3,N0,,0,2.0,III,2.452054795,1,training,0
+2023,55.6,Male,Hypopharynx,T3,N2c,,1,0.0,IVA,10.37534247,0,training,0
+2025,68.8,Male,Hypopharynx,T2,N0,,0,0.0,II,6.142465753,1,training,0
+2026,61.4,Male,Oropharynx,T2,N1,,0,0.0,III,9.016438356,0,training,0
+2027,74.3,Female,Oropharynx,T2,N2c,,0,0.0,IVA,2.78630137,1,training,0
+2029,50.2,Male,Oropharynx,T2,N2a,,1,0.0,IVA,6.019178082,0,training,0
+2030,48.4,Male,Oropharynx,T1,N2b,,1,0.0,IVA,5.082191781,0,training,0
+2032,67.5,Male,Larynx,T4a,N0,,1,0.0,IVA,9.97260274,0,training,0
+2033,65.0,Male,Larynx,T1a,N0,,0,0.0,I,6.805479452,1,training,0
+2034,46.8,Male,Nasopharynx,T3,N2,,1,0.0,III,10.17808219,0,training,0
+2035,55.6,Male,Oropharynx,T4b,N3,"Yes, positive",0,1.0,IVB,0.904109589,1,training,1
+2038,38.8,Male,Nasopharynx,T3,N1,,1,0.0,III,9.243835616,0,training,0
+2039,55.2,Male,Oropharynx,T4a,N0,"Yes, Negative",0,1.0,IVA,6.282191781,0,training,0
+2041,75.4,Female,Oropharynx,T3,N2b,"Yes, positive",0,0.0,IVA,2.134246575,1,training,0
+2044,61.9,Male,Hypopharynx,T3,N2b,,0,1.0,IVA,0.495890411,1,training,1
+2045,47.7,Male,Oropharynx,T2,N3,"Yes, positive",1,0.0,IVB,1.57260274,1,training,1
+2047,52.1,Male,Nasopharynx,T4,N2,,1,0.0,IVA,1.397260274,1,training,1
+2048,72.2,Male,Larynx,T3,N0,,0,0.0,III,1.115068493,1,training,1
+2049,64.5,Male,Oropharynx,T1,N2a,"Yes, positive",1,0.0,IVA,8.312328767,0,training,0
+2050,57.5,Female,Nasopharynx,T3,N2,,1,1.0,III,9.545205479,0,training,0
+2052,65.8,Male,Larynx,T3,N0,,1,0.0,III,6.654794521,0,training,0
+2053,72.4,Male,nasal cavity,T1,N2b,,0,0.0,IVA,1.216438356,1,training,1
+2054,61.5,Male,Larynx,T1a,N0,,0,0.0,I,5.156164384,0,training,0
+2055,84.0,Female,Lip & Oral Cavity,Tis,N0,,0,1.0,0,1.501369863,1,training,1
+2056,52.1,Male,Nasopharynx,T3,N3b,,1,0.0,IVB,2.435616438,1,training,0
+2057,62.6,Male,Oropharynx,T4a,N2b,,0,2.0,IVA,5.167123288,0,training,0
+2061,59.3,Male,Oropharynx,T2,N2c,,1,0.0,IVA,9.054794521,0,training,0
+2062,58.4,Male,Larynx,T2,N0,,0,0.0,II,4.890410959,0,training,0
+2063,45.7,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,9.189041096,0,training,0
+2064,77.3,Female,Lip & Oral Cavity,T2,N0,,0,2.0,II,1.665753425,1,training,1
+2067,55.5,Male,Oropharynx,T3,N2c,"Yes, Negative",1,2.0,IVA,5.243835616,1,training,0
+2068,48.9,Male,Nasopharynx,T3,N2,,1,0.0,III,9.512328767,0,training,0
+2069,82.9,Female,Larynx,T2,N0,,0,0.0,II,6.084931507,1,training,0
+2070,57.0,Male,Oropharynx,T2,N0,"Yes, Negative",0,1.0,II,9.684931507,0,training,0
+2072,68.5,Male,Larynx,T1a,N0,,0,1.0,I,9.515068493,0,training,0
+2073,46.2,Male,Oropharynx,T4b,N2c,"Yes, positive",1,3.0,IVB,0.578082192,1,training,1
+2075,54.6,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,10.20273973,0,training,0
+2076,65.0,Female,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,6.350684932,0,training,0
+2077,35.1,Male,Nasopharynx,T2,N3a,,1,0.0,IVB,9.282191781,0,training,0
+2080,77.8,Male,Hypopharynx,T3,N0,,0,4.0,III,2.550684932,1,training,0
+2081,71.0,Male,Oropharynx,T4a,N2c,"Yes, positive",0,0.0,IVA,9.076712329,0,training,0
+2082,61.8,Male,Larynx,T3,N2b,,1,0.0,IVA,5.060273973,1,training,0
+2085,75.0,Male,Oropharynx,T2,N2b,"Yes, positive",0,1.0,IVA,5.416438356,1,training,0
+2086,58.7,Male,Larynx,T3,N0,,0,1.0,III,3.035616438,1,training,0
+2087,68.8,Male,Nasopharynx,T1,N1,,0,0.0,II,7.446575342,1,training,0
+2089,82.6,Female,Salivary Glands,T1,N0,,0,1.0,I,2.608219178,1,training,0
+2091,71.7,Female,Oropharynx,T3,N2c,"Yes, positive",0,1.0,IVA,8.873972603,0,training,0
+2092,81.6,Male,Larynx,T3,N0,,0,1.0,III,0.279452055,1,training,1
+2093,64.9,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,8.205479452,0,training,0
+2094,54.1,Male,Lip & Oral Cavity,T3,N2b,,1,0.0,IVA,6.15890411,0,training,0
+2095,53.0,Male,Nasopharynx,T4,N2,,1,0.0,IVA,9.690410959,0,training,0
+2097,32.7,Male,Nasopharynx,T2,N1,,1,0.0,II,9.224657534,0,training,0
+2100,65.9,Male,Larynx,T3,N1,,1,0.0,III,0.920547945,1,training,1
+2101,74.1,Male,Oropharynx,T4a,N0,,0,0.0,IVA,2.654794521,1,training,0
+2102,82.9,Male,Larynx,T2,N0,,0,1.0,II,7.81369863,0,training,0
+2104,75.3,Male,Larynx,T3,N2c,,0,2.0,IVA,4.391780822,0,training,0
+2106,73.1,Female,Oropharynx,T3,N0,"Yes, Negative",0,1.0,III,0.57260274,1,training,1
+2107,69.8,Male,Oropharynx,T3,N2c,"Yes, Negative",0,2.0,IVA,1.221917808,1,training,1
+2108,60.5,Male,Oropharynx,T4a,N2b,"Yes, positive",1,0.0,IVA,0.421917808,1,training,1
+2109,43.0,Male,Larynx,T2,N2b,,1,0.0,IVA,1.282191781,1,training,1
+2110,58.8,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,6.01369863,0,training,0
+2111,64.9,Male,Oropharynx,T2,N2a,,0,0.0,IVA,2.279452055,0,training,0
+2112,70.6,Male,Larynx,T1a,N0,,0,0.0,I,2.523287671,1,training,0
+2114,62.9,Male,Oropharynx,T4a,N2c,"Yes, positive",1,0.0,IVA,3.583561644,1,training,0
+2115,70.3,Male,Hypopharynx,T4a,N2b,,0,1.0,IVA,0.863013699,1,training,1
+2118,70.5,Male,Oropharynx,T2,N2a,"Yes, Negative",0,0.0,IVA,6.139726027,1,training,0
+2119,57.9,Male,Larynx,T2,N0,,0,1.0,II,3.78630137,0,training,0
+2120,75.9,Male,Oropharynx,T4a,N2c,"Yes, Negative",0,1.0,IVA,1.254794521,1,training,1
+2121,59.8,Male,Larynx,T2,N0,,0,0.0,II,5.904109589,0,training,0
+2123,60.2,Male,Nasopharynx,T3,N0,,1,0.0,III,9.947945205,0,training,0
+2124,82.4,Male,Larynx,T1a,N0,,0,1.0,I,4.493150685,1,training,0
+2125,65.3,Male,Oropharynx,T4a,N2c,,1,0.0,IVA,1.315068493,1,training,1
+2126,41.4,Male,Nasopharynx,T1,N3a,"Yes, Negative",1,0.0,IVB,8.723287671,0,training,0
+2130,54.2,Female,Lip & Oral Cavity,T4a,N0,,0,2.0,IVA,8.084931507,0,training,0
+2131,59.4,Male,Larynx,T3,N2b,,1,2.0,IVA,2.882191781,1,training,0
+2133,63.7,Male,Hypopharynx,T4a,N2b,,0,0.0,IVA,1.526027397,1,training,1
+2134,46.5,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,1.043835616,1,training,1
+2135,62.6,Female,Oropharynx,T4a,N2c,,1,1.0,IVA,6.449315068,0,training,0
+2139,49.1,Male,Oropharynx,T3,N2c,,1,0.0,IVA,6.364383562,0,training,0
+2141,61.6,Male,Nasopharynx,T4,N2,,1,1.0,IVA,7.863013699,1,training,0
+2142,48.2,Male,Oropharynx,T4a,N2c,"Yes, Negative",1,0.0,IVA,0.876712329,1,training,1
+2143,75.3,Male,Oropharynx,T3,N2b,"Yes, Negative",0,1.0,IVA,0.819178082,1,training,1
+2144,51.2,Male,Oropharynx,T2,N3,"Yes, positive",1,2.0,IVB,7.967123288,0,training,0
+2145,56.0,Male,Larynx,T1a,N0,,0,0.0,I,8.687671233,0,training,0
+2146,69.7,Female,Hypopharynx,T2,N0,,0,0.0,II,5.37260274,1,training,0
+2147,53.6,Female,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,8.854794521,0,training,0
+2148,53.0,Male,Larynx,T3,N0,,1,0.0,III,7.789041096,0,training,0
+2150,33.4,Female,Larynx,T1a,N0,,0,0.0,I,8.049315068,0,training,0
+2152,53.0,Male,Oropharynx,T2,N0,"Yes, Negative",0,2.0,II,5.945205479,0,training,0
+2154,63.2,Male,Oropharynx,T4a,N2c,"Yes, Negative",1,1.0,IVA,0.161643836,1,training,1
+2156,68.0,Male,Larynx,T3,N2c,,0,0.0,IVA,2.994520548,1,training,0
+2157,71.0,Male,Oropharynx,T3,N2c,,0,1.0,IVA,1.328767123,1,training,1
+2159,73.2,Male,Larynx,T2,N2b,,0,0.0,IVA,4.936986301,1,training,0
+2160,76.9,Male,Larynx,T1a,N0,,0,0.0,I,7.736986301,0,training,0
+2161,75.3,Male,Larynx,T2,N0,,0,1.0,II,5.043835616,1,training,0
+2162,56.9,Male,Larynx,T2,N0,,0,0.0,II,9.657534247,0,training,0
+2163,39.3,Female,Nasopharynx,T3,N1,,1,0.0,III,9.301369863,0,training,0
+2165,66.4,Female,Lip & Oral Cavity,T4a,N1,,1,1.0,IVA,7.315068493,0,training,0
+2166,64.3,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,4.920547945,1,training,0
+2168,59.6,Male,Oropharynx,T4a,N0,"Yes, positive",1,1.0,IVA,2.205479452,1,training,0
+2169,53.0,Male,Oropharynx,T2,N2b,,1,0.0,IVA,6.238356164,0,training,0
+2170,55.0,Female,Oropharynx,T2,N2c,"Yes, positive",1,1.0,IVA,5.090410959,1,training,0
+2171,64.0,Male,Oropharynx,T3,N2c,"Yes, positive",0,1.0,IVA,9.22739726,0,training,0
+2172,59.6,Male,Larynx,T1b,N0,,0,0.0,I,5.493150685,0,training,0
+2174,82.8,Male,Larynx,T2,N0,,0,0.0,II,5.58630137,1,training,0
+2175,57.6,Male,Oropharynx,T2,N2c,"Yes, Negative",0,0.0,IVA,0.443835616,1,training,1
+2176,48.6,Male,Nasopharynx,T4,N0,,1,1.0,IVA,7.534246575,0,training,0
+2178,53.8,Male,Larynx,T1a,N0,,0,0.0,I,5.35890411,0,training,0
+2179,51.9,Male,Larynx,T3,N0,,0,0.0,III,7.575342466,0,training,0
+2181,58.8,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,9.123287671,0,training,0
+2182,72.0,Male,Larynx,T1a,N0,,0,0.0,I,6.652054795,0,training,0
+2185,49.4,Male,Hypopharynx,T3,N2b,,0,2.0,IVA,4.736986301,1,training,0
+2186,76.5,Male,Larynx,T3,N1,,0,0.0,III,0.58630137,1,training,1
+2187,62.5,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,5.753424658,0,training,0
+2189,53.1,Male,Nasopharynx,T1,N1,,1,1.0,II,8.95890411,0,training,0
+2190,58.9,Male,Oropharynx,T3,N2b,"Yes, positive",1,1.0,IVA,5.597260274,0,training,0
+2191,59.3,Male,Larynx,T2,N0,,0,0.0,II,8.745205479,0,training,0
+2192,87.2,Female,Lip & Oral Cavity,T2,N1,,0,1.0,III,2.136986301,1,training,0
+2193,38.4,Male,Oropharynx,T3,N2b,"Yes, Negative",1,0.0,IVA,1.309589041,1,training,1
+2194,48.1,Male,Oropharynx,T3,N2b,"Yes, positive",0,1.0,IVA,9.654794521,0,training,0
+2195,67.8,Female,Oropharynx,T4b,N2c,"Yes, Negative",0,0.0,IVB,0.646575342,1,training,1
+2197,53.7,Female,Hypopharynx,T3,N1,,1,0.0,III,4.632876712,1,training,0
+2199,70.7,Female,Larynx,T3,N2c,,0,1.0,IVA,2.556164384,0,training,0
+2200,73.3,Male,Oropharynx,T2,N2b,,0,2.0,IVA,8.904109589,1,training,0
+2201,84.8,Male,Larynx,T1b,N0,,0,0.0,I,4.208219178,1,training,0
+2202,74.5,Male,Larynx,T3,N0,,0,1.0,III,7.035616438,0,training,0
+2203,59.7,Male,Oropharynx,T3,N2c,"Yes, positive",0,0.0,IVA,1.301369863,1,training,1
+2204,88.2,Female,Oropharynx,T2,N1,,0,0.0,III,5.21369863,0,training,0
+2205,65.0,Male,Larynx,Tis,N0,,0,0.0,0,9.246575342,0,training,0
+2206,69.1,Male,Larynx,T3,N1,,0,1.0,III,0.528767123,1,training,1
+2208,68.6,Male,Oropharynx,T2,N0,"Yes, Negative",0,0.0,II,4.271232877,1,training,0
+2210,61.4,Female,Oropharynx,T2,N2a,"Yes, positive",1,0.0,IVA,8.873972603,0,training,0
+2211,64.3,Male,Oropharynx,T3,N2c,"Yes, Negative",1,0.0,IVA,7.805479452,0,training,0
+2212,53.8,Male,Oropharynx,T1,N2b,"Yes, positive",0,0.0,IVA,9.430136986,0,training,0
+2213,59.7,Male,Oropharynx,T2,N2a,"Yes, positive",1,0.0,IVA,6.054794521,0,training,0
+2214,49.9,Female,Salivary Glands,T1,NX,,0,0.0,I,9.452054795,0,training,0
+2215,52.8,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,6.276712329,0,training,0
+2218,64.6,Male,Larynx,T3,N0,,1,0.0,III,4.052054795,1,training,0
+2219,28.3,Male,Nasopharynx,T3,N2,,1,0.0,III,9.109589041,0,training,0
+2220,76.2,Male,Oropharynx,T4b,N1,"Yes, Negative",0,2.0,IVB,0.871232877,1,training,1
+2221,76.8,Male,Larynx,T1a,N0,,0,0.0,I,9.35890411,0,training,0
+2222,71.5,Male,Larynx,T3,N0,,0,0.0,III,2.542465753,1,training,0
+2223,64.3,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,7.175342466,0,training,0
+2224,56.5,Female,Nasopharynx,T1,N2,,1,0.0,III,9.490410959,0,training,0
+2225,57.7,Male,Larynx,T2,N0,,0,0.0,II,5.2,0,training,0
+2228,37.6,Male,Nasopharynx,T3,N2,,1,0.0,III,9.104109589,0,training,0
+2229,56.5,Female,Oropharynx,T1,N2c,"Yes, Negative",1,0.0,IVA,1.709589041,1,training,1
+2230,48.2,Male,Oropharynx,T3,N3,"Yes, positive",1,1.0,IVB,6.906849315,0,training,0
+2232,56.7,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,6.150684932,0,training,0
+2233,60.3,Male,Nasopharynx,T1,N0,,0,0.0,I,8.835616438,0,training,0
+2234,57.5,Male,Oropharynx,T2,N2b,"Yes, Negative",0,1.0,IVA,1.789041096,1,training,1
+2235,55.6,Male,Oropharynx,T3,N0,,1,0.0,III,6.482191781,0,training,0
+2236,53.6,Female,Nasopharynx,T4,N1,,1,3.0,IVA,8.591780822,0,training,0
+2237,59.3,Female,Larynx,T4a,N2c,,0,2.0,IVA,2.849315068,1,training,0
+2238,73.8,Male,Oropharynx,T2,N2b,,0,0.0,IVA,2.473972603,1,training,0
+2241,58.3,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,8.421917808,0,training,0
+2242,80.1,Male,Larynx,T3,N0,,0,1.0,III,2.224657534,1,training,0
+2243,47.6,Female,Nasopharynx,T4,N0,,1,0.0,IVA,2.684931507,1,training,0
+2244,68.7,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,5.693150685,0,training,0
+2245,51.0,Female,Oropharynx,T3,N2b,"Yes, positive",1,2.0,IVA,8.717808219,0,training,0
+2247,73.5,Male,Larynx,T3,N0,,0,0.0,III,6.460273973,1,training,0
+2248,50.6,Male,Oropharynx,T3,N2b,"Yes, positive",0,1.0,IVA,7.898630137,0,training,0
+2249,72.0,Male,Paranasal Sinus,T4b,N1,,0,1.0,IVA,1.0,1,training,1
+2250,56.0,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,5.364383562,0,training,0
+2251,54.7,Male,Oropharynx,T2,N3,"Yes, positive",1,2.0,IVB,6.375342466,0,training,0
+2252,53.3,Female,Oropharynx,T4a,N2c,"Yes, positive",1,0.0,IVA,8.747945205,0,training,0
+2253,55.5,Female,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,8.326027397,0,training,0
+2254,51.2,Male,Oropharynx,T1,N1,"Yes, positive",1,0.0,III,6.561643836,0,training,0
+2255,44.6,Male,Larynx,T4a,N2c,,1,0.0,IVA,5.731506849,0,training,0
+2256,41.6,Male,nasal cavity,T1,N0,"Yes, positive",0,0.0,I,4.594520548,0,training,0
+2257,43.1,Male,Oropharynx,T4b,N3,"Yes, positive",1,0.0,IVB,8.561643836,0,training,0
+2258,73.0,Female,nasal cavity,T1,N0,,0,0.0,I,3.260273973,0,training,0
+2260,55.3,Male,Oropharynx,T2,N1,"Yes, positive",1,1.0,III,6.84109589,1,training,0
+2261,60.7,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,9.134246575,0,training,0
+2262,60.4,Male,Oropharynx,T3,N2c,"Yes, Negative",0,1.0,IVA,0.920547945,1,training,1
+2264,72.6,Female,Larynx,Tis,N0,,0,1.0,0,2.58630137,0,training,0
+2265,65.5,Male,Oropharynx,T2,N0,"Yes, Negative",0,1.0,II,5.02739726,1,training,0
+2266,61.5,Female,Oropharynx,T3,N2c,"Yes, Negative",1,0.0,IVA,8.835616438,0,training,0
+2269,50.7,Male,Nasopharynx,T2,N2,,1,0.0,III,8.928767123,0,training,0
+2270,69.4,Male,Oropharynx,T2,N2b,"Yes, Negative",1,0.0,IVA,5.336986301,0,training,0
+2272,45.3,Male,Nasopharynx,T3,N2,,1,0.0,III,9.073972603,0,training,0
+2273,62.1,Female,Oropharynx,Tis,N0,,0,0.0,0,2.819178082,0,training,0
+2274,69.2,Female,Oropharynx,T1,N2a,"Yes, positive",0,0.0,IVA,4.939726027,0,training,0
+2276,68.1,Female,Lip & Oral Cavity,T3,N0,,0,0.0,III,3.106849315,0,training,0
+2277,65.4,Male,Lip & Oral Cavity,T3,N1,,0,1.0,III,1.21369863,1,training,1
+2278,57.6,Female,Oropharynx,T2,N1,"Yes, Negative",0,0.0,III,5.594520548,1,training,0
+2279,64.7,Male,Hypopharynx,T3,N2c,,1,1.0,IVA,6.687671233,1,training,0
+2280,54.4,Male,Larynx,T2,N0,,0,2.0,II,6.071232877,0,training,0
+2281,53.7,Female,Nasopharynx,T4,N0,,1,0.0,IVA,8.134246575,0,training,0
+2282,62.0,Male,Oropharynx,T1,N1,"Yes, positive",1,0.0,III,6.306849315,0,training,0
+2283,52.2,Male,Nasopharynx,T3,N2,,1,1.0,III,7.969863014,0,training,0
+2284,60.1,Male,Larynx,T3,N2c,,0,0.0,IVA,1.284931507,1,training,1
+2287,53.9,Male,Oropharynx,T4a,N2c,"Yes, Negative",1,0.0,IVA,8.936986301,0,training,0
+2288,57.5,Female,nasal cavity,T4a,N0,,0,0.0,IVA,5.221917808,0,training,0
+2292,79.2,Male,Larynx,T4a,N0,,0,1.0,IVA,0.424657534,1,training,1
+2293,64.5,Male,Larynx,T1a,N0,,0,0.0,I,4.468493151,0,training,0
+2295,50.6,Male,Oropharynx,T4a,N2c,"Yes, positive",1,0.0,IVA,6.284931507,0,training,0
+2296,60.6,Male,Oropharynx,T2,N0,"Yes, Negative",0,0.0,II,8.057534247,0,training,0
+2297,48.1,Male,Paranasal Sinus,T4b,N0,,1,2.0,IVB,3.81369863,0,training,0
+2298,48.5,Female,Larynx,Tis,N0,,0,0.0,0,5.098630137,0,training,0
+2300,77.1,Male,Oropharynx,T4b,N3,"Yes, Negative",0,1.0,IVB,4.739726027,1,training,0
+2301,43.5,Male,Oropharynx,T3,N2c,"Yes, positive",0,1.0,IVA,4.471232877,0,training,0
+2302,53.4,Female,Oropharynx,T4a,N0,"Yes, Negative",1,0.0,IVA,1.369863014,1,training,1
+2304,31.3,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,4.816438356,0,training,0
+2305,73.3,Female,Larynx,Tis,N0,,0,0.0,0,4.202739726,0,training,0
+2307,53.8,Male,Larynx,T1b,N0,,0,0.0,I,7.038356164,0,training,0
+2308,64.9,Female,Larynx,T2,N0,,0,0.0,II,1.378082192,1,training,1
+2309,74.0,Male,Oropharynx,T2,N0,"Yes, Negative",0,1.0,II,0.284931507,1,training,1
+2310,85.4,Male,Oropharynx,T3,N0,,0,0.0,III,6.619178082,1,training,0
+2312,73.0,Male,Larynx,T2,N2b,,0,0.0,IVA,4.42739726,0,training,0
+2315,55.7,Male,Larynx,T1b,N0,,0,0.0,I,2.473972603,0,training,0
+2316,49.0,Male,Hypopharynx,T2,N0,,0,0.0,II,5.663013699,1,training,0
+2317,68.0,Female,Larynx,T4a,N2b,,1,0.0,IVA,4.21369863,1,training,0
+2319,57.6,Male,Larynx,T1a,N0,,0,1.0,I,5.112328767,1,training,0
+2320,75.8,Female,Oropharynx,T4a,N2c,"Yes, Negative",0,2.0,IVA,1.298630137,1,training,1
+2321,59.8,Male,Oropharynx,T2,N2b,,0,0.0,IVA,6.682191781,0,training,0
+2322,55.1,Male,Hypopharynx,T2,N1,"Yes, Negative",0,0.0,III,4.232876712,0,training,0
+2325,70.9,Male,Lip & Oral Cavity,T2,N0,,0,0.0,II,5.997260274,0,training,0
+2326,72.2,Male,Larynx,T3,N0,,0,0.0,III,6.747945205,0,training,0
+2327,55.6,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,8.035616438,0,training,0
+2328,73.2,Male,Larynx,T3,N3,,0,1.0,IVB,0.452054795,1,training,1
+2329,61.3,Male,Larynx,Tis,N0,,0,0.0,0,7.454794521,0,training,0
+2330,75.3,Male,Larynx,T3,N0,,0,1.0,III,3.77260274,1,training,0
+2331,76.3,Male,Nasopharynx,T3,N3a,,0,1.0,IVB,4.052054795,1,training,0
+2332,87.5,Male,Larynx,T3,N2c,,0,2.0,IVA,5.350684932,0,training,0
+2333,62.0,Male,Oropharynx,T1,N2b,"Yes, positive",0,0.0,IVA,8.334246575,0,training,0
+2334,50.0,Male,Oropharynx,T3,N2c,"Yes, positive",1,3.0,IVA,7.054794521,0,training,0
+2336,66.6,Male,Oropharynx,T2,N2b,"Yes, positive",1,1.0,IVA,8.473972603,0,training,0
+2338,81.1,Female,Larynx,T3,N0,,0,1.0,III,3.317808219,1,training,0
+2340,61.9,Male,Nasopharynx,T4,N2,,1,1.0,IVA,8.553424658,0,training,0
+2342,79.0,Male,Hypopharynx,T3,N1,,0,0.0,III,7.361643836,0,training,0
+2343,79.8,Female,Lip & Oral Cavity,T3,N0,,0,0.0,III,4.528767123,0,training,0
+2344,50.8,Male,Oropharynx,T4a,N2b,"Yes, positive",1,0.0,IVA,8.4,0,training,0
+2345,61.7,Male,Lip & Oral Cavity,T4a,N2c,,0,0.0,IVA,6.745205479,1,training,0
+2348,66.1,Male,Larynx,T3,N0,,1,0.0,III,5.057534247,0,training,0
+2349,65.1,Male,Larynx,T2,N0,,0,0.0,II,8.62739726,0,training,0
+2350,56.5,Male,Oropharynx,T2,N0,"Yes, Negative",0,1.0,II,2.753424658,1,training,0
+2352,60.9,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,6.276712329,1,training,0
+2353,64.0,Male,Oropharynx,T3,N3,"Yes, Negative",0,2.0,IVB,7.756164384,0,training,0
+2354,60.3,Male,Hypopharynx,T3,N3,,1,1.0,IVB,0.712328767,1,training,1
+2356,44.9,Male,Nasopharynx,T1,N0,,0,1.0,I,7.671232877,0,training,0
+2358,85.4,Male,Larynx,T1b,N0,,0,0.0,I,3.265753425,1,training,0
+2360,69.0,Male,Larynx,T2,N0,,0,1.0,II,4.290410959,1,training,0
+2361,59.4,Female,Larynx,T2,N0,,0,1.0,II,6.78630137,0,training,0
+2362,79.5,Male,Larynx,T1a,N0,,0,0.0,I,6.487671233,0,training,0
+2364,50.2,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,7.460273973,0,training,0
+2365,60.6,Male,Oropharynx,T1,N1,"Yes, positive",1,0.0,III,6.452054795,0,training,0
+2366,71.5,Female,Oropharynx,T1,N2b,"Yes, positive",0,0.0,IVA,5.734246575,0,training,0
+2367,79.7,Female,Oropharynx,T3,N0,"Yes, Negative",0,1.0,III,2.221917808,1,training,0
+2368,53.9,Male,Oropharynx,T1,N2c,"Yes, positive",1,0.0,IVA,7.991780822,0,training,0
+2369,27.4,Female,Larynx,T2,N0,"Yes, positive",0,0.0,II,7.139726027,0,training,0
+2370,64.4,Male,Larynx,T2,N0,,0,1.0,II,2.901369863,1,training,0
+2371,58.1,Male,Nasopharynx,T3,N1,,1,0.0,III,6.808219178,0,training,0
+2374,45.4,Male,Oropharynx,T3,N2a,"Yes, positive",0,0.0,IVA,8.167123288,0,training,0
+2375,80.8,Male,Larynx,T3,N0,,0,0.0,III,0.843835616,1,training,1
+2377,70.7,Male,Hypopharynx,T4a,N2b,,0,0.0,IVA,2.635616438,1,training,0
+2378,45.6,Male,Oropharynx,T2,N2a,"Yes, positive",1,0.0,IVA,5.394520548,0,training,0
+2379,53.0,Male,Paranasal Sinus,T4a,N2b,,1,0.0,IVA,1.953424658,1,training,1
+2380,55.6,Female,Nasopharynx,T3,N2,,1,1.0,III,8.419178082,0,training,0
+2382,47.4,Male,Oropharynx,T1,N2a,"Yes, positive",0,1.0,IVA,7.926027397,0,training,0
+2383,80.5,Male,Lip & Oral Cavity,T4a,N2b,"Yes, positive",0,1.0,IVA,2.438356164,1,training,0
+2384,51.7,Male,Oropharynx,T4b,N0,,0,2.0,IVB,8.432876712,0,training,0
+2385,62.7,Male,Larynx,T4a,N2c,,1,4.0,IVA,1.101369863,1,training,1
+2386,48.8,Male,Oropharynx,T2,N2a,"Yes, positive",1,0.0,IVA,5.21369863,0,training,0
+2389,50.8,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,1.62739726,1,training,1
+2390,68.9,Male,Oropharynx,T3,N2c,"Yes, Negative",0,0.0,IVA,1.832876712,1,training,1
+2391,62.8,Female,Larynx,T2,N0,,0,1.0,II,6.230136986,0,training,0
+2392,63.0,Female,Oropharynx,T3,N2c,"Yes, positive",1,0.0,III,8.101369863,0,training,0
+2393,52.0,Male,Oropharynx,T4a,N2c,"Yes, positive",0,0.0,IVA,8.473972603,0,training,0
+2394,62.7,Male,Nasopharynx,T3,N1,,1,1.0,III,8.183561644,0,training,0
+2395,83.5,Male,Lip & Oral Cavity,T3,N1,,0,0.0,III,7.838356164,0,training,0
+2397,58.3,Female,Oropharynx,T2,N2b,"Yes, Negative",1,0.0,IVA,6.347945205,0,training,0
+2399,50.6,Male,Oropharynx,T2,N3,"Yes, positive",1,1.0,IVB,2.476712329,0,training,0
+2400,51.7,Male,Oropharynx,T4b,N2c,"Yes, Negative",1,2.0,IVA,1.876712329,1,training,1
+2401,54.3,Male,Larynx,Tis,N0,,0,1.0,0,4.252054795,1,training,0
+2402,59.3,Male,Oropharynx,T3,N2b,"Yes, positive",1,1.0,IVA,7.868493151,0,training,0
+2403,75.8,Female,Oropharynx,T1,N0,"Yes, Negative",0,1.0,I,4.561643836,0,training,0
+2404,63.9,Male,Larynx,T1a,N0,,0,1.0,I,5.367123288,1,training,0
+2405,69.7,Female,Oropharynx,T3,N2b,"Yes, Negative",1,0.0,IVA,7.775342466,0,training,0
+2406,57.1,Male,Oropharynx,T3,N2b,"Yes, positive",0,1.0,IVA,4.002739726,1,training,0
+2407,54.2,Female,Nasopharynx,T1,N1,,1,1.0,II,6.273972603,0,training,0
+2408,55.0,Male,Hypopharynx,T4a,N2c,,0,0.0,IVA,0.775342466,1,training,1
+2412,59.8,Female,Oropharynx,T2,N2b,"Yes, Negative",1,0.0,IVA,7.602739726,0,training,0
+2414,64.4,Male,Larynx,T1b,N0,,0,0.0,I,6.82739726,0,training,0
+2415,69.0,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,8.424657534,0,training,0
+2416,41.3,Female,Nasopharynx,T3,N2,"Yes, Negative",1,0.0,III,8.219178082,0,training,0
+2417,77.3,Male,Hypopharynx,T2,N1,,0,1.0,III,8.249315068,0,training,0
+2418,48.0,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,7.230136986,0,training,0
+2419,63.7,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,8.369863014,0,training,0
+2422,61.0,Male,Oropharynx,T4a,N2c,"Yes, Negative",0,1.0,IVA,0.487671233,1,training,1
+2423,73.2,Male,Larynx,T3,N0,,0,1.0,III,2.287671233,1,training,0
+2425,75.9,Male,Lip & Oral Cavity,T4a,N2b,,0,0.0,IVA,2.306849315,1,training,0
+2426,77.9,Female,Larynx,Tis,N0,,0,0.0,0,5.0,0,training,0
+2427,49.5,Male,Oropharynx,T1,N2b,"Yes, positive",0,0.0,IVA,4.980821918,0,training,0
+2431,65.0,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,5.079452055,0,training,0
+2434,54.9,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,8.326027397,0,training,0
+2435,68.0,Male,Hypopharynx,T4a,N3,,0,3.0,IVA,4.087671233,1,training,0
+2436,48.5,Female,Nasopharynx,T4,N2,,1,0.0,IVA,7.82739726,0,training,0
+2437,65.9,Female,Lip & Oral Cavity,T2,N0,,0,0.0,II,4.98630137,0,training,0
+2438,76.1,Male,Oropharynx,T4b,N2c,"Yes, positive",0,1.0,IVB,0.515068493,1,training,1
+2441,57.9,Female,Oropharynx,T1,N2c,"Yes, positive",0,0.0,IVA,7.043835616,0,training,0
+2443,56.0,Male,Larynx,T2,N0,,0,0.0,II,6.504109589,0,training,0
+2444,71.7,Male,Oropharynx,T3,N1,"Yes, Negative",1,0.0,III,4.969863014,1,training,0
+2445,70.6,Male,Larynx,T4a,N0,,0,1.0,IVA,5.969863014,0,training,0
+2446,66.3,Male,Larynx,T1a,N0,,0,0.0,I,5.306849315,0,training,0
+2447,55.4,Female,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,8.432876712,0,training,0
+2448,70.4,Male,Oropharynx,T2,N1,"Yes, positive",0,0.0,III,5.37260274,0,training,0
+2449,84.5,Male,Larynx,T1b,N0,,0,1.0,I,2.145205479,1,training,0
+2450,68.8,Male,Larynx,T1b,N0,,0,0.0,I,5.61369863,0,training,0
+2452,61.3,Male,Larynx,T1a,N0,,0,0.0,I,6.504109589,0,training,0
+2453,69.7,Male,Larynx,T1a,N0,,0,1.0,I,4.936986301,0,training,0
+2454,55.8,Male,Lip & Oral Cavity,T4b,N2b,,1,2.0,IVB,0.726027397,1,training,1
+2455,49.8,Female,Nasopharynx,T1,N3b,,1,1.0,IVB,7.956164384,0,training,0
+2456,48.5,Male,Oropharynx,T2,N3,"Yes, positive",1,2.0,IVB,6.342465753,0,training,0
+2457,61.7,Male,Larynx,T1,N1,"Yes, Negative",0,1.0,III,1.249315068,1,training,1
+2458,43.3,Male,nasal cavity,T4a,N0,,1,0.0,IVA,4.969863014,0,training,0
+2463,54.2,Female,Paranasal Sinus,T4a,N0,,1,0.0,IVA,0.523287671,1,training,1
+2464,66.2,Male,Larynx,T2,N0,,0,0.0,II,8.304109589,0,training,0
+2465,49.9,Male,Oropharynx,T4a,N2c,"Yes, positive",1,1.0,IVA,5.268493151,0,training,0
+2467,54.9,Male,Nasopharynx,T3,N1,,1,0.0,III,8.356164384,0,training,0
+2468,60.5,Female,Oropharynx,T3,N2b,"Yes, positive",1,1.0,IVA,7.463013699,0,training,0
+2469,67.0,Male,Oropharynx,T4a,N0,"Yes, Negative",0,0.0,IVA,6.249315068,1,training,0
+2470,68.6,Female,Oropharynx,T2,N2a,"Yes, positive",1,0.0,IVA,7.484931507,0,training,0
+2471,73.8,Male,Nasopharynx,T1,N2,,0,0.0,III,0.816438356,1,training,1
+2472,54.8,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,4.273972603,0,training,0
+2473,70.0,Female,Oropharynx,T4a,N0,"Yes, Negative",0,1.0,IVA,0.926027397,1,training,1
+2474,58.9,Female,Nasopharynx,T2,N2,"Yes, Negative",1,1.0,III,6.44109589,0,training,0
+2476,44.5,Male,Nasopharynx,T1,N2,,1,0.0,III,8.389041096,0,training,0
+2477,72.3,Female,Hypopharynx,T2,N2a,,0,0.0,IVA,3.065753425,1,training,0
+2478,45.2,Female,Larynx,Tis,N0,,0,0.0,0,5.994520548,0,training,0
+2480,63.6,Male,Nasopharynx,T1,N0,,0,0.0,I,7.583561644,0,training,0
+2481,89.5,Male,Lip & Oral Cavity,T3,N0,,0,2.0,III,2.791780822,1,training,0
+2482,83.0,Male,Larynx,T1a,N0,,0,2.0,I,3.605479452,1,training,0
+2483,41.5,Male,Nasopharynx,T3,N2,,1,0.0,III,7.920547945,0,training,0
+2484,55.4,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,7.77260274,0,training,0
+2485,66.2,Male,Oropharynx,T3,N3,"Yes, positive",1,0.0,IVB,5.473972603,0,training,0
+2486,62.5,Male,esophagus,T3,N0,,1,1.0,III,1.126027397,1,training,1
+2487,67.0,Male,Oropharynx,T3,N2b,"Yes, Negative",0,1.0,IVA,2.589041096,1,training,0
+2488,57.0,Male,Hypopharynx,T3,N0,,0,0.0,III,6.928767123,1,training,0
+2489,67.8,Male,Oropharynx,T4a,N2c,"Yes, positive",1,1.0,IVA,2.835616438,1,training,0
+2490,64.8,Male,Oropharynx,T4a,N2b,"Yes, positive",1,1.0,IVA,8.317808219,0,training,0
+2491,62.2,Male,Oropharynx,T4a,N2c,"Yes, positive",0,1.0,IVA,8.221917808,0,training,0
+2493,55.1,Male,Oropharynx,T2,N2c,"Yes, Negative",0,1.0,IVA,0.687671233,1,training,1
+2494,59.6,Male,Larynx,T1a,N0,,0,0.0,I,3.2,0,training,0
+2497,64.8,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,1.879452055,1,training,1
+2498,55.3,Female,Oropharynx,T4a,N2b,"Yes, Negative",1,1.0,IVA,1.528767123,1,training,1
+2500,76.6,Male,Oropharynx,T3,N2c,"Yes, positive",0,2.0,IVA,1.671232877,1,training,1
+2501,51.4,Male,Nasopharynx,T1,N1,,1,1.0,II,2.917808219,1,training,0
+2502,62.6,Male,Larynx,T2,N0,,0,0.0,II,5.791780822,0,training,0
+2505,50.3,Male,Oropharynx,T2,N0,"Yes, Negative",0,1.0,II,5.104109589,1,training,0
+2507,61.0,Male,Oropharynx,T3,N1,"Yes, Negative",1,3.0,III,4.589041096,0,training,0
+2508,61.9,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,6.884931507,0,training,0
+2509,58.5,Male,Oropharynx,T1,N3,"Yes, positive",0,1.0,IVB,0.487671233,1,training,1
+2510,62.8,Female,Oropharynx,T1,N0,"Yes, Negative",0,0.0,I,7.97260274,0,training,0
+2511,58.1,Male,Oropharynx,T2,N1,"Yes, positive",0,1.0,III,6.912328767,0,training,0
+2512,58.1,Male,Larynx,T1a,N0,,0,1.0,I,6.816438356,0,training,0
+2513,83.4,Male,Larynx,T2,N0,,0,1.0,II,5.794520548,1,training,0
+2514,55.7,Male,Nasopharynx,T1,N2,,1,0.0,III,6.62739726,0,training,0
+2516,50.3,Male,Oropharynx,T3,N2b,"Yes, positive",1,1.0,IVA,7.539726027,0,training,0
+2517,69.1,Male,Larynx,T2,N0,,0,0.0,II,2.065753425,0,training,0
+2519,80.8,Female,Larynx,T3,N2b,,0,0.0,IVA,3.975342466,1,training,0
+2520,51.9,Male,Nasopharynx,T3,N2,,1,0.0,III,7.608219178,0,training,0
+2521,74.7,Male,Larynx,T3,N0,,0,0.0,III,4.35890411,0,training,0
+2522,48.4,Female,Nasopharynx,T4,N2,,1,1.0,IVA,7.635616438,0,training,0
+2524,52.7,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,7.526027397,0,training,0
+2525,35.5,Female,Oropharynx,T3,N2b,"Yes, positive",0,0.0,IVA,5.334246575,0,training,0
+2527,55.9,Male,Larynx,T1,N0,,0,0.0,I,4.695890411,0,training,0
+2528,39.5,Male,Nasopharynx,T1,N3b,"Yes, Negative",1,0.0,IVB,7.243835616,0,training,0
+2529,66.1,Male,Oropharynx,T3,N0,"Yes, Negative",0,0.0,III,1.15890411,1,training,1
+2530,36.9,Male,Nasopharynx,T4,N2,"Yes, positive",0,,IVA,1.391780822,1,training,1
+2531,62.5,Male,Larynx,T2,N0,,0,0.0,II,1.35890411,1,training,1
+2532,77.0,Male,Larynx,T2,N0,"Yes, Negative",0,3.0,II,4.298630137,1,training,0
+2534,62.9,Male,Larynx,T1a,N0,,0,0.0,I,5.668493151,0,training,0
+2535,79.5,Male,Oropharynx,T4a,N2c,"Yes, positive",0,2.0,IVA,1.189041096,1,training,1
+2536,69.9,Male,Lip & Oral Cavity,T4a,N2c,,0,1.0,III,0.336986301,1,training,1
+2538,50.4,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,6.695890411,0,training,0
+2539,53.4,Male,Oropharynx,T3,N3,"Yes, positive",1,0.0,IVB,3.939726027,1,training,0
+2540,72.2,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,7.652054795,0,training,0
+2541,62.9,Male,esophagus,T2,N3,,1,1.0,IVB,0.58630137,1,training,1
+2542,49.1,Male,Larynx,T1b,N0,,0,0.0,I,7.175342466,0,training,0
+2545,47.2,Male,Nasopharynx,T4,N0,"Yes, Negative",1,1.0,IVA,2.917808219,1,training,0
+2546,49.0,Male,Hypopharynx,T2,N2b,"Yes, positive",1,0.0,IVA,6.857534247,0,training,0
+2547,53.6,Male,Larynx,T3,N0,,0,0.0,III,7.556164384,0,training,0
+2550,74.2,Male,Larynx,T2,N0,,0,0.0,II,5.183561644,0,training,0
+2551,70.3,Male,Oropharynx,T2,N2b,"Yes, Negative",0,1.0,IVA,0.635616438,1,training,1
+2552,69.8,Male,Larynx,T2,N0,,0,0.0,II,1.353424658,1,training,1
+2553,53.8,Male,Larynx,T3,N0,,1,1.0,III,7.961643836,0,training,0
+2554,52.1,Male,Larynx,T4a,N0,,1,1.0,IVA,1.443835616,1,training,1
+2556,84.0,Male,Oropharynx,T4b,N0,"Yes, positive",0,0.0,IVB,4.490410959,1,training,0
+2557,64.4,Male,Lip & Oral Cavity,T2,N0,,0,0.0,II,0.520547945,1,training,1
+2558,54.2,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,2.35890411,0,training,0
+2559,45.7,Male,Larynx,T3,N0,"Yes, Negative",1,1.0,III,7.479452055,0,training,0
+2560,82.7,Male,Larynx,T1b,N0,,0,0.0,I,5.306849315,1,training,0
+2561,61.6,Male,Oropharynx,T4a,N1,,0,1.0,IVA,1.55890411,1,training,1
+2563,71.7,Male,Larynx,T1a,N0,,0,0.0,I,4.734246575,0,training,0
+2564,40.3,Male,Nasopharynx,T3,N1,,1,0.0,III,5.578082192,0,training,0
+2565,52.9,Male,Oropharynx,T2,N3,,0,0.0,IVB,0.347945205,1,training,1
+2566,46.3,Male,Nasopharynx,T1,N0,,0,0.0,I,5.731506849,0,training,0
+2567,22.2,Male,Nasopharynx,T4,N3a,"Yes, Negative",1,0.0,IVB,7.936986301,0,training,0
+2568,70.7,Male,Hypopharynx,T4a,N2c,,0,0.0,IVA,0.539726027,1,training,1
+2569,70.5,Female,Oropharynx,T4a,N1,"Yes, positive",0,1.0,IVA,0.435616438,1,training,1
+2570,60.9,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,3.978082192,1,training,0
+2573,83.3,Male,Larynx,T3,N0,,0,2.0,III,1.301369863,1,training,1
+2574,51.9,Male,Larynx,T3,N2b,,1,0.0,IVA,2.112328767,1,training,0
+2575,83.3,Male,Larynx,T2,N0,,0,1.0,II,2.589041096,0,training,0
+2576,59.0,Male,Oropharynx,T4a,N2c,"Yes, positive",0,0.0,IVA,0.649315068,1,training,1
+2577,62.2,Male,Oropharynx,T4b,N2b,"Yes, Negative",0,1.0,IVB,6.619178082,1,training,0
+2578,65.9,Female,Oropharynx,T4a,N2b,"Yes, Negative",1,1.0,IVA,1.254794521,1,training,1
+2579,64.3,Male,Oropharynx,T2,N2b,"Yes, positive",0,2.0,IVA,1.783561644,1,training,1
+2580,76.0,Male,Oropharynx,T2,N2b,"Yes, Negative",0,0.0,IVA,5.619178082,0,training,0
+2581,60.5,Male,Oropharynx,T4b,N2c,"Yes, Negative",1,1.0,IVB,0.369863014,1,training,1
+2582,84.4,Male,Lip & Oral Cavity,T3,N1,,0,1.0,III,0.789041096,1,training,1
+2583,54.2,Male,Oropharynx,T3,N2b,"Yes, positive",1,1.0,IVA,5.249315068,0,training,0
+2585,75.8,Male,Oropharynx,T4b,N2b,"Yes, Negative",0,0.0,IVB,5.38630137,0,training,0
+2586,65.9,Male,Oropharynx,T3,N0,"Yes, Negative",0,0.0,III,7.665753425,0,training,0
+2587,51.7,Male,Oropharynx,T3,N2b,,0,0.0,IVA,7.178082192,0,training,0
+2590,63.7,Male,Larynx,T4a,N2c,"Yes, Negative",1,0.0,IVA,8.010958904,0,training,0
+2591,57.7,Male,Oropharynx,T3,N0,"Yes, Negative",0,0.0,III,3.515068493,1,training,0
+2592,60.2,Male,Oropharynx,T2,N2c,"Yes, Negative",1,0.0,IVA,7.016438356,0,training,0
+2593,82.8,Female,Larynx,T1a,N0,,0,0.0,I,2.934246575,0,training,0
+2595,49.3,Female,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,5.430136986,0,training,0
+2596,62.0,Male,Oropharynx,T1,N3,"Yes, positive",1,0.0,IVB,4.643835616,0,training,0
+2597,61.2,Male,Oropharynx,T4a,N2b,"Yes, Negative",1,0.0,IVA,0.621917808,1,training,1
+2598,44.1,Male,Nasopharynx,T3,N2,,1,1.0,III,4.961643836,0,training,0
+2599,62.9,Female,Larynx,T3,N0,,0,2.0,III,6.104109589,1,training,0
+2600,56.8,Male,Larynx,T2,N0,,0,0.0,II,5.126027397,0,training,0
+2601,61.7,Male,Oropharynx,T4a,N2c,"Yes, positive",0,0.0,IVA,7.268493151,0,training,0
+2602,75.0,Male,Larynx,T1a,N0,,0,0.0,I,7.128767123,0,training,0
+2603,62.0,Male,Oropharynx,T2,N2b,"Yes, positive",0,1.0,IVA,5.830136986,0,training,0
+2604,56.0,Male,Oropharynx,T1,N2c,"Yes, positive",0,0.0,IVA,6.04109589,0,training,0
+2605,69.2,Male,Nasopharynx,T3,N3b,,1,1.0,IVB,4.98630137,1,training,0
+2606,67.4,Male,Larynx,T3,N0,,0,0.0,III,2.142465753,0,training,0
+2607,70.4,Male,Oropharynx,T2,N0,"Yes, Negative",0,1.0,II,6.556164384,0,training,0
+2609,44.8,Male,Nasopharynx,T1,N1,,1,0.0,II,7.728767123,0,training,0
+2610,36.7,Female,Nasopharynx,T4,N2,,1,0.0,IVA,7.580821918,0,training,0
+2612,56.2,Female,Larynx,T1a,N0,,0,1.0,I,2.898630137,0,training,0
+2613,78.8,Male,Oropharynx,T2,N3,"Yes, positive",0,0.0,IVB,0.652054795,1,training,1
+2614,58.8,Male,Larynx,T4a,N0,,0,1.0,IVA,5.309589041,0,training,0
+2615,58.6,Female,Nasopharynx,T3,N2,,1,0.0,III,7.260273973,0,training,0
+2616,41.4,Male,Oropharynx,T2,N2c,"Yes, positive",0,0.0,IVA,5.764383562,0,training,0
+2617,62.6,Male,Larynx,T2,N0,"Yes, Negative",0,0.0,II,5.523287671,0,training,0
+2618,65.7,Male,Larynx,T2,N0,"Yes, Negative",0,2.0,II,2.860273973,1,training,0
+2619,75.5,Male,Hypopharynx,T3,N1,,0,2.0,III,1.0,1,training,1
+2620,74.2,Male,Larynx,T1b,N0,,0,,I,4.178082192,1,training,0
+2624,51.3,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,2.731506849,0,training,0
+2625,52.1,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,7.284931507,0,training,0
+2627,58.0,Male,Oropharynx,T4b,N2c,"Yes, positive",1,0.0,IVB,7.808219178,0,training,0
+2628,67.9,Male,Oropharynx,T3,N3,"Yes, Negative",0,1.0,IVB,5.317808219,0,training,0
+2629,68.4,Male,Larynx,T1b,N0,,0,0.0,I,5.353424658,0,training,0
+2630,55.5,Male,Oropharynx,T2,N2c,"Yes, positive",0,0.0,IVA,3.82739726,1,training,0
+2631,69.6,Male,Oropharynx,T2,N2a,"Yes, Negative",0,2.0,IVA,4.060273973,1,training,0
+2632,62.7,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,6.460273973,0,training,0
+2633,42.5,Male,Nasopharynx,T3,N2,,1,0.0,III,6.846575342,0,training,0
+2635,54.5,Male,Oropharynx,T4a,N2c,"Yes, Negative",0,1.0,IVA,5.517808219,0,training,0
+2636,61.4,Male,Oropharynx,T1,N2b,"Yes, Negative",1,0.0,IVA,7.131506849,0,training,0
+2637,68.5,Female,Oropharynx,T2,N2c,"Yes, positive",1,1.0,IVA,5.882191781,0,training,0
+2638,57.1,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,7.361643836,0,training,0
+2639,34.9,Male,nasal cavity,T4b,N2b,,1,0.0,IVB,1.128767123,1,training,1
+2640,57.2,Female,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,4.317808219,0,training,0
+2643,62.8,Male,Larynx,T3,N0,,1,0.0,III,5.345205479,0,training,0
+2644,49.6,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,6.131506849,0,training,0
+2645,72.0,Male,Larynx,T2,N0,,0,0.0,II,7.61369863,0,training,0
+2646,52.4,Male,Larynx,T1b,N0,,0,0.0,I,5.221917808,0,training,0
+2647,62.2,Male,Larynx,T4b,N2c,,1,2.0,IVB,1.194520548,1,training,1
+2648,63.2,Male,Nasopharynx,T1,N2,,0,0.0,III,7.397260274,0,training,0
+2649,61.0,Male,Oropharynx,T3,N0,"Yes, positive",1,0.0,III,5.605479452,0,training,0
+2650,62.2,Male,Larynx,T2,N0,,0,0.0,II,5.668493151,0,training,0
+2653,55.0,Male,Larynx,T3,N0,,1,1.0,III,7.073972603,0,training,0
+2654,61.3,Male,Oropharynx,T4a,N2b,,0,2.0,IVA,1.063013699,1,training,1
+2655,76.2,Male,Larynx,T2,N0,,0,0.0,II,3.77260274,0,training,0
+2656,50.6,Male,Oropharynx,T2,N2c,"Yes, positive",0,0.0,IVA,5.35890411,0,training,0
+2657,64.8,Male,Oropharynx,T3,N2c,"Yes, positive",0,3.0,IVA,3.0,1,training,0
+2658,70.9,Male,Oropharynx,T4a,N2c,"Yes, positive",0,1.0,IVA,1.879452055,1,training,1
+2659,57.0,Male,Oropharynx,T4b,N2c,"Yes, positive",0,0.0,IVB,3.98630137,1,training,0
+2661,80.9,Male,Hypopharynx,T3,N2c,,0,2.0,IVA,3.38630137,1,training,0
+2664,59.9,Female,Nasopharynx,T1,N1,"Yes, Negative",0,1.0,II,1.564383562,1,training,1
+2665,53.3,Female,Oropharynx,T4a,N2c,"Yes, positive",1,1.0,IVA,5.005479452,0,training,0
+2666,48.7,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,3.087671233,1,training,0
+2667,69.4,Female,Nasopharynx,T1,N2,,0,0.0,III,6.17260274,0,training,0
+2668,51.1,Female,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,6.317808219,0,training,0
+2669,55.3,Male,Hypopharynx,T3,N2c,"Yes, Negative",1,1.0,IVA,7.087671233,0,training,0
+2670,58.5,Female,Larynx,T1a,N0,,0,0.0,I,5.219178082,0,training,0
+2671,60.2,Male,Oropharynx,T3,N2b,"Yes, Negative",1,1.0,IVA,2.756164384,1,training,0
+2672,44.4,Male,Oropharynx,T4b,N2b,,1,1.0,IVB,3.180821918,1,training,0
+2678,44.0,Male,Nasopharynx,T4,N3a,,1,0.0,IVB,7.221917808,0,training,0
+2679,47.9,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,2.391780822,1,training,0
+2680,50.8,Male,Larynx,T2,N0,,0,0.0,II,6.761643836,0,training,0
+2681,81.0,Male,Oropharynx,T2,N1,"Yes, positive",0,0.0,III,1.904109589,1,training,1
+2682,52.8,Female,Oropharynx,T2,N2a,"Yes, positive",0,1.0,IVA,6.389041096,0,training,0
+2683,65.3,Male,Oropharynx,T3,N3,"Yes, Negative",1,0.0,IVB,0.857534247,1,training,1
+2684,60.3,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,6.008219178,0,training,0
+2688,58.1,Female,Oropharynx,T2,N2b,"Yes, positive",0,1.0,IVA,5.24109589,0,training,0
+2689,65.5,Male,Larynx,T3,N0,"Yes, positive",0,0.0,III,1.556164384,1,training,1
+2690,43.6,Female,nasal cavity,T3,N2b,"Yes, Negative",1,0.0,IVA,5.498630137,0,training,0
+2692,65.8,Female,Oropharynx,T2,N0,"Yes, Negative",0,2.0,II,5.61369863,0,training,0
+2693,74.2,Female,Lip & Oral Cavity,T3,N0,,0,1.0,III,5.331506849,0,training,0
+2696,53.1,Female,Oropharynx,T1,N2a,"Yes, positive",0,0.0,IVA,5.060273973,0,training,0
+2697,74.0,Male,Larynx,T3,N0,,0,1.0,III,4.301369863,1,training,0
+2702,57.7,Male,Oropharynx,T3,N1,"Yes, Negative",1,0.0,III,6.230136986,1,training,0
+2703,59.9,Female,Larynx,T3,N1,,1,1.0,IVA,2.298630137,1,training,0
+2705,56.7,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,5.879452055,0,training,0
+2707,51.1,Male,Oropharynx,T2,N2b,"Yes, positive",1,1.0,IVA,2.101369863,1,training,0
+2708,73.2,Male,Oropharynx,T3,N0,"Yes, Negative",0,3.0,III,2.81369863,1,training,0
+2709,73.6,Male,Hypopharynx,T3,N2c,,0,0.0,IVA,4.205479452,0,training,0
+2710,63.9,Male,Oropharynx,T2,N0,"Yes, Negative",0,1.0,II,3.093150685,1,training,0
+2714,36.2,Female,Larynx,T2,N0,"Yes, Negative",0,0.0,II,6.750684932,0,training,0
+2717,62.4,Male,Nasopharynx,T1,N2,,1,0.0,III,4.835616438,0,training,0
+2718,74.5,Male,Larynx,T2,N0,,0,0.0,II,7.364383562,0,training,0
+2719,76.4,Male,Larynx,T1b,N0,,0,0.0,I,5.389041096,0,training,0
+2720,47.8,Male,Hypopharynx,T2,N3,"Yes, Negative",1,1.0,IVB,5.501369863,0,training,0
+2721,42.5,Female,Nasopharynx,T3,N2,,1,0.0,III,7.046575342,0,training,0
+2726,76.3,Male,Larynx,T3,N0,,0,0.0,III,5.819178082,0,training,0
+2727,61.9,Female,Oropharynx,T4a,N0,"Yes, positive",1,0.0,IVA,6.657534247,0,training,0
+2729,64.1,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,7.120547945,0,training,0
+2730,45.9,Female,Nasopharynx,T1,N1,"Yes, Negative",1,0.0,II,4.802739726,0,training,0
+2731,60.3,Male,Larynx,T2,N2b,"Yes, Negative",1,0.0,IVA,2.22739726,1,training,0
+2732,46.3,Male,Nasopharynx,T4,N2,"Yes, Negative",1,1.0,IVA,6.750684932,0,training,0
+2734,86.1,Male,Larynx,T1b,N0,,0,0.0,I,2.742465753,0,training,0
+2735,78.2,Male,Larynx,T4a,N2b,,0,1.0,IVA,1.145205479,1,training,1
+2737,55.8,Male,Larynx,T3,N0,,1,1.0,III,6.063013699,0,training,0
+2738,54.2,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,6.728767123,0,training,0
+2739,46.0,Male,Larynx,T4a,N0,"Yes, Negative",0,0.0,IVA,1.052054795,1,training,1
+2740,80.6,Male,Larynx,T4a,N2c,,0,3.0,IVA,1.024657534,1,training,1
+2741,71.0,Male,Oropharynx,T4a,N2c,"Yes, Negative",0,1.0,IVA,2.150684932,1,training,0
+2742,83.3,Male,Larynx,T4a,N1,,0,0.0,IVA,1.989041096,1,training,1
+2744,68.4,Male,Hypopharynx,T3,N2c,"Yes, Negative",0,1.0,IVA,5.087671233,0,training,0
+2745,48.4,Female,Oropharynx,T2,N0,,0,0.0,II,5.61369863,0,training,0
+2746,68.9,Male,Oropharynx,T2,N2a,"Yes, positive",1,0.0,IVA,5.849315068,0,training,0
+2747,67.3,Male,Oropharynx,T2,N0,"Yes, Negative",0,1.0,II,2.021917808,1,training,0
+2748,73.4,Male,Larynx,T1b,N0,,0,0.0,I,5.832876712,0,training,0
+2750,63.2,Male,Oropharynx,T2,N0,"Yes, Negative",0,0.0,II,7.167123288,0,training,0
+2752,65.9,Male,Larynx,T3,N2b,"Yes, positive",1,0.0,IVA,5.057534247,0,training,0
+2755,69.7,Male,Larynx,T1a,N0,,0,0.0,I,6.682191781,0,training,0
+2757,70.4,Female,Larynx,T3,N2c,,0,0.0,IVA,3.882191781,1,training,0
+2758,79.7,Female,Paranasal Sinus,T4b,N1,,0,3.0,IVA,0.367123288,1,training,1
+2759,50.0,Male,Nasopharynx,T1,N2,,1,0.0,III,6.37260274,0,training,0
+2760,59.1,Male,Oropharynx,T4a,N2b,"Yes, positive",0,0.0,IVA,6.364383562,0,training,0
+2761,63.9,Male,Oropharynx,T4a,N2b,"Yes, Negative",0,2.0,IVA,5.704109589,0,training,0
+2762,48.1,Male,Lip & Oral Cavity,T4b,N2b,,1,0.0,IVB,3.44109589,0,training,0
+2763,73.0,Female,Larynx,T3,N1,,0,1.0,III,4.523287671,0,training,0
+2764,73.1,Male,Oropharynx,T2,N2a,"Yes, positive",0,0.0,IVA,6.668493151,0,training,0
+2765,42.6,Male,Nasopharynx,T3,N3b,,1,1.0,IVB,6.632876712,0,training,0
+2766,51.6,Male,Oropharynx,T2,N2b,"Yes, positive",1,2.0,IVA,6.145205479,0,training,0
+2767,55.6,Male,Nasopharynx,T3,N3b,"Yes, Negative",1,0.0,IVB,7.147945205,0,training,0
+2768,41.1,Male,Nasopharynx,T3,N1,,1,1.0,III,6.465753425,0,training,0
+2769,36.4,Male,Nasopharynx,T1,N0,,0,0.0,I,6.808219178,0,training,0
+2771,67.6,Male,Hypopharynx,T3,N1,,0,2.0,III,5.884931507,0,training,0
+2772,45.6,Female,Oropharynx,T3,N2b,"Yes, positive",1,2.0,IVA,1.197260274,1,training,1
+2773,51.5,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,3.046575342,0,training,0
+2775,62.1,Female,Larynx,T1,N0,,0,1.0,I,4.690410959,1,training,0
+2776,73.4,Male,Oropharynx,T3,N2b,"Yes, Negative",0,1.0,IVA,3.024657534,1,training,0
+2777,58.5,Male,Oropharynx,T4a,N2a,"Yes, positive",0,1.0,IVA,3.547945205,1,training,0
+2779,74.2,Male,nasal cavity,T4b,N2c,"Yes, positive",0,0.0,IVB,5.501369863,0,training,0
+2781,45.7,Male,Oropharynx,T3,N2b,"Yes, positive",1,1.0,IVA,6.824657534,0,training,0
+2782,50.6,Male,nasal cavity,T4,N0,"Yes, positive",1,0.0,IV,2.75890411,1,training,0
+2783,70.3,Male,Oropharynx,T4b,N2c,"Yes, positive",0,2.0,IVB,0.6,1,training,1
+2784,64.1,Male,Larynx,T1b,N0,,0,0.0,I,2.964383562,0,training,0
+2785,56.9,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,6.646575342,0,training,0
+2786,72.3,Male,Larynx,T3,N0,,0,0.0,III,6.369863014,0,training,0
+2787,56.8,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,5.717808219,0,training,0
+2788,53.5,Male,Oropharynx,T1,N1,"Yes, positive",0,0.0,III,5.087671233,0,training,0
+2790,53.2,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,4.295890411,0,training,0
+2791,42.0,Male,Larynx,T3,N2b,,1,0.0,IVA,6.750684932,0,training,0
+2793,52.5,Male,Hypopharynx,T1,N2a,"Yes, positive",0,0.0,IVA,5.049315068,0,training,0
+2794,61.5,Male,nasal cavity,T4a,N0,,1,0.0,IVA,3.663013699,0,training,0
+2795,55.5,Male,Oropharynx,T4a,N2c,"Yes, Negative",1,1.0,IVA,6.476712329,0,training,0
+2797,55.7,Male,Oropharynx,T2,N2c,,1,1.0,IVA,3.268493151,1,training,0
+2798,50.4,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,7.290410959,0,training,0
+2799,52.3,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,6.857534247,0,training,0
+2800,59.9,Male,Oropharynx,T3,N2b,"Yes, Negative",1,1.0,IVA,3.860273973,1,training,0
+2801,63.5,Male,Larynx,T3,N0,,0,1.0,III,5.923287671,0,training,0
+2802,57.7,Female,Oropharynx,T3,N2c,"Yes, positive",1,1.0,IVA,5.868493151,0,training,0
+2803,60.5,Female,nasal cavity,T1,N0,,0,0.0,I,5.750684932,0,training,0
+2804,63.2,Male,Oropharynx,T3,N2c,"Yes, positive",1,1.0,IVA,5.134246575,0,training,0
+2805,58.1,Male,Oropharynx,T1,N0,"Yes, Negative",0,0.0,I,4.361643836,1,training,0
+2806,72.5,Male,Oropharynx,T4a,N1,"Yes, Negative",0,2.0,IVA,1.854794521,1,training,1
+2808,54.2,Male,Oropharynx,T2,N2c,"Yes, Negative",1,1.0,IVA,6.112328767,0,training,0
+2809,74.0,Male,Larynx,T1a,N0,,0,0.0,I,4.282191781,1,training,0
+2810,57.5,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,5.77260274,0,training,0
+2811,55.1,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,5.463013699,0,training,0
+2812,42.3,Male,Oropharynx,T1,N2b,,1,0.0,IVA,5.693150685,0,training,0
+2813,50.4,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,7.016438356,0,training,0
+2816,48.0,Male,Nasopharynx,T4,N0,,1,1.0,IVA,4.906849315,0,training,0
+2817,78.1,Male,Larynx,T3,N0,,0,0.0,III,5.265753425,0,training,0
+2818,55.6,Male,Paranasal Sinus,T4b,N2b,"Yes, positive",1,1.0,IVB,0.991780822,1,training,1
+2819,55.2,Male,Larynx,T2,N0,,0,0.0,II,5.906849315,0,training,0
+2820,52.4,Male,Oropharynx,T1,N3,"Yes, Negative",0,0.0,IVB,1.350684932,1,training,1
+2821,68.3,Male,Hypopharynx,T2,N2b,,1,1.0,IVA,5.956164384,0,training,0
+2822,73.9,Male,Larynx,T2,N0,,0,0.0,II,6.290410959,0,training,0
+2823,77.0,Female,Oropharynx,T2,N1,"Yes, positive",0,0.0,III,6.824657534,0,training,0
+2824,51.4,Male,Lip & Oral Cavity,T4a,N2c,,1,1.0,IVA,4.021917808,0,training,0
+2826,52.1,Male,Nasopharynx,T4,N2,,1,1.0,IVA,5.030136986,0,training,0
+2827,68.0,Male,Oropharynx,T2,N2b,"Yes, positive",0,1.0,IVA,5.463013699,0,training,0
+2828,70.8,Female,Oropharynx,T4b,N2b,"Yes, Negative",0,2.0,IVB,2.290410959,1,training,0
+2829,51.4,Male,Larynx,T1a,N0,,0,0.0,I,5.761643836,0,training,0
+2831,71.7,Female,Oropharynx,T1,N3,"Yes, positive",0,0.0,IVB,6.169863014,0,training,0
+2832,65.5,Male,Larynx,T4a,N0,,0,0.0,IVA,1.871232877,1,training,1
+2833,70.5,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,4.410958904,0,training,0
+2834,57.8,Male,Oropharynx,T1,N2b,"Yes, positive",0,0.0,IVA,4.917808219,0,training,0
+2835,81.2,Female,Oropharynx,T2,N2b,"Yes, Negative",0,1.0,IVA,2.068493151,1,training,0
+2836,65.2,Female,Oropharynx,T3,N2a,"Yes, positive",1,0.0,IVA,5.334246575,0,training,0
+2837,59.6,Male,Larynx,T4a,N0,,1,0.0,IVA,0.846575342,1,training,1
+2838,43.9,Male,Oropharynx,T4a,N2b,"Yes, positive",1,0.0,IVA,5.720547945,0,training,0
+2839,52.3,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,2.97260274,1,training,0
+2840,61.8,Female,Lip & Oral Cavity,T2,N0,,0,0.0,II,4.77260274,0,training,0
+2841,72.9,Male,Larynx,T3,N2b,"Yes, Negative",0,2.0,IVA,0.830136986,1,training,1
+2842,65.6,Male,Larynx,Tis,N0,,0,0.0,0,5.539726027,0,training,0
+2844,58.4,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,4.224657534,1,training,0
+2846,62.4,Male,Oropharynx,T3,N2b,"Yes, positive",1,1.0,IVA,4.890410959,0,training,0
+2847,73.8,Male,Larynx,T1a,N0,,0,0.0,I,6.024657534,0,training,0
+2848,52.3,Male,Oropharynx,T1,N2a,"Yes, positive",1,0.0,IVA,5.780821918,0,training,0
+2849,70.4,Male,Larynx,T2,N1,,0,1.0,III,4.832876712,0,training,0
+2852,55.2,Male,Nasopharynx,T3,N2,"Yes, positive",1,0.0,III,4.005479452,0,training,0
+2853,70.2,Male,Larynx,T1a,N0,,0,0.0,I,6.180821918,0,training,0
+2854,47.2,Female,Paranasal Sinus,T4b,N0,,0,1.0,IVA,4.101369863,0,training,0
+2855,63.0,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,6.41369863,0,training,0
+2856,77.9,Male,Hypopharynx,T4a,N2b,,0,2.0,IVA,2.145205479,1,training,0
+2857,38.5,Male,Larynx,T1b,N0,,0,0.0,I,3.997260274,0,training,0
+2859,58.8,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,5.115068493,0,training,0
+2860,65.2,Male,Oropharynx,T1,N1,"Yes, positive",0,1.0,III,6.342465753,0,training,0
+2861,50.7,Female,Hypopharynx,T2,N2b,,1,0.0,IVA,4.293150685,0,training,0
+2862,61.5,Male,Oropharynx,T4b,N2c,"Yes, positive",1,1.0,IVB,5.452054795,0,training,0
+2863,61.6,Male,Oropharynx,T1,N0,"Yes, Negative",0,0.0,I,6.315068493,0,training,0
+2864,71.2,Male,Oropharynx,T1,N2b,"Yes, Negative",0,1.0,IVA,1.397260274,1,training,1
+2866,63.1,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,5.169863014,0,training,0
+2867,69.4,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,5.087671233,0,training,0
+2868,57.5,Male,Oropharynx,T4a,N2b,"Yes, positive",1,1.0,IVA,6.394520548,0,training,0
+2870,65.6,Male,Oropharynx,T4b,N2c,"Yes, Negative",1,1.0,IVB,1.2,1,training,1
+2871,60.9,Male,Larynx,T1a,N0,,0,0.0,I,5.663013699,0,training,0
+2872,61.2,Male,Hypopharynx,T3,N2c,"Yes, Negative",1,2.0,IVA,3.712328767,0,training,0
+2873,62.5,Male,Nasopharynx,T4,N2,,1,1.0,IVA,2.317808219,1,training,0
+2876,81.3,Male,Larynx,T2,N0,,0,1.0,II,3.753424658,1,training,0
+2879,53.4,Male,Oropharynx,T1,N1,"Yes, positive",0,0.0,III,2.608219178,0,training,0
+2880,15.6,Male,Nasopharynx,T1,N2,,1,0.0,III,3.553424658,0,training,0
+2882,69.3,Male,Nasopharynx,T3,N2,"Yes, Negative",1,1.0,III,3.024657534,1,training,0
+2883,76.7,Male,Hypopharynx,T3,N2c,,0,2.0,IVA,1.145205479,1,training,1
+2884,32.8,Male,Larynx,T4a,N2b,"Yes, Negative",1,0.0,IVA,1.331506849,1,training,1
+2886,83.0,Male,Oropharynx,T3,N2c,"Yes, positive",0,2.0,IVA,0.720547945,1,training,1
+2889,79.7,Male,Oropharynx,T3,N2c,"Yes, positive",0,1.0,IVA,5.082191781,0,training,0
+2890,61.2,Female,nasal cavity,T4b,N3,"Yes, Negative",1,1.0,IVA,4.463013699,1,training,0
+2891,64.3,Male,Oropharynx,T1,N2b,"Yes, positive",1,1.0,IVA,3.597260274,0,training,0
+2892,41.6,Male,Nasopharynx,T3,N2,,1,0.0,III,2.797260274,1,training,0
+2893,71.3,Male,Oropharynx,T3,N2c,"Yes, positive",0,0.0,IVA,6.249315068,0,training,0
+2894,71.8,Male,Larynx,T3,N2b,,0,0.0,IVA,3.104109589,1,training,0
+2898,70.5,Male,Oropharynx,T2,N2b,"Yes, positive",0,1.0,IVA,5.569863014,0,training,0
+2899,67.9,Male,Larynx,T1a,N0,,0,1.0,I,4.512328767,0,training,0
+2900,57.0,Male,Larynx,T2,N0,,0,0.0,II,4.77260274,0,training,0
+2901,49.5,Female,Nasopharynx,T3,N1,,1,1.0,III,6.698630137,0,training,0
+2903,68.5,Male,Oropharynx,T3,N2b,"Yes, positive",0,0.0,IVA,2.536986301,0,training,0
+2904,83.6,Male,Oropharynx,T2,N2a,"Yes, Negative",0,0.0,IVA,0.62739726,1,training,1
+2906,61.9,Male,Lip & Oral Cavity,T2,N1,,1,1.0,III,6.142465753,0,training,0
+2907,61.7,Female,Oropharynx,T2,N0,"Yes, positive",0,1.0,II,6.073972603,0,training,0
+2911,75.3,Female,Lip & Oral Cavity,T4a,N0,,0,0.0,IVA,1.178082192,1,training,1
+2912,56.2,Male,Oropharynx,T2,N1,"Yes, positive",0,0.0,III,5.052054795,0,training,0
+2913,52.8,Male,Hypopharynx,T4b,N2c,"Yes, positive",1,1.0,IVB,3.046575342,1,training,0
+2914,35.0,Male,Nasopharynx,T3,N2,,1,1.0,III,6.038356164,0,training,0
+2916,53.6,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,5.367123288,0,training,0
+2917,59.2,Male,Oropharynx,T3,N2b,"Yes, positive",1,1.0,IVA,5.076712329,0,training,0
+2919,58.6,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,5.890410959,0,training,0
+2921,75.7,Male,Larynx,T1b,N0,,0,0.0,I,2.2,0,training,0
+2922,56.3,Male,Larynx,T2,N0,,0,0.0,II,4.309589041,0,training,0
+2923,61.5,Male,Nasopharynx,T3,N1,,1,0.0,III,3.871232877,0,training,0
+2924,60.1,Male,Larynx,T4a,N2b,,1,2.0,IVA,5.854794521,0,training,0
+2925,68.8,Male,Larynx,T2,N0,,0,0.0,II,4.819178082,0,training,0
+2926,53.8,Male,Larynx,T1a,N0,"Yes, Negative",0,0.0,I,6.21369863,0,training,0
+2927,60.0,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,5.076712329,0,training,0
+2928,86.2,Female,Lip & Oral Cavity,T4a,N1,,0,0.0,IVA,1.690410959,1,training,1
+2930,45.7,Female,Oropharynx,T2,N2b,"Yes, positive",0,1.0,IVA,6.22739726,0,training,0
+2931,67.1,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,1.139726027,1,training,1
+2932,62.8,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,3.901369863,1,training,0
+2933,74.2,Male,Oropharynx,T4a,N0,"Yes, Negative",0,1.0,IVA,2.632876712,1,training,0
+2934,45.2,Male,Oropharynx,T4b,N2c,"Yes, Negative",1,2.0,IVB,0.865753425,1,training,1
+2935,46.2,Male,Nasopharynx,T2,N2,,1,0.0,III,5.887671233,0,training,0
+2936,71.4,Male,Larynx,T2,N0,,0,0.0,II,2.347945205,0,training,0
+2938,51.7,Female,Larynx,T3,N2c,,1,0.0,IVA,2.410958904,0,training,0
+2939,57.2,Male,Oropharynx,T3,N3,"Yes, positive",1,0.0,IVB,5.416438356,0,training,0
+2941,65.1,Male,Oropharynx,T3,N3,,1,1.0,IVB,5.55890411,0,training,0
+2942,72.5,Male,Larynx,T3,N0,,0,0.0,III,3.252054795,1,training,0
+2943,68.1,Male,Oropharynx,T4a,N1,"Yes, Negative",0,0.0,IVA,5.723287671,0,training,0
+2945,50.7,Male,Oropharynx,T4b,N2c,"Yes, positive",1,1.0,IVB,5.194520548,0,training,0
+2946,81.9,Male,Larynx,T1a,N0,,0,0.0,I,3.808219178,0,training,0
+2947,63.9,Female,Larynx,T1b,N0,,0,0.0,I,6.268493151,0,training,0
+2950,71.4,Male,Larynx,T3,N2b,"Yes, Negative",1,0.0,IVA,4.115068493,0,training,0
+2951,50.0,Male,Oropharynx,T2,N3,"Yes, positive",1,0.0,IVB,6.18630137,0,training,0
+2952,77.2,Male,Nasopharynx,T2,N1,,1,1.0,II,2.575342466,1,training,0
+2953,58.0,Male,Nasopharynx,T4,N0,"Yes, Negative",1,0.0,IVA,5.947945205,0,training,0
+2954,52.9,Female,Oropharynx,T2,N2a,"Yes, positive",1,0.0,IVA,6.339726027,0,training,0
+2956,67.3,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,3.857534247,1,training,0
+2957,55.8,Male,Oropharynx,T1,N3,"Yes, Negative",1,1.0,IVB,4.816438356,0,training,0
+2958,61.2,Male,Oropharynx,T1,N2c,"Yes, positive",1,0.0,IVA,6.202739726,0,training,0
+2959,82.3,Male,Larynx,T3,N0,,0,3.0,III,1.498630137,1,training,1
+2960,49.4,Female,Nasopharynx,T4,N2,,1,1.0,IVA,5.701369863,0,training,0
+2963,21.6,Male,Nasopharynx,T3,N1,,1,0.0,III,5.712328767,0,training,0
+2964,62.8,Male,Oropharynx,T4b,N2b,"Yes, positive",1,0.0,IVB,5.156164384,0,training,0
+2966,66.3,Male,Hypopharynx,T4a,N0,"Yes, positive",1,1.0,IVA,5.345205479,0,training,0
+2968,73.0,Male,Larynx,T1,N0,"Yes, Negative",0,0.0,I,2.739726027,0,training,0
+2971,38.6,Male,Oropharynx,T2,N0,"Yes, Negative",0,0.0,II,5.134246575,1,training,0
+2972,85.1,Male,Larynx,T3,N0,,0,1.0,III,5.57260274,0,training,0
+2973,77.7,Male,Hypopharynx,T3,N3,,0,1.0,IVB,1.18630137,1,training,1
+2974,63.2,Male,Larynx,T2,N0,,0,0.0,II,5.142465753,0,training,0
+2976,65.7,Female,Oropharynx,T3,N1,,0,1.0,III,5.695890411,0,training,0
+2977,72.4,Male,Larynx,T3,N1,,0,0.0,III,5.868493151,0,training,0
+2979,58.5,Male,Nasopharynx,T3,N2,"Yes, Negative",1,1.0,III,5.580821918,0,training,0
+2980,78.3,Female,Oropharynx,T4a,N0,,0,0.0,IVA,5.857534247,0,training,0
+2981,71.9,Male,Nasopharynx,T3,N1,"Yes, Negative",1,0.0,III,5.849315068,0,training,0
+2982,47.2,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,2.465753425,1,training,0
+2983,37.9,Male,Oropharynx,T1,N2b,"Yes, positive",0,0.0,IVA,5.638356164,0,training,0
+2985,21.0,Female,Nasopharynx,T3,N2,"Yes, Negative",1,0.0,III,4.567123288,0,training,0
+2986,68.4,Male,Larynx,T2,N0,,0,0.0,II,5.210958904,0,training,0
+2987,51.6,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,5.676712329,0,training,0
+2988,52.5,Male,Oropharynx,T2,N2c,"Yes, positive",0,1.0,IVA,5.443835616,0,training,0
+2989,58.1,Male,Hypopharynx,T4b,N3,,1,0.0,IVB,1.008219178,1,training,1
+2990,58.0,Female,Larynx,Tis,N0,"Yes, positive",0,1.0,0,6.367123288,0,training,0
+2991,83.2,Male,Larynx,T3,N2b,,0,1.0,IVA,1.953424658,1,training,1
+2992,61.1,Female,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,5.619178082,0,training,0
+2994,85.4,Male,Lip & Oral Cavity,T3,N2b,,0,1.0,IVA,0.673972603,1,training,1
+2995,57.4,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,5.123287671,0,training,0
+2996,62.2,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,5.254794521,0,training,0
+2997,66.6,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,3.260273973,1,training,0
+2998,56.3,Male,Nasopharynx,T4,N2,,1,1.0,IVA,5.082191781,0,training,0
+2999,59.9,Male,Hypopharynx,T2,N2c,,1,0.0,IVA,5.024657534,1,training,0
+3000,74.9,Male,Larynx,T4a,N2c,"Yes, Negative",0,0.0,IVA,1.690410959,1,training,1
+3002,81.9,Male,Oropharynx,T4b,N2c,"Yes, positive",0,0.0,IVB,2.578082192,1,training,0
+3003,48.9,Male,Larynx,T1a,N0,,0,1.0,I,1.915068493,1,training,1
+3004,61.3,Female,Nasopharynx,T3,N0,,1,0.0,III,5.561643836,0,training,0
+3005,59.0,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,2.295890411,1,training,0
+3006,51.3,Male,Oropharynx,T2,N2c,"Yes, positive",1,0.0,IVA,5.863013699,0,training,0
+3007,39.8,Male,Oropharynx,T4b,N2c,"Yes, Negative",1,1.0,IVB,2.345205479,0,training,0
+3008,65.4,Female,Oropharynx,T3,N0,"Yes, Negative",1,1.0,III,5.095890411,0,training,0
+3009,60.5,Female,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,5.410958904,0,training,0
+3010,55.6,Male,Larynx,T1a,N0,,0,0.0,I,3.175342466,1,training,0
+3011,57.9,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,5.216438356,0,training,0
+3014,51.6,Male,Oropharynx,T4b,N3,"Yes, Negative",1,1.0,IVB,0.832876712,1,training,1
+3015,67.5,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,5.430136986,0,training,0
+3016,61.9,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,3.915068493,1,training,0
+3017,81.1,Male,Larynx,T2,N0,,0,1.0,II,3.520547945,0,training,0
+3018,70.5,Female,Oropharynx,T3,N0,"Yes, Negative",0,1.0,III,0.717808219,1,training,1
+3019,88.5,Female,Lip & Oral Cavity,T2,N0,,0,0.0,II,2.487671233,1,training,0
+3020,77.1,Female,Oropharynx,T2,N1,"Yes, positive",0,0.0,III,2.928767123,0,training,0
+3021,42.2,Male,esophagus,T3,N1,,1,3.0,III,1.605479452,1,training,1
+3022,48.5,Male,Larynx,T2,N0,,0,0.0,II,5.679452055,0,training,0
+3023,36.5,Male,Nasopharynx,T1,N2,,1,0.0,III,4.753424658,0,training,0
+3024,57.7,Male,Larynx,T1a,N0,,0,0.0,I,5.402739726,0,training,0
+3025,78.0,Male,Oropharynx,T2,N2b,"Yes, positive",0,0.0,IVA,5.876712329,0,training,0
+3026,45.9,Male,Nasopharynx,T3,N2,,1,0.0,III,1.224657534,1,training,1
+3027,67.7,Male,Larynx,T3,N0,,0,3.0,III,5.936986301,0,training,0
+3028,44.4,Male,Nasopharynx,T3,N2,"Yes, Negative",1,1.0,III,5.547945205,0,training,0
+3029,49.3,Female,Larynx,T3,N0,,0,1.0,III,5.463013699,0,training,0
+3030,52.6,Male,Nasopharynx,T3,N1,,1,0.0,III,5.520547945,0,training,0
+3031,84.8,Female,Oropharynx,T2,N0,"Yes, Negative",0,2.0,II,5.430136986,0,training,0
+3034,64.0,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,6.043835616,0,training,0
+3036,42.3,Male,Oropharynx,T4b,N2c,"Yes, positive",1,0.0,IVB,5.15890411,0,training,0
+3038,44.2,Female,Larynx,T2,N0,"Yes, Negative",0,1.0,II,4.547945205,0,training,0
+3039,43.5,Male,esophagus,T2,N1,,1,0.0,II,5.350684932,0,training,0
+3040,60.5,Female,Nasopharynx,T4,N2,,1,0.0,IVA,1.317808219,1,training,1
+3042,39.3,Female,Nasopharynx,T1,N2,"Yes, Negative",1,0.0,III,5.136986301,0,training,0
+3043,79.3,Female,Oropharynx,T2,N2c,"Yes, Negative",0,1.0,IVA,3.008219178,1,training,0
+3044,55.0,Male,Oropharynx,T4a,N2c,"Yes, Negative",1,0.0,IVA,0.624657534,1,training,1
+3046,54.8,Male,Oropharynx,T3,N2c,"Yes, positive",1,1.0,IVA,2.761643836,1,training,0
+3047,46.2,Male,Nasopharynx,T3,N2,,1,0.0,IVA,5.219178082,0,training,0
+3048,51.6,Male,Hypopharynx,T4b,N2c,,1,1.0,IVB,0.443835616,1,training,1
+3049,67.3,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,5.750684932,0,training,0
+3050,61.1,Male,Oropharynx,T2,N2c,"Yes, positive",1,1.0,IVA,5.197260274,0,training,0
+3052,60.5,Male,Oropharynx,T4a,N2c,"Yes, positive",1,0.0,IVA,5.638356164,0,training,0
+3053,81.1,Female,Hypopharynx,T2,N3,,0,1.0,IVB,1.224657534,1,training,1
+3054,65.8,Female,Oropharynx,T2,N2a,"Yes, positive",1,0.0,IVA,5.276712329,0,training,0
+3055,72.0,Male,Hypopharynx,T1,N3,,0,0.0,IVB,2.997260274,1,training,0
+3057,44.2,Male,Oropharynx,T2,N2a,"Yes, positive",1,0.0,IVA,5.317808219,0,training,0
+3058,32.1,Female,Nasopharynx,T3,N2,,1,0.0,III,4.632876712,0,training,0
+3060,54.5,Male,Oropharynx,T3,N2c,,0,2.0,IVA,3.646575342,1,training,0
+3061,77.9,Male,Nasopharynx,T3,N2,"Yes, Negative",1,1.0,III,1.961643836,1,training,1
+3063,51.1,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,5.657534247,0,training,0
+3065,61.9,Male,Nasopharynx,T3,N0,"Yes, Negative",0,0.0,III,4.904109589,0,training,0
+3067,40.4,Male,Larynx,T1a,N0,,0,0.0,I,5.432876712,0,training,0
+3068,48.1,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,5.068493151,0,training,0
+3070,28.2,Female,Nasopharynx,T2,N3b,,1,0.0,IVB,5.597260274,0,training,0
+3071,62.3,Female,nasal cavity,T2,N2b,,1,2.0,IVA,5.043835616,0,training,0
+3072,60.3,Male,Oropharynx,T1,N0,"Yes, positive",0,1.0,I,1.019178082,0,training,0
+3073,75.0,Male,Larynx,T3,N0,,0,1.0,III,0.989041096,1,training,1
+3074,45.4,Male,Oropharynx,T1,N2c,"Yes, positive",1,0.0,IVA,4.775342466,0,training,0
+3075,66.3,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,2.183561644,0,training,0
+3076,49.0,Female,Oropharynx,T2,N2c,"Yes, positive",1,1.0,IVA,5.002739726,0,training,0
+3078,77.7,Male,Larynx,T2,N2b,,0,0.0,IVA,1.830136986,1,training,1
+3079,42.5,Male,esophagus,T3,N1,,1,0.0,IIIA,1.301369863,1,training,1
+3080,77.8,Male,Larynx,T1a,N0,,0,0.0,I,3.62739726,0,training,0
+3081,85.1,Male,Larynx,T2,N0,"Yes, Negative",0,0.0,II,3.95890411,1,training,0
+3082,75.9,Female,Nasopharynx,T1,N3,,1,0.0,IVB,0.931506849,1,training,1
+3083,53.3,Male,Nasopharynx,T4,N1,,1,0.0,IVA,4.953424658,0,training,0
+3084,70.0,Male,Hypopharynx,T3,N2c,"Yes, Negative",0,1.0,IVA,2.939726027,0,training,0
+3086,72.9,Male,Oropharynx,T3,N0,"Yes, positive",0,0.0,III,4.57260274,0,training,0
+3087,56.8,Female,Lip & Oral Cavity,T4a,N2c,,1,1.0,IVA,0.934246575,1,training,1
+3088,69.2,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,4.871232877,0,training,0
+3089,64.4,Female,Larynx,T3,N0,,0,1.0,III,3.553424658,0,training,0
+3090,67.5,Male,Hypopharynx,T4b,N2c,"Yes, positive",1,1.0,IVB,5.01369863,0,training,0
+3091,65.1,Male,Lip & Oral Cavity,T2,N1,,0,0.0,III,4.687671233,0,training,0
+3092,63.7,Male,Larynx,T1b,N0,,0,0.0,I,4.175342466,0,training,0
+3095,76.3,Male,Larynx,T2,N0,"Yes, Negative",0,0.0,II,2.956164384,1,training,0
+3098,49.2,Female,Nasopharynx,T4,N3a,"Yes, Negative",1,1.0,IVB,5.145205479,0,training,0
+3099,79.3,Female,Larynx,T1a,N0,,0,0.0,I,4.58630137,0,training,0
+3100,65.5,Male,Larynx,T1a,N0,,0,0.0,I,4.391780822,0,training,0
+3101,50.5,Female,nasal cavity,T4a,N1,,0,1.0,IVA,2.62739726,0,training,0
+3103,57.4,Male,Oropharynx,T3,N1,"Yes, positive",1,1.0,III,4.852054795,0,training,0
+3104,74.1,Male,Larynx,T1a,N0,"Yes, Negative",0,0.0,I,4.961643836,0,training,0
+3105,85.3,Male,Oropharynx,T3,N2c,"Yes, positive",0,1.0,IVA,5.054794521,0,training,0
+3107,45.4,Male,Larynx,T3,N1,,0,0.0,III,3.271232877,0,training,0
+3108,68.8,Male,Larynx,T3,N1,,0,0.0,III,5.210958904,0,training,0
+3109,75.5,Male,nasal cavity,T2,N1,"Yes, positive",0,1.0,III,1.043835616,1,training,1
+3110,62.6,Male,Larynx,T2,N0,,0,0.0,II,5.41369863,0,training,0
+3111,56.6,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,5.506849315,0,training,0
+3112,45.3,Male,Oropharynx,T2,N3,"Yes, positive",1,1.0,IVA,4.268493151,0,training,0
+3113,62.2,Male,Oropharynx,T4a,N2b,"Yes, Negative",1,1.0,IVA,5.098630137,0,training,0
+3114,73.4,Male,Larynx,T1a,N0,"Yes, Negative",0,0.0,I,4.421917808,0,training,0
+3115,76.4,Male,Oropharynx,T3,N2b,"Yes, Negative",0,1.0,IVA,0.257534247,1,training,1
+3116,69.7,Male,Hypopharynx,T3,N2b,,1,0.0,IVA,5.002739726,0,training,0
+3117,69.3,Male,Larynx,T1a,N0,,0,0.0,I,4.97260274,0,training,0
+3119,54.4,Female,Oropharynx,T4b,N2c,"Yes, positive",1,1.0,IVB,0.939726027,1,training,1
+3120,47.9,Male,Oropharynx,T4b,N2b,"Yes, positive",1,1.0,IVB,1.923287671,1,training,1
+3121,56.0,Male,Larynx,T2,N0,,0,0.0,II,3.063013699,0,training,0
+3122,61.8,Male,Larynx,T1a,N0,,0,0.0,I,4.408219178,0,training,0
+3123,46.1,Female,Nasopharynx,T1,N3b,,1,0.0,IVB,5.030136986,0,training,0
+3124,48.8,Male,Larynx,T1b,N0,,0,0.0,I,5.156164384,0,training,0
+3126,69.1,Male,Nasopharynx,T3,N2,,1,0.0,III,3.98630137,0,training,0
+3127,61.7,Male,Nasopharynx,T4,N1,,1,0.0,IVA,5.249315068,0,training,0
+3128,75.5,Male,Nasopharynx,T1,N3,,0,0.0,IVB,5.906849315,0,training,0
+3129,64.7,Male,Nasopharynx,T4,N2,,1,1.0,IVA,3.484931507,0,training,0
+3130,60.0,Female,Oropharynx,T2,N2b,"Yes, positive",0,1.0,IVA,4.860273973,0,training,0
+3131,74.9,Male,Larynx,Tis,N0,,0,0.0,0,1.528767123,0,training,0
+3133,51.8,Male,Hypopharynx,T4a,N2b,,1,0.0,IVA,3.75890411,0,training,0
+3134,70.8,Male,Larynx,T4a,N2c,,0,1.0,IVA,3.838356164,0,training,0
+3135,33.4,Female,Nasopharynx,T4,N2,,1,0.0,IVA,4.8,0,training,0
+3136,61.2,Female,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,4.369863014,0,training,0
+3137,59.6,Male,Oropharynx,T1,N2c,"Yes, positive",1,0.0,IVA,5.41369863,0,training,0
+3138,63.4,Male,Larynx,T2,N0,,0,1.0,II,4.145205479,0,training,0
+3139,52.8,Male,Oropharynx,T4b,N2b,"Yes, positive",0,2.0,IVB,0.983561644,1,training,1
+3140,50.1,Male,Oropharynx,T2,N1,"Yes, positive",0,1.0,III,5.104109589,0,training,0
+3141,54.8,Female,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,5.153424658,0,training,0
+3142,54.4,Male,Larynx,T2,N0,,1,1.0,II,4.126027397,0,training,0
+3144,53.2,Male,Larynx,T1b,N0,,0,0.0,I,3.202739726,0,training,0
+3145,43.1,Male,Oropharynx,T2,N2c,"Yes, positive",1,1.0,IVA,3.219178082,0,training,0
+3146,52.4,Female,Oropharynx,T4a,N2c,"Yes, positive",1,1.0,IVA,4.58630137,0,training,0
+3149,42.7,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,4.890410959,0,training,0
+3150,51.6,Male,Larynx,T2,N0,,0,0.0,II,4.142465753,0,training,0
+3151,57.1,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,5.238356164,0,training,0
+3153,80.8,Male,Oropharynx,T1,N0,"Yes, Negative",0,0.0,I,4.402739726,0,training,0
+3154,55.4,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,4.350684932,0,training,0
+3155,48.4,Female,Nasopharynx,T1,N3,,1,0.0,IVB,3.564383562,0,training,0
+3156,63.9,Male,Oropharynx,T3,N2c,"Yes, positive",1,1.0,IVA,4.167123288,1,training,0
+3157,87.5,Male,esophagus,T3,N1,,0,2.0,IIIA,0.868493151,1,training,1
+3159,55.0,Female,Oropharynx,T1,N0,"Yes, Negative",0,1.0,I,4.860273973,0,training,0
+3160,81.1,Female,Oropharynx,T2,N2b,"Yes, positive",0,1.0,IVA,5.260273973,0,training,0
+3161,56.4,Male,Oropharynx,T2,N2b,"Yes, positive",1,1.0,IVA,5.224657534,0,training,0
+3163,56.8,Male,Larynx,T2,N0,,0,0.0,II,4.339726027,0,training,0
+3164,58.1,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,2.835616438,0,training,0
+3166,75.2,Male,esophagus,T2,N0,,0,1.0,II,5.043835616,0,training,0
+3167,59.3,Female,Nasopharynx,T4,N2,,1,1.0,IVA,5.287671233,0,training,0
+3168,56.8,Male,Larynx,T3,N0,,0,2.0,III,3.931506849,0,training,0
+3169,58.2,Female,Oropharynx,T4b,N0,"Yes, Negative",0,3.0,IVB,0.578082192,1,training,1
+3170,30.3,Female,Nasopharynx,T1,N3b,,1,2.0,IVB,4.824657534,0,training,0
+3173,58.0,Male,Oropharynx,T4a,N2c,"Yes, positive",1,1.0,IVA,3.964383562,0,training,0
+3174,53.9,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,4.454794521,0,training,0
+3177,69.3,Male,Oropharynx,T1,N3,"Yes, positive",1,0.0,IVB,4.630136986,0,training,0
+3178,73.9,Female,Larynx,T3,N0,,0,0.0,III,4.780821918,0,training,0
+3179,56.6,Male,Oropharynx,T2,N2b,"Yes, positive",0,1.0,IVA,5.150684932,0,training,0
+3180,63.8,Male,Larynx,T1a,N0,,0,0.0,I,4.797260274,0,training,0
+3181,70.1,Male,Oropharynx,T1,N2c,"Yes, positive",0,0.0,IVA,4.698630137,0,training,0
+3182,62.0,Female,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,4.950684932,0,training,0
+3183,73.9,Female,nasal cavity,T1,N0,,0,0.0,I,2.950684932,0,training,0
+3184,28.6,Female,Nasopharynx,T1,N2,"Yes, Negative",1,0.0,III,4.668493151,0,training,0
+3186,52.1,Male,Larynx,T2,N0,,0,0.0,II,3.04109589,0,training,0
+3187,45.8,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,4.950684932,0,training,0
+3189,79.8,Male,Larynx,T4a,N0,"Yes, Negative",0,0.0,IVA,1.506849315,1,training,1
+3190,57.1,Male,Larynx,T3,N0,,0,1.0,III,0.632876712,1,training,1
+3191,65.4,Male,Larynx,T3,N0,,1,1.0,III,4.761643836,0,training,0
+3192,44.6,Male,Nasopharynx,T4,N2,,1,0.0,IVA,4.742465753,0,training,0
+3193,51.6,Male,Oropharynx,T4a,N2c,"Yes, positive",1,0.0,IVA,5.183561644,0,training,0
+3194,47.4,Male,Nasopharynx,T1,N2,,1,0.0,III,4.219178082,0,training,0
+3195,73.9,Male,Larynx,T1a,N0,,0,0.0,I,5.082191781,0,training,0
+3196,64.6,Male,Oropharynx,T2,N3,"Yes, positive",1,0.0,IVB,4.331506849,0,training,0
+3197,47.2,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,4.443835616,0,training,0
+3198,71.4,Male,Oropharynx,T4b,N2c,"Yes, Negative",0,3.0,IVB,0.78630137,1,training,1
+3199,82.5,Male,Larynx,T2,N0,,0,0.0,II,3.663013699,0,training,0
+3201,58.3,Female,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,4.498630137,0,training,0
+3202,39.6,Female,Larynx,T1,N2b,,0,0.0,IVA,4.430136986,0,training,0
+3203,34.6,Male,Nasopharynx,T3,N2,,1,1.0,III,2.967123288,0,training,0
+3204,49.9,Male,Nasopharynx,T2,N3b,,1,0.0,IVB,2.97260274,0,training,0
+3205,45.2,Male,Paranasal Sinus,T4a,N2b,,1,0.0,IVA,5.117808219,0,training,0
+3206,57.4,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,4.906849315,0,training,0
+3207,54.5,Male,Larynx,T3,N0,,0,0.0,III,3.77260274,0,training,0
+3208,68.5,Male,Larynx,T4a,N2c,,0,3.0,IVA,4.589041096,0,training,0
+3209,67.6,Male,Larynx,T3,N0,,1,0.0,III,5.082191781,0,training,0
+3210,60.9,Male,Hypopharynx,T2,N0,"Yes, Negative",0,0.0,II,4.734246575,0,training,0
+3211,69.3,Male,Hypopharynx,T2,N2b,,0,2.0,IVA,3.569863014,0,training,0
+3212,61.2,Male,Oropharynx,T3,N0,"Yes, positive",0,0.0,III,1.35890411,1,training,1
+3213,66.3,Male,Nasopharynx,T4,N3b,,1,1.0,IVB,2.512328767,1,training,0
+3214,72.2,Male,Larynx,T1b,N0,,0,0.0,I,4.676712329,0,training,0
+3215,53.4,Male,Oropharynx,T2,N2c,"Yes, Negative",1,0.0,IVA,4.717808219,0,training,0
+3216,58.7,Male,Oropharynx,T3 (2),N2c,"Yes, positive",1,0.0,IVA,4.345205479,0,training,0
+3217,43.8,Male,Larynx,T1a,N0,"Yes, Negative",0,0.0,I,2.295890411,0,training,0
+3219,47.7,Male,Oropharynx,T4a,N0,"Yes, Negative",1,0.0,IVA,5.18630137,0,training,0
+3220,48.5,Male,Nasopharynx,T3,N2,,1,0.0,III,4.493150685,0,training,0
+3222,64.3,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,1.849315068,1,training,1
+3225,56.1,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,4.936986301,0,training,0
+3226,56.7,Male,Paranasal Sinus,T4a,N0,,0,1.0,IVA,2.871232877,0,training,0
+3227,81.8,Male,Oropharynx,T3,N2b,"Yes, positive",0,1.0,IVA,4.104109589,0,training,0
+3230,67.6,Male,Oropharynx,T4b,N2c,"Yes, positive",0,2.0,IVA,0.769863014,1,training,1
+3231,58.8,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,4.649315068,0,training,0
+3233,86.3,Male,Larynx,T1b,N0,,0,4.0,I,1.378082192,1,training,1
+3234,55.0,Male,Oropharynx,T2,N2c,"Yes, positive",0,0.0,IVA,4.312328767,0,training,0
+3237,37.9,Male,Nasopharynx,T1,N1,,1,0.0,II,4.810958904,0,training,0
+3238,52.4,Male,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,4.506849315,0,training,0
+3240,55.7,Male,Larynx,T1a,N0,,0,0.0,I,4.983561644,0,training,0
+3241,56.0,Male,Oropharynx,T1,N2b,"Yes, positive",1,0.0,IVA,4.854794521,0,training,0
+3242,53.5,Female,Hypopharynx,T4a,N2b,"Yes, Negative",0,0.0,IVA,0.520547945,1,training,1
+3244,59.1,Male,Oropharynx,T2,N3,"Yes, positive",1,0.0,IVB,2.35890411,0,training,0
+3245,65.1,Female,Larynx,T3,N2b,,1,0.0,IVA,3.794520548,0,training,0
+3247,57.3,Male,Larynx,T2,N0,,0,0.0,II,4.528767123,0,training,0
+3251,39.2,Male,Oropharynx,T4a,N2b,"Yes, positive",1,1.0,IVA,4.663013699,0,training,0
+3252,74.0,Female,Lip & Oral Cavity,T4b,N2c,,0,2.0,IVB,0.879452055,1,training,1
+3254,77.9,Male,Larynx,T3,N0,,0,0.0,III,1.742465753,1,training,1
+3255,69.9,Male,Oropharynx,T2,N2b,"Yes, Negative",0,2.0,IVA,0.830136986,1,training,1
+3256,55.5,Male,Oropharynx,T1,N2c,"Yes, positive",1,0.0,IVA,4.82739726,0,training,0
+3258,54.3,Male,Oropharynx,T3,N3,"Yes, positive",1,0.0,IVB,3.583561644,0,training,0
+3259,70.0,Male,Larynx,T1a,N0,,0,0.0,I,5.183561644,0,training,0
+3260,58.0,Male,Oropharynx,T4a,N1,"Yes, positive",1,0.0,IVA,4.810958904,0,training,0
+3261,67.9,Male,Larynx,T1a,N0,,0,1.0,I,3.254794521,0,training,0
+3262,57.9,Male,Nasopharynx,T3,N2,"Yes, positive",1,1.0,IVA,4.621917808,0,training,0
+3263,50.7,Male,Oropharynx,T3,N2a,"Yes, positive",1,0.0,IVA,4.863013699,0,training,0
+3264,49.3,Male,Oropharynx,T3,N2c,"Yes, positive",1,0.0,IVA,4.783561644,0,training,0
+3268,59.2,Male,Lip & Oral Cavity,T3,N2c,,1,1.0,IVA,4.194520548,0,training,0
+3290,65.9,Male,Hypopharynx,T2,N2b,,0,1.0,IVA,5.315068493,0,training,0
+4026,74.9,Female,Larynx,T2,N0,,0,1.0,II,1.709589041,1,training,1
+4027,59.1,Male,Hypopharynx,T1,N2b,"Yes, positive",1,0.0,IVA,5.890410959,0,training,0
+4030,70.7,Female,Larynx,T3,N1,,0,1.0,III,0.545205479,1,training,1
+4031,50.8,Male,Larynx,T3,N0,,0,2.0,III,0.906849315,1,training,1
+4034,54.8,Male,Larynx,T2,N0,,0,0.0,II,5.060273973,0,training,0
+4038,80.0,Male,Hypopharynx,T4a,N2b,,0,2.0,IVA,0.901369863,1,training,1
+4042,67.3,Male,nasal cavity,T4a,N0,,0,2.0,IVA,6.208219178,0,training,0
+4043,78.2,Male,Nasopharynx,T4,N2,,0,1.0,IVA,1.219178082,1,training,1
+4044,62.3,Male,Larynx,T3,N3,,1,0.0,IVB,0.780821918,1,training,1
+4046,76.4,Male,Oropharynx,T3,N0,"Yes, Negative",0,1.0,III,4.868493151,0,training,0
+4047,85.6,Male,Larynx,T3,N0,,0,1.0,III,4.991780822,0,training,0
+4048,75.7,Male,Larynx,T2,N1,,0,0.0,III,0.852054795,1,training,1
+4050,75.3,Male,Nasopharynx,T3,N1,,1,1.0,III,9.682191781,0,training,0
+4051,73.4,Female,Oropharynx,T3,N0,"Yes, Negative",0,0.0,III,2.391780822,1,training,0
+4052,71.1,Male,Lip & Oral Cavity,T2,N0,,0,0.0,II,7.095890411,0,training,0
+4053,63.6,Male,Nasopharynx,T1,N0,,0,0.0,I,4.873972603,0,training,0
+4055,54.3,Male,Oropharynx,T3,N2b,"Yes, positive",1,0.0,IVA,6.816438356,0,training,0
+4060,62.1,Male,Hypopharynx,T3,N0,,0,1.0,III,0.904109589,1,training,1
+4062,63.6,Female,Larynx,T2,N2b,,0,1.0,IVA,2.024657534,1,training,0
+4063,61.2,Male,Oropharynx,T1,N3,"Yes, positive",1,0.0,IVB,8.504109589,0,training,0
+4064,86.7,Male,Larynx,T4a,N0,,0,1.0,IVA,1.060273973,1,training,1
+4065,54.7,Male,Larynx,T1a,N0,,0,0.0,I,3.715068493,0,training,0
+4067,76.6,Male,Nasopharynx,T1,N2,,0,0.0,III,3.931506849,0,training,0
+4071,73.2,Male,Oropharynx,T2,N0,,0,0.0,II,8.583561644,1,training,0
+4072,55.4,Male,Nasopharynx,T1,N2,,1,1.0,III,9.821917808,0,training,0
+4074,62.7,Female,Oropharynx,T4a,N2c,"Yes, Negative",0,2.0,IVA,0.635616438,1,training,1
+4079,67.1,Female,Larynx,T2,N2b,,0,0.0,IVA,3.545205479,0,training,0
+4081,64.0,Male,Larynx,T2,N0,,0,2.0,II,6.134246575,0,training,0
+4082,49.5,Male,Oropharynx,T3,N2b,"Yes, positive",1,1.0,IVA,6.290410959,0,training,0
+4086,71.8,Male,Larynx,T3,N0,,0,1.0,III,6.139726027,0,training,0
+4087,50.2,Female,Larynx,T3,N2a,,1,1.0,IVA,1.501369863,1,training,1
+4088,73.8,Female,Oropharynx,T4b,N2b,"Yes, Negative",0,0.0,IVB,7.147945205,0,training,0
+4089,53.1,Male,Oropharynx,T2,N2c,"Yes, Negative",0,1.0,IVA,4.567123288,0,training,0
+4090,65.4,Male,Paranasal Sinus,T1,N0,,0,0.0,I,12.2,0,training,0
+4091,62.9,Male,Larynx,T1,N0,,0,0.0,I,2.884931507,0,training,0
+4093,82.7,Male,Larynx,T2,N0,,0,0.0,II,0.912328767,1,training,1
+4096,52.5,Male,Larynx,T4a,N2c,,1,2.0,IVA,2.506849315,1,training,0
+4097,65.0,Female,Oropharynx,T2,N1,"Yes, Negative",0,0.0,III,3.282191781,1,training,0
+4100,55.4,Female,Oropharynx,T3,N2c,"Yes, positive",1,1.0,IVA,9.317808219,0,training,0
+4104,58.0,Male,Hypopharynx,T1,N3,,1,0.0,IVB,1.073972603,1,training,1
+4107,58.1,Female,Oropharynx,T3,N1,"Yes, positive",1,0.0,III,11.39452055,0,training,0
+4117,53.7,Male,Oropharynx,T1,N0,"Yes, Negative",0,0.0,I,8.728767123,1,training,0
+4120,69.4,Male,Hypopharynx,T4a,N0,,0,0.0,IVA,6.0,0,training,0
+4121,80.0,Female,nasal cavity,T2,N0,,0,0.0,II,2.616438356,1,training,0
+4122,60.5,Male,Larynx,T1a,N0,,0,0.0,I,2.884931507,0,training,0
+4124,68.3,Male,Oropharynx,T2,N2b,"Yes, positive",0,1.0,IVA,9.167123288,0,training,0
+4125,53.9,Male,Larynx,T2,N0,,0,0.0,II,9.635616438,0,training,0
+4126,58.3,Male,Oropharynx,T2,N0,"Yes, positive",0,0.0,II,8.189041096,1,training,0
+4127,52.4,Female,Oropharynx,T2,N2b,"Yes, positive",1,0.0,IVA,5.739726027,0,training,0
+4128,71.3,Male,Oropharynx,T2,N0,,0,1.0,II,5.824657534,0,training,0
