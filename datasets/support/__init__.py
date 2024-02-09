@@ -12,6 +12,8 @@ import pandas as pd
 
 from sklearn.preprocessing import StandardScaler
 
+from utils.utils import get_workdir
+
 
 def generate_data(seed=42):
     np.random.seed(seed)
@@ -21,14 +23,19 @@ def generate_data(seed=42):
     data_frame = pandas.read_csv(path, index_col=0)
     to_drop = ['hospdead', 'death', 'prg2m', 'prg6m', 'dnr', 'dnrday', 'd.time', 'aps', 'sps', 'surv2m', 'surv6m',
                'totmcst']
-    print("head of data:{}, data shape:{}".format(data_frame.head(), data_frame.shape))
-    print("missing:{}".format(missing_proportion(data_frame.drop(labels=to_drop, axis=1))))
+    print("head of data:{}, data shape:{}".format(
+        data_frame.head(), data_frame.shape))
+    print("missing:{}".format(missing_proportion(
+        data_frame.drop(labels=to_drop, axis=1))))
     # Preprocess
-    one_hot_encoder_list = ['sex', 'dzgroup', 'dzclass', 'income', 'race', 'ca', 'sfdm2']
+    one_hot_encoder_list = ['sex', 'dzgroup',
+                            'dzclass', 'income', 'race', 'ca', 'sfdm2']
     data_frame = one_hot_encoder(data=data_frame, encode=one_hot_encoder_list)
 
-    data_frame = log_transform(data_frame, transform_ls=['totmcst', 'totcst', 'charges', 'pafi', 'sod'])
-    print("na columns:{}".format(data_frame.columns[data_frame.isnull().any()].tolist()))
+    data_frame = log_transform(data_frame, transform_ls=[
+                               'totmcst', 'totcst', 'charges', 'pafi', 'sod'])
+    print("na columns:{}".format(
+        data_frame.columns[data_frame.isnull().any()].tolist()))
     t_data = data_frame[['d.time']]
     e_data = data_frame[['death']]
     # dzgroup roughly corresponds to the diagnosis; more fine-grained than dzclass
@@ -80,7 +87,8 @@ def generate_data(seed=42):
     print("test:{}, valid:{}, train:{}, all: {}".format(len(test_idx), len(valid_idx), num_examples,
                                                         len(test_idx) + len(valid_idx) + num_examples))
 
-    imputation_values = get_train_median_mode(x=x[train_idx], categorial=encoded_indices)
+    imputation_values = get_train_median_mode(
+        x=x[train_idx], categorial=encoded_indices)
 
     preprocessed = {
         'train': formatted_data(x=x, t=t, e=e, idx=train_idx, imputation_values=imputation_values),
@@ -232,3 +240,9 @@ def impute_missing(data, imputation_values):
                 copy[i][idx] = imputation_values[idx]
     # print("copy;{}".format(copy))
     return copy
+
+
+def config_support():
+    return {"seed": 0, "inp_shape": 59, "num_clusters": 4, "latent_dim": 16, 'monte_carlo': 1,
+            "learn_prior": True, "weibull_shape": 2, "survival": True, "sample_surv": False, "epochs": 1000, "layers": [50, 100],
+            "learning_rate": 1e-3, "activation": "relu", "train_size": 0.7, "workdir": get_workdir("support", makedir=False)}

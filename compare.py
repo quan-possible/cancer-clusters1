@@ -71,7 +71,7 @@ df.columns = [col.lower().strip() for col in df.columns]
 
 cat_feats = ["sex", "disease site", "t stage", "n stage", "hpv combined", "chemo?", "ecog", "stage"]
 num_feats = ["age"]
-outcomes = df[["survival_time","death"]].rename(columns={"death":"event","survival_time":"time"})
+outcomes = df[["death", "survival_time"]].rename(columns={"death":"event","survival_time":"time"})
 features = df.drop(columns=["death","survival_time"])
 
 from auton_survival.preprocessing import Preprocessor

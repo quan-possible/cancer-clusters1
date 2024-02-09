@@ -4,21 +4,26 @@ miscellaneous utility functions.
 import datetime
 import logging
 import os
+import random
 import socket
 import sys
+import warnings
 
-import keras
-import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
+from sklearn.manifold import TSNE
+from sklearn.model_selection import train_test_split
 import tensorflow as tf
 import tensorflow_probability as tfp
+from auton_survival import reporting
+from auton_survival.metrics import phenotype_purity
 from keras.callbacks import Callback
 from scipy.optimize import linear_sum_assignment as linear_assignment
 from scipy.stats import fisk, weibull_min
 from tqdm import tqdm
 
 from utils.constants import ROOT_LOGGER_STR
+import seaborn as sns
 
 tfd = tfp.distributions
 tfkl = tf.keras.layers
@@ -30,6 +35,47 @@ tfk = tf.keras
 sys.path.insert(0, '../../')
 
 logger = logging.getLogger(ROOT_LOGGER_STR + '.' + __name__)
+
+
+def setup_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    tf.random.set_seed(seed)
+    os.environ['TF_DETERMINISTIC_OPS'] = '1'
+
+def setup_env():
+    warnings.filterwarnings("ignore")
+    sns.set(style="whitegrid")
+    print("CWD:", os.getcwd())
+
+    gpus = tf.config.experimental.list_physical_devices('GPU')
+    if gpus:
+        try:
+            for gpu in gpus:
+                tf.config.experimental.set_memory_growth(gpu, True)
+            tf.config.experimental.set_visible_devices(gpus[0], 'GPU')
+            print("GPU:", gpus[0].name)
+        except RuntimeError as e:
+            print(e)
+    else:
+        print("CPU only.")
+
+
+# Estimate the probability of event-free survival for phenotypes using the Kaplan Meier estimator.
+def get_purity(y, phenotypes, plot=True):
+    if plot:
+        reporting.plot_kaplanmeier(y, groups=phenotypes)
+        plt.xlabel('Time (Years)')
+        plt.ylabel('Event-Free Survival Probability')
+        plt.legend(['Phenotype 1', 'Phenotype 2'], loc="upper right")
+        plt.show()
+
+    metric_val1 = phenotype_purity(phenotypes_train=phenotypes, outcomes_train=y,
+                                   phenotypes_test=None, outcomes_test=None,
+                                   strategy='integrated', horizons=[6],
+                                   bootstrap=None)
+
+    return metric_val1
 
 
 def setup_logger(results_path, create_stdlog):
@@ -135,6 +181,22 @@ def save_generated_samples(model, inp_size, grid_size=4, cmap='viridis', postfix
             plt.imsave("generated_" + str(j) + ".png", img, cmap=cmap)
 
 
+def get_latent(model, x, y):
+    tsne = TSNE(n_components=2)
+    phenotypes = model.get_phenotypes(x, y)
+    z_mu, _ = model.encoder(x.values)
+    zc2 = tsne.fit_transform(np.vstack((z_mu, model.c_mu)))
+    z2, c2 = np.split(zc2, [len(z_mu)])
+
+    plt.figure(figsize=(8, 6))
+    sns.scatterplot(x=z2[:, 0], y=z2[:, 1], hue=phenotypes, size=y.time)
+    sns.scatterplot(x=c2[:, 0], y=c2[:, 1], hue=np.arange(
+        len(c2)), s=200, legend=False, marker="D", linewidth=1)
+    plt.xlabel('TSNE Component 1')
+    plt.ylabel('TSNE Component 2')
+    plt.title('TSNE Plot with Phenotypes')
+    plt.legend(title='Phenotypes', loc='best')
+    plt.show()
 # Weibull(lmbd, k) log-pdf
 def weibull_log_pdf(t, e, lmbd, k):
     t_ = tf.ones_like(lmbd) * tf.cast(t, tf.float64)
@@ -172,6 +234,7 @@ def tensor_slice(target_tensor, index_tensor):
 
 
 
+
 class ProgBar(Callback):
     def __init__(self, epochs, metrics):
         super(ProgBar, self).__init__()
@@ -183,17 +246,19 @@ class ProgBar(Callback):
         self.bar = tqdm(total=self.epochs, desc='Progress', position=0)
 
     def on_epoch_end(self, epoch, logs=None):
-        postfix = {metric: f"{logs.get(metric):.4f}" for metric in self.metrics}
+        postfix = {
+            metric: f"{logs.get(metric):.4f}" for metric in self.metrics}
         self.bar.set_postfix(postfix, refresh=True)
         self.bar.update(1)
 
     def on_train_end(self, logs=None):
         self.bar.close()
-        
-        
-def get_workdir(dataset=None, exp_name=''):
+
+
+def get_workdir(dataset=None, exp_name='', makedir=True):
     workdir = f"./runs{f'/{dataset.lower()}' if dataset is not None else ''}"\
         f"/{datetime.datetime.now().strftime('%b%d_%H-%M-%S')}"\
         f"_{socket.gethostname()}{f'_{exp_name}' if exp_name != '' else ''}"
-    os.makedirs(workdir, exist_ok=True)
+    if makedir:
+        os.makedirs(workdir, exist_ok=True) 
     return workdir

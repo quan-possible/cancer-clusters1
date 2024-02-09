@@ -1,6 +1,7 @@
 """
 VaDeSC model.
 """
+import numpy as np
 import tensorflow as tf
 import tensorflow_probability as tfp
 import os
@@ -35,17 +36,8 @@ class GMM_Survival(tf.keras.Model):
         self.sample_surv = kwargs['sample_surv']
         self.learn_prior = kwargs['learn_prior']
         self.layers_ = kwargs['layers']
-        # if isinstance(self.inp_shape, list):
-        #     self.encoder = VGGEncoder(encoded_size=self.encoded_size)
-        #     self.decoder = VGGDecoder(
-        #         input_shape=[256, 256, 1], activation='none')
-        # elif self.inp_shape <= 100:
-        #     self.encoder = Encoder_small(self.encoded_size)
-        #     self.decoder = Decoder_small(self.inp_shape, self.activation)
-        # else:
-        #     self.encoder = Encoder(self.encoded_size)
-        #     self.decoder = Decoder(self.inp_shape, self.activation)
-        self.encoder, self.decoder = self.init_nn(self.inp_shape, self.layers_, self.encoded_size, activation=self.activation, bias=True)
+        self.encoder, self.decoder = self.init_nn(
+            self.inp_shape, self.layers_, self.encoded_size, activation=self.activation, bias=True)
         self.c_mu = tf.Variable(tf.initializers.GlorotNormal()(
             shape=[self.num_clusters, self.encoded_size]), name='mu')
         self.log_c_sigma = tf.Variable(tf.initializers.GlorotNormal()(
@@ -64,6 +56,7 @@ class GMM_Survival(tf.keras.Model):
         self.use_t = tf.Variable([1.0], trainable=False)
 
     def call(self, inputs, training=True):
+        self.use_t.assign([0.0] if not training else [1.0])
         # if training:
         #     use_t_value = 1.0
         # else:
@@ -72,8 +65,7 @@ class GMM_Survival(tf.keras.Model):
         # NB: inputs have to include predictors/covariates/features (x), time-to-event (t), and
         # event indicators (e). e[i] == 1 if the i-th event is a death, and e[i] == 0 otherwise.
         x, y = inputs
-        t = y[:, 0]
-        e = y[:, 1]
+        e, t = y[:, 0], y[:, 1]
         log_z_sigma, z_sample, p_z_c, prior, lambda_z_c, p_t_z_c, p_c_z = self.encode(
             x, t, e, training)
 
@@ -126,7 +118,7 @@ class GMM_Survival(tf.keras.Model):
             lambda_z_c = risks
         return lambda_z_c, p_c_z, risks
 
-    def encode(self,  x, t=None, e=None, training=True):
+    def encode(self, x, t=None, e=None, training=True):
         enc_input = x
         z_mu, log_z_sigma = self.encoder(enc_input)
         tf.debugging.check_numerics(z_mu, message="z_mu")
@@ -196,10 +188,10 @@ class GMM_Survival(tf.keras.Model):
 
         # loss_prior = - tf.math.reduce_sum(tf.math.xlogy(tf.cast(p_c_z, tf.float64), 1e-60 +
         #                                                 tf.cast(prior, tf.float64)), axis=-1)
-        
+
         # TODO: Remember to change back
         loss_prior = - 16 * (tf.math.reduce_sum(tf.math.xlogy(tf.cast(p_c_z, tf.float64), 1e-60 +
-                                                        tf.cast(prior, tf.float64)), axis=-1))
+                                                              tf.cast(prior, tf.float64)), axis=-1))
 
         loss_variational_1 = - 1 / 2 * tf.reduce_sum(log_z_sigma + 1, axis=-1)
 
@@ -231,7 +223,7 @@ class GMM_Survival(tf.keras.Model):
         if self.survival:
             self.add_metric(loss_survival, name='loss_survival',
                             aggregation="mean")
-            
+
     def init_nn(self, input_dim, layers_, latent_dim, activation='relu', bias=True):
         # Define activation function
         if activation == 'relu6':
@@ -249,8 +241,10 @@ class GMM_Survival(tf.keras.Model):
         prev_dim = input_dim
 
         for hidden_dim in layers_:
-            encoder.append(layers.Dense(hidden_dim, use_bias=bias, activation=act))
-            decoder = [layers.Dense(prev_dim, use_bias=bias, activation=act)] + decoder
+            encoder.append(layers.Dense(
+                hidden_dim, use_bias=bias, activation=act))
+            decoder = [layers.Dense(
+                prev_dim, use_bias=bias, activation=act)] + decoder
             prev_dim = hidden_dim
 
         mu = layers.Dense(latent_dim, use_bias=bias)
@@ -261,13 +255,22 @@ class GMM_Survival(tf.keras.Model):
         decoder = models.Sequential(decoder)
 
         return encoder, decoder
-            
+
     def generate_samples(self, j, n_samples):
         z = tfd.MultivariateNormalDiag(loc=self.c_mu[j, :], scale_diag=tf.math.sqrt(
             tf.math.exp(self.log_c_sigma[j, :])))
         z_sample = z.sample(n_samples)
         dec = self.decoder(tf.expand_dims(z_sample, 0))
         return dec
+
+    def get_phenotypes(self, x, y, with_t=False):
+        t = 1.0 if with_t else 0.0
+        tf.keras.backend.set_value(self.use_t, np.array([t]))
+        rec, z_sample, p_z_c, p_c_z, risks, lambdas = self.predict(
+            (x.values, y.values), verbose=0, batch_size=len(x))
+        tf.keras.backend.set_value(self.use_t, np.array([1.0]))
+        return np.argmax(p_c_z, -1)
+
 
 class Encoder(models.Model):
     def __init__(self, layers_, mu, sigma):

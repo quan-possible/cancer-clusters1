@@ -28,8 +28,8 @@ def accuracy_metric(inp, p_c_z):
 def cindex_metric(inp, risks):
     # Evaluates the concordance index based on provided predicted risk scores, computed using hard clustering
     # assignments.
-    t = inp[:, 0]
-    e = inp[:, 1]
+    e = inp[:, 0]
+    t = inp[:, 1]
     risks = tf.squeeze(risks)
     return tf.numpy_function(cindex, (t,e,risks), tf.float64)
 
