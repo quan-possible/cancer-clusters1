@@ -1,6 +1,8 @@
 .idea/*
 runs
-
+# datasets
+archive
+k*
 bin/.ipynb_checkpoints/*
 
 *.pyc

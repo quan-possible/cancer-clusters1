@@ -12,12 +12,13 @@ from sklearn.model_selection import ParameterGrid, train_test_split
 from tensorflow.keras.callbacks import TensorBoard
 
 # Custom module imports
-from datasets.radcure import config_radcure, load_radcure
+from datasets.radcure import load_radcure
 from main import train
 from models.losses import Losses
 from models.model import GMM_Survival
 from utils.eval_utils import accuracy_metric, calibration, cindex, cindex_metric
 from utils.utils import ProgBar, get_latent, get_purity, get_workdir, setup_env, setup_seed
+import sys
 
 # TensorFlow Probability shortcuts
 tfd = tfp.distributions
@@ -25,49 +26,59 @@ tfkl = tf.keras.layers
 tfpl = tfp.layers
 tfk = tf.keras
 
-# Set Seaborn style for plots
-sns.set(style="whitegrid")
-
 # Environment setup for reproducibility and current directory printout
 setup_env()
 print(os.getcwd())
 
+# Load dataset
+path = "/u/97/nguyenq10/unix/HUS/cancer-clusters/datasets/radcure/clinical1.csv"
+x, y, cfg0 = load_radcure(path)
+x_tr, x_val, y_tr, y_val = train_test_split(
+    x, y, train_size=cfg0["train_size"], random_state=cfg0["seed"])
+
 # Configuration for the dataset and model
-cfg0 = config_radcure()
+if len(sys.argv) > 1:
+    cfg0["num_clusters"] = int(sys.argv[1])
+
 workdir0 = "radcure/analysis"
-workdir = get_workdir(workdir0)
+workdir = get_workdir(workdir0, f"k{cfg0['num_clusters']}")
 cfg0["workdir"] = workdir
 
-# Load dataset
-path = "/u/97/nguyenq10/unix/HUS/cancer-clusters/datasets/radcure/clinical_train.csv"
-x, y = load_radcure(path)
-x_tr, x_val, y_tr, y_val = train_test_split(x, y, train_size=cfg0["train_size"], random_state=cfg0["seed"])
 
 # Training the model with specified configuration
+print("Training main model...")
 model0, _ = train(x, y, config=cfg0, validation_data=(x_val, y_val))
 C0 = model0.get_phenotypes(x, y)
 print(get_purity(y_val, model0.get_phenotypes(x_val, y_val)))
 get_latent(model0, x, y)
 
+
 # Cluster Analysis
-def train_shuffled(params, base_cfg, Nsub=0.5):
+def train_shuffled(x, y, params, base_cfg, Nsub=0.5):
     base_cfg["train_size"] = Nsub
     models, Cruns, x_indices = [], [], []
-    for param in params:
+    for i, param in enumerate(params):
+        print(f"subsampled model {i}/{len(params)}")
         cfg = {k: param[k] if k in param else v for k, v in base_cfg.items()}
-        cfg["workdir"] = get_workdir(workdir0, str(cfg["seed"]))
+        cfg["workdir"] = cfg["workdir"] + f"/seed_{cfg['seed']}"
         print(cfg)
-        model, (x_tr, x_val, y_tr, y_val) = train(x, y, config=cfg)
-        x_indices.append(list(x_tr.index))
-        Cruns.append(model.get_phenotypes(x_tr, y_tr))
-        phe_val = model.get_phenotypes(x_val, y_val)
-        purity = get_purity(y_val, phe_val)
+        x_tr1, x_val1, y_tr1, y_val1 = train_test_split(
+            x, y, train_size=cfg["train_size"], random_state=cfg["seed"])
+        model,_ = train(x_tr1, y_tr1, validation_data=(
+            x_val1, y_val1), config=cfg, log=False)
+        x_indices.append(list(x_tr1.index))
+        Cruns.append(model.get_phenotypes(x_tr1, y_tr1))
+        phe_val1 = model.get_phenotypes(x_val1, y_val1)
+        purity = get_purity(y_val1, phe_val1)
+        print(f"purity: {purity}")
         models.append([model, cfg, purity])
     return Cruns, x_indices, models
 
+
+print("Training subsampled models...")
 param_grid = {"seed": range(100)}
 params = ParameterGrid(param_grid)
-Cruns, x_indices, models = train_shuffled(params, cfg0)
+Cruns, x_indices, models = train_shuffled(x, y, params, cfg0)
 
 # Consensus clustering matrix calculation
 N = len(x)
@@ -87,8 +98,10 @@ for run in range(runs):
     idx_mat = np.ix_(idx, idx)
     M0[run][idx_mat] = label_mat
 
+
 M = np.nan_to_num(np.sum(M0, axis=0) / np.sum(I, axis=0))
 print(M)
+
 
 # Consensus index calculation
 def consensus_idx(C0, k, M=M):
@@ -101,14 +114,14 @@ def consensus_idx(C0, k, M=M):
     else:
         return 0
 
-m = [consensus_idx(C0, k) for k in range(cfg0["num_clusters"])]
 
+m = [consensus_idx(C0, k) for k in range(cfg0["num_clusters"])]
 # P-values calculation
 P = 10000
 p_values = []
-
 for k in range(cfg0["num_clusters"]):
-    mk_perms = [consensus_idx(np.random.permutation(C0), k) for p in range(P)]
+    mk_perms = np.array(
+        [consensus_idx(np.random.permutation(C0), k) for p in range(P)])
     p_value = (np.sum(mk_perms >= consensus_idx(C0, k)) + 1) / (P + 1)
     p_values.append(p_value)
 

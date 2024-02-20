@@ -18,11 +18,9 @@ def load_radcure(path, cat_features=["sex", "disease site", "t stage", "n stage"
         features, cat_feats=cat_features, num_feats=num_features, one_hot=True, fill_value=-1)
     y = outcomes
     print(f'x.shape={x.shape}, y.shape={y.shape}')
-    return x, y
-
-
-def config_radcure():
-    return {"seed": 0, "inp_shape": 45, "num_clusters": 2, "latent_dim": 8, 'monte_carlo': 1,
+    cfg = {"seed": 0, "inp_shape": x.shape[-1], "num_clusters": 2, "latent_dim": 8, 'monte_carlo': 1,
             'learn_prior': False, 'weibull_shape': 2.5, 'sample_surv': False,
             "activation": None, "survival": True, "epochs": 1000, "layers": [50, 100],
             "learning_rate": 1e-3, "activation": "relu", "train_size": 0.7, "workdir": get_workdir("radcure",makedir=False)}
+    return x, y, cfg
+

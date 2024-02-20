@@ -89,7 +89,8 @@ class GMM_Survival(tf.keras.Model):
             dec = tf.transpose(dec, [1, 0, 2])
         z_sample = tf.transpose(z_sample, [1, 0, 2])
         risks = tf.expand_dims(risks, -1)
-        return dec, z_sample, p_z_c, p_c_z, risks, lambda_z_c
+        clusters = tf.argmax(p_c_z, axis=-1)
+        return dec, z_sample, p_z_c, p_c_z, risks, lambda_z_c, clusters
 
     def get_risks(self, p_z_c, prior, lambda_z_c, p_c_z, training):
         if self.survival:
@@ -116,6 +117,8 @@ class GMM_Survival(tf.keras.Model):
             inds = tf.dtypes.cast(tf.argmax(p_c_z, axis=-1), tf.int32)
             risks = tensor_slice(target_tensor=p_c_z, index_tensor=inds)
             lambda_z_c = risks
+            
+
         return lambda_z_c, p_c_z, risks
 
     def encode(self, x, t=None, e=None, training=True):
@@ -266,10 +269,10 @@ class GMM_Survival(tf.keras.Model):
     def get_phenotypes(self, x, y, with_t=False):
         t = 1.0 if with_t else 0.0
         tf.keras.backend.set_value(self.use_t, np.array([t]))
-        rec, z_sample, p_z_c, p_c_z, risks, lambdas = self.predict(
+        rec, z_sample, p_z_c, _, risks, lambdas, cluster = self.predict(
             (x.values, y.values), verbose=0, batch_size=len(x))
         tf.keras.backend.set_value(self.use_t, np.array([1.0]))
-        return np.argmax(p_c_z, -1)
+        return cluster
 
 
 class Encoder(models.Model):

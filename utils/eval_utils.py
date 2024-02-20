@@ -2,10 +2,11 @@
 Utility functions for model evaluation.
 """
 import numpy as np
-
+from auton_survival.metrics import phenotype_purity
 from lifelines.utils import concordance_index
 
 import sys
+from pandas import DataFrame
 
 from scipy.optimize import linear_sum_assignment as linear_assignment
 from sklearn.metrics.cluster import normalized_mutual_info_score
@@ -32,6 +33,14 @@ def cindex_metric(inp, risks):
     t = inp[:, 1]
     risks = tf.squeeze(risks)
     return tf.numpy_function(cindex, (t,e,risks), tf.float64)
+
+def purity_metric(inp, clusters):
+    # Evaluates the concordance index based on provided predicted risk scores, computed using hard clustering
+    # assignments.
+    e = inp[:, 0], t = inp[:, 1]
+    clusters = tf.squeeze(clusters)
+    y = DataFrame({"time": t, "event":e})
+    return tf.numpy_function(phenotype_purity, (clusters, y), tf.float64)
 
 # tf.cond(tf.reduce_any(tf.math.is_nan(risks)),
 #                    lambda: tf.numpy_function(cindex, [t, e, tf.zeros_like(risks)], tf.float64),

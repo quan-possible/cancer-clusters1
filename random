@@ -1,0 +1,4 @@
+. .bashrc
+conda activate vadesc
+cd /u/97/nguyenq10/unix/HUS/cancer-clusters
+python hparams.py 6

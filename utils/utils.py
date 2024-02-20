@@ -31,7 +31,6 @@ tfpl = tfp.layers
 tfk = tf.keras
 
 # matplotlib.use('Agg')
-
 sys.path.insert(0, '../../')
 
 logger = logging.getLogger(ROOT_LOGGER_STR + '.' + __name__)
@@ -75,7 +74,7 @@ def get_purity(y, phenotypes, plot=True):
                                    strategy='integrated', horizons=[6],
                                    bootstrap=None)
 
-    return metric_val1
+    return metric_val1[0]
 
 
 def setup_logger(results_path, create_stdlog):
@@ -255,8 +254,8 @@ class ProgBar(Callback):
         self.bar.close()
 
 
-def get_workdir(dataset=None, exp_name='', makedir=True):
-    workdir = f"./runs{f'/{dataset.lower()}' if dataset is not None else ''}"\
+def get_workdir(base=None, exp_name='', makedir=True):
+    workdir = f"./runs{f'/{base.lower()}' if base is not None else ''}"\
         f"/{datetime.datetime.now().strftime('%b%d_%H-%M-%S')}"\
         f"_{socket.gethostname()}{f'_{exp_name}' if exp_name != '' else ''}"
     if makedir:
